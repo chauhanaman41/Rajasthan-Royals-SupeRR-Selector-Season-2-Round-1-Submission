@@ -1,0 +1,3 @@
+role,opponent_metric,mean_all_deliveries,mean_hp_deliveries,mean_non_hp_deliveries,drift_hp_minus_non_hp
+batter,beta_lomo,0.052375,0.056785,0.051238,0.005547
+bowler,alpha_lomo,0.069356,0.066761,0.070082,-0.003321

@@ -1,0 +1,452 @@
+value,description,source_file,table_or_block,row_key
+777,Total scoped matches remaining,pipeline_output_tables.md,Table 1,4. Exclude Ties
+"185,567",Total scoped deliveries remaining,pipeline_output_tables.md,Table 1,4. Exclude Ties
+354,IPL scoped matches,pipeline_output_tables.md,Table 1,354 IPL
+423,T20I scoped matches,pipeline_output_tables.md,Table 1,423 T20I
+"85,486",IPL scoped deliveries,pipeline_output_tables.md,Table 1,"85,486 IPL"
+"100,081",T20I scoped deliveries,pipeline_output_tables.md,Table 1,"100,081 T20I"
+373,Full-Member T20I matches,pipeline_output_tables.md,Table 1,373 T20Is Full-Member
+50,Associate-involved T20I matches,pipeline_output_tables.md,Table 1,50 involve Associates
+178.19,Canonical Innings 1 Par overall,RESULTS.md,Runtime Logs,Innings 1 - Overall: 178.19
+160.56,Canonical Innings 2 Par overall,RESULTS.md,Runtime Logs,Innings 2 - Overall: 160.56
+0.2228,Win probability Innings 1 Brier score,pipeline_output_tables.md,Table 2,Innings 1 (PAVA Out-of-Fold)
+0.1308,Win probability Innings 2 Brier score,pipeline_output_tables.md,Table 2,Innings 2 (PAVA Out-of-Fold)
+0.1787,Win probability Pooled Brier score,pipeline_output_tables.md,Table 2,Combined / Pooled (Out-of-Fold)
+0.474,Mean Composite Pressure Intensity,superr_selector_season_2_unified_methodology_report (2).md,Section 1,Mean Composite Pressure Intensity: 0.474
+0.227,Mean HP pressure delta above stratum,superr_selector_season_2_unified_methodology_report (2).md,Section 1,Mean HP Pressure Delta: +0.227
+"37,114",Count of High-Pressure deliveries,superr_selector_season_2_unified_methodology_report (2).md,Section 1,"37,114 balls"
+20.0%,Share of High-Pressure deliveries,superr_selector_season_2_unified_methodology_report (2).md,Section 1,20.0% of deliveries
+0.601,High-Pressure threshold 80th percentile,superr_selector_season_2_unified_methodology_report (2).md,Section 1,P_i >= 0.601
+815,Batters total appearing,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Total appearing: 815
+650,Batters excluded by volume < 300 balls,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 300 legal balls: 650
+165,Batters remaining after volume filter,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Remaining: 165
+9,Batters excluded by HP volume < 60 balls,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 60 HP balls: 9
+156,Batters remaining after HP volume filter,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Remaining: 156
+78,Batters excluded by HP breadth < 15 matches,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 15 HP matches: 78
+78,Eligible batters count,pipeline_output_tables.md,Table 4,Eligible Cohort Size: 78
+0,Batters excluded by < 60% Full Member share,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 60% Full Member share: 0
+586,Bowlers total appearing,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Total appearing: 586
+411,Bowlers excluded by volume < 300 balls,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 300 deliveries: 411
+175,Bowlers remaining after volume filter,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Remaining: 175
+16,Bowlers excluded by HP volume < 60 balls,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 60 HP balls: 16
+159,Bowlers remaining after HP volume filter,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Remaining: 159
+77,Bowlers excluded by HP breadth < 15 matches,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Excluded by < 15 HP matches: 77
+82,Eligible bowlers count,pipeline_output_tables.md,Table 4,Eligible Cohort Size: 82
+300,Eligibility volume cutoff,superr_selector_season_2_unified_methodology_report (2).md,Funnel,300
+60,Eligibility HP volume cutoff,superr_selector_season_2_unified_methodology_report (2).md,Funnel,60
+15,Eligibility HP breadth matches cutoff,superr_selector_season_2_unified_methodology_report (2).md,Funnel,15
+60\%,Eligibility Full Member share cutoff,superr_selector_season_2_unified_methodology_report (2).md,Funnel,Opposition Quality
+0.00e+00,G1 Batters max difference on identity test,pipeline_output_tables.md,Table 8,G1: Identity Tests Pass
+1.357,G2 Batters calibration slope point estimate,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+-0.513,G2 Batters calibration slope CI lower,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+3.333,G2 Batters calibration slope CI upper,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+3.85,G2 Batters calibration slope interval width,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+-56.747,G2 Bowlers calibration slope point estimate,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+-588.4,G2 Bowlers calibration slope CI lower,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+474.0,G2 Bowlers calibration slope CI upper,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+1062.4,G2 Bowlers calibration slope interval width,pipeline_output_tables.md,Table 8,G2: Calibration Slope Contains 1
+0.1447,G3 Batters split-half correlation,pipeline_output_tables.md,Table 8,G3: Split-Half Reliability
+0.2537,G3 Bowlers split-half correlation,pipeline_output_tables.md,Table 8,G3: Split-Half Reliability
+87.7%,G4 Batters CR1 coverage,pipeline_output_tables.md,Table 8,G4: Simulation Study
+60.1%,G4 Batters Empirical Bayes coverage,pipeline_output_tables.md,Table 8,G4: Simulation Study
+29.0%,G4 Batters simulation null false positive rate,pipeline_output_tables.md,Table 8,G4: Simulation Study
+88.5%,G4 Bowlers CR1 coverage,pipeline_output_tables.md,Table 8,G4: Simulation Study
+94.1%,G4 Bowlers Empirical Bayes coverage,pipeline_output_tables.md,Table 8,G4: Simulation Study
+19.0%,G4 Bowlers simulation null false positive rate,pipeline_output_tables.md,Table 8,G4: Simulation Study
+123.93,G5 Batters omnibus test statistic,pipeline_output_tables.md,Table 8,G5: Omnibus Permutation
+0.0020,G5 Batters omnibus permutation p-value,pipeline_output_tables.md,Table 8,G5: Omnibus Permutation
+98.79,G5 Bowlers omnibus test statistic,pipeline_output_tables.md,Table 8,G5: Omnibus Permutation
+0.0639,G5 Bowlers omnibus permutation p-value,pipeline_output_tables.md,Table 8,G5: Omnibus Permutation
+0.2522,G6 Batters max rolling origin Spearman rho,pipeline_output_tables.md,Table 8,G6: Rolling-Origin Spearman
+0.1315,G6 Bowlers max rolling origin Spearman rho,pipeline_output_tables.md,Table 8,G6: Rolling-Origin Spearman
+0/4,G6 Batters origins meeting threshold count,pipeline_output_tables.md,Table 8,G6: Rolling-Origin Spearman
+3/10,G7 Batters benchmark baseline overlap,pipeline_output_tables.md,Table 8,G7: Stability Overlap
+4/10,G7 Bowlers benchmark baseline overlap,pipeline_output_tables.md,Table 8,G7: Stability Overlap
+0.35,G3 threshold correlation,pipeline_output_tables.md,Table 8,r >= 0.35
+0.05,G5 threshold p-value,pipeline_output_tables.md,Table 8,p < 0.05
+0.30,G6 threshold correlation,pipeline_output_tables.md,Table 8,Spearman >= 0.30
+7/10,G7 threshold overlap,pipeline_output_tables.md,Table 8,Overlap >= 7/10
+4260,Batter Heinrich Klaasen player_id,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
++0.239,Batter Heinrich Klaasen H_p,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
++0.157,Batter Heinrich Klaasen H_low,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
++0.321,Batter Heinrich Klaasen H_high CI bound,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
++0.001,Batter Heinrich Klaasen Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+"1,401",Batter Heinrich Klaasen total legal balls,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+285,Batter Heinrich Klaasen HP balls,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+70,Batter Heinrich Klaasen total matches,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+26,Batter Heinrich Klaasen HP matches,hp_matches.csv,HP Matches Table,4260
+89.0%,Batter Heinrich Klaasen inclusion probability,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+4.4,Batter Heinrich Klaasen mean rank,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+53.3%,Batter Heinrich Klaasen Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Heinrich Klaasen** (`4260`)
+47,Batter Virat Kohli player_id,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
++0.206,Batter Virat Kohli H_p,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
++0.128,Batter Virat Kohli H_low,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
++0.284,Batter Virat Kohli H_high CI bound,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
++0.002,Batter Virat Kohli Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+"2,442",Batter Virat Kohli total legal balls,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+378,Batter Virat Kohli HP balls,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+88,Batter Virat Kohli total matches,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+25,Batter Virat Kohli HP matches,hp_matches.csv,HP Matches Table,47
+75.5%,Batter Virat Kohli inclusion probability,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+9.0,Batter Virat Kohli mean rank,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+97.1%,Batter Virat Kohli Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Virat Kohli** (`47`)
+6931,Batter Pathum Nissanka player_id,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
++0.204,Batter Pathum Nissanka H_p,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
++0.121,Batter Pathum Nissanka H_low,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
++0.286,Batter Pathum Nissanka H_high CI bound,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
++0.002,Batter Pathum Nissanka Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+"1,381",Batter Pathum Nissanka total legal balls,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+317,Batter Pathum Nissanka HP balls,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+67,Batter Pathum Nissanka total matches,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+24,Batter Pathum Nissanka HP matches,hp_matches.csv,HP Matches Table,6931
+74.0%,Batter Pathum Nissanka inclusion probability,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+8.4,Batter Pathum Nissanka mean rank,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+93.1%,Batter Pathum Nissanka Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Pathum Nissanka** (`6931`)
+6396,Batter Tim David player_id,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
++0.202,Batter Tim David H_p,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
++0.117,Batter Tim David H_low,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
++0.287,Batter Tim David H_high CI bound,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
++0.000,Batter Tim David Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+"1,154",Batter Tim David total legal balls,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+300,Batter Tim David HP balls,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+93,Batter Tim David total matches,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+31,Batter Tim David HP matches,hp_matches.csv,HP Matches Table,6396
+66.5%,Batter Tim David inclusion probability,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+9.9,Batter Tim David mean rank,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+70.0%,Batter Tim David Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Tim David** (`6396`)
+7897,Batter Namboori Tilak Varma player_id,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
++0.180,Batter Namboori Tilak Varma H_p,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
++0.108,Batter Namboori Tilak Varma H_low,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
++0.253,Batter Namboori Tilak Varma H_high CI bound,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+-0.001,Batter Namboori Tilak Varma Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+"2,310",Batter Namboori Tilak Varma total legal balls,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+774,Batter Namboori Tilak Varma HP balls,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+115,Batter Namboori Tilak Varma total matches,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+48,Batter Namboori Tilak Varma HP matches,hp_matches.csv,HP Matches Table,7897
+53.5%,Batter Namboori Tilak Varma inclusion probability,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+15.0,Batter Namboori Tilak Varma mean rank,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+69.6%,Batter Namboori Tilak Varma Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Namboori Tilak Varma** (`7897`)
+1699,Batter Suryakumar Yadav player_id,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
++0.185,Batter Suryakumar Yadav H_p,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
++0.104,Batter Suryakumar Yadav H_low,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
++0.266,Batter Suryakumar Yadav H_high CI bound,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+-0.001,Batter Suryakumar Yadav Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+"2,614",Batter Suryakumar Yadav total legal balls,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+514,Batter Suryakumar Yadav HP balls,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+130,Batter Suryakumar Yadav total matches,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+45,Batter Suryakumar Yadav HP matches,hp_matches.csv,HP Matches Table,1699
+47.0%,Batter Suryakumar Yadav inclusion probability,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+16.6,Batter Suryakumar Yadav mean rank,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+74.7%,Batter Suryakumar Yadav Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Suryakumar Yadav** (`1699`)
+7216,Batter Prabhsimran Singh player_id,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
++0.185,Batter Prabhsimran Singh H_p,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
++0.101,Batter Prabhsimran Singh H_low,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
++0.270,Batter Prabhsimran Singh H_high CI bound,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
++0.001,Batter Prabhsimran Singh Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+"1,033",Batter Prabhsimran Singh total legal balls,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+366,Batter Prabhsimran Singh HP balls,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+56,Batter Prabhsimran Singh total matches,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+24,Batter Prabhsimran Singh HP matches,hp_matches.csv,HP Matches Table,7216
+38.5%,Batter Prabhsimran Singh inclusion probability,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+16.7,Batter Prabhsimran Singh mean rank,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+90.4%,Batter Prabhsimran Singh Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Prabhsimran Singh** (`7216`)
+4986,Batter Rovman Powell player_id,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
++0.182,Batter Rovman Powell H_p,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
++0.099,Batter Rovman Powell H_low,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
++0.265,Batter Rovman Powell H_high CI bound,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
++0.000,Batter Rovman Powell Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+"1,524",Batter Rovman Powell total legal balls,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+315,Batter Rovman Powell HP balls,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+97,Batter Rovman Powell total matches,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+37,Batter Rovman Powell HP matches,hp_matches.csv,HP Matches Table,4986
+38.5%,Batter Rovman Powell inclusion probability,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+16.5,Batter Rovman Powell mean rank,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+63.2%,Batter Rovman Powell Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Rovman Powell** (`4986`)
+3672,Batter Kusal Mendis player_id,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
++0.184,Batter Kusal Mendis H_p,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
++0.098,Batter Kusal Mendis H_low,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
++0.270,Batter Kusal Mendis H_high CI bound,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
++0.001,Batter Kusal Mendis Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+"1,220",Batter Kusal Mendis total legal balls,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+236,Batter Kusal Mendis HP balls,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+61,Batter Kusal Mendis total matches,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+20,Batter Kusal Mendis HP matches,hp_matches.csv,HP Matches Table,3672
+40.5%,Batter Kusal Mendis inclusion probability,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+15.8,Batter Kusal Mendis mean rank,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+95.3%,Batter Kusal Mendis Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Kusal Mendis** (`3672`)
+6819,Batter Yashasvi Jaiswal player_id,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
++0.178,Batter Yashasvi Jaiswal H_p,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
++0.093,Batter Yashasvi Jaiswal H_low,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
++0.264,Batter Yashasvi Jaiswal H_high CI bound,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
++0.001,Batter Yashasvi Jaiswal Shrunk Elevation Ep,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+"1,739",Batter Yashasvi Jaiswal total legal balls,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+375,Batter Yashasvi Jaiswal HP balls,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+82,Batter Yashasvi Jaiswal total matches,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+27,Batter Yashasvi Jaiswal HP matches,hp_matches.csv,HP Matches Table,6819
+33.5%,Batter Yashasvi Jaiswal inclusion probability,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+19.1,Batter Yashasvi Jaiswal mean rank,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+99.7%,Batter Yashasvi Jaiswal Innings 2 HP share,pipeline_output_tables.md,Table 5a,**Yashasvi Jaiswal** (`6819`)
+4101,Bowler Mitchell Santner player_id,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
++0.119,Bowler Mitchell Santner H_p,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
++0.103,Bowler Mitchell Santner H_low,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
++0.136,Bowler Mitchell Santner H_high CI bound,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
++0.002,Bowler Mitchell Santner Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+"1,725",Bowler Mitchell Santner total legal balls,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+340,Bowler Mitchell Santner HP balls,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+79,Bowler Mitchell Santner total matches,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+32,Bowler Mitchell Santner HP matches,hp_matches.csv,HP Matches Table,4101
+91.5%,Bowler Mitchell Santner inclusion probability,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+4.4,Bowler Mitchell Santner mean rank,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+73.2%,Bowler Mitchell Santner Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Mitchell Santner** (`4101`)
+3644,Bowler Kuldeep Yadav player_id,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
++0.119,Bowler Kuldeep Yadav H_p,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
++0.102,Bowler Kuldeep Yadav H_low,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
++0.135,Bowler Kuldeep Yadav H_high CI bound,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
++0.001,Bowler Kuldeep Yadav Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+"1,866",Bowler Kuldeep Yadav total legal balls,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+403,Bowler Kuldeep Yadav HP balls,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+84,Bowler Kuldeep Yadav total matches,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+35,Bowler Kuldeep Yadav HP matches,hp_matches.csv,HP Matches Table,3644
+88.5%,Bowler Kuldeep Yadav inclusion probability,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+5.1,Bowler Kuldeep Yadav mean rank,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+61.5%,Bowler Kuldeep Yadav Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Kuldeep Yadav** (`3644`)
+781,Bowler Sunil Narine player_id,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
++0.118,Bowler Sunil Narine H_p,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
++0.102,Bowler Sunil Narine H_low,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
++0.135,Bowler Sunil Narine H_high CI bound,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
++0.001,Bowler Sunil Narine Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+"1,479",Bowler Sunil Narine total legal balls,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+410,Bowler Sunil Narine HP balls,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+64,Bowler Sunil Narine total matches,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+31,Bowler Sunil Narine HP matches,hp_matches.csv,HP Matches Table,781
+68.0%,Bowler Sunil Narine inclusion probability,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+9.5,Bowler Sunil Narine mean rank,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+56.6%,Bowler Sunil Narine Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Sunil Narine** (`781`)
+2876,Bowler Axar Patel player_id,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
++0.118,Bowler Axar Patel H_p,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
++0.102,Bowler Axar Patel H_low,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
++0.135,Bowler Axar Patel H_high CI bound,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
++0.002,Bowler Axar Patel Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+"2,609",Bowler Axar Patel total legal balls,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+548,Bowler Axar Patel HP balls,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+130,Bowler Axar Patel total matches,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+54,Bowler Axar Patel HP matches,hp_matches.csv,HP Matches Table,2876
+63.0%,Bowler Axar Patel inclusion probability,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+10.8,Bowler Axar Patel mean rank,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+64.2%,Bowler Axar Patel Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Axar Patel** (`2876`)
+2320,Bowler Trent Boult player_id,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
++0.118,Bowler Trent Boult H_p,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
++0.102,Bowler Trent Boult H_low,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
++0.135,Bowler Trent Boult H_high CI bound,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
++0.001,Bowler Trent Boult Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+"1,562",Bowler Trent Boult total legal balls,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+376,Bowler Trent Boult HP balls,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+67,Bowler Trent Boult total matches,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+35,Bowler Trent Boult HP matches,hp_matches.csv,HP Matches Table,2320
+58.0%,Bowler Trent Boult inclusion probability,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+11.5,Bowler Trent Boult mean rank,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+79.3%,Bowler Trent Boult Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Trent Boult** (`2320`)
+4219,Bowler Krunal Pandya player_id,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
++0.118,Bowler Krunal Pandya H_p,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
++0.102,Bowler Krunal Pandya H_low,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
++0.134,Bowler Krunal Pandya H_high CI bound,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
++0.001,Bowler Krunal Pandya Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+"1,255",Bowler Krunal Pandya total legal balls,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+287,Bowler Krunal Pandya HP balls,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+64,Bowler Krunal Pandya total matches,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+25,Bowler Krunal Pandya HP matches,hp_matches.csv,HP Matches Table,4219
+54.0%,Bowler Krunal Pandya inclusion probability,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+13.1,Bowler Krunal Pandya mean rank,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+88.5%,Bowler Krunal Pandya Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Krunal Pandya** (`4219`)
+2261,Bowler Harshal Patel player_id,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
++0.118,Bowler Harshal Patel H_p,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
++0.102,Bowler Harshal Patel H_low,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
++0.134,Bowler Harshal Patel H_high CI bound,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
++0.001,Bowler Harshal Patel Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+"1,688",Bowler Harshal Patel total legal balls,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+439,Bowler Harshal Patel HP balls,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+76,Bowler Harshal Patel total matches,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+38,Bowler Harshal Patel HP matches,hp_matches.csv,HP Matches Table,2261
+57.0%,Bowler Harshal Patel inclusion probability,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+15.6,Bowler Harshal Patel mean rank,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+80.0%,Bowler Harshal Patel Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Harshal Patel** (`2261`)
+6256,Bowler Varun Chakravarthy player_id,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
++0.118,Bowler Varun Chakravarthy H_p,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
++0.102,Bowler Varun Chakravarthy H_low,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
++0.134,Bowler Varun Chakravarthy H_high CI bound,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+-0.000,Bowler Varun Chakravarthy Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+"2,083",Bowler Varun Chakravarthy total legal balls,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+502,Bowler Varun Chakravarthy HP balls,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+91,Bowler Varun Chakravarthy total matches,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+41,Bowler Varun Chakravarthy HP matches,hp_matches.csv,HP Matches Table,6256
+55.5%,Bowler Varun Chakravarthy inclusion probability,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+14.5,Bowler Varun Chakravarthy mean rank,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+57.4%,Bowler Varun Chakravarthy Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Varun Chakravarthy** (`6256`)
+1566,Bowler Mohammed Shami player_id,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
++0.118,Bowler Mohammed Shami H_p,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
++0.101,Bowler Mohammed Shami H_low,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
++0.134,Bowler Mohammed Shami H_high CI bound,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
++0.001,Bowler Mohammed Shami Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+"1,259",Bowler Mohammed Shami total legal balls,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+249,Bowler Mohammed Shami HP balls,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+54,Bowler Mohammed Shami total matches,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+27,Bowler Mohammed Shami HP matches,hp_matches.csv,HP Matches Table,1566
+32.5%,Bowler Mohammed Shami inclusion probability,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+15.0,Bowler Mohammed Shami mean rank,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+73.5%,Bowler Mohammed Shami Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Mohammed Shami** (`1566`)
+1758,Bowler Patrick Cummins player_id,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
++0.118,Bowler Patrick Cummins H_p,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
++0.101,Bowler Patrick Cummins H_low,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
++0.134,Bowler Patrick Cummins H_high CI bound,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
++0.001,Bowler Patrick Cummins Shrunk Elevation Ep,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+"1,161",Bowler Patrick Cummins total legal balls,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+158,Bowler Patrick Cummins HP balls,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+49,Bowler Patrick Cummins total matches,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+15,Bowler Patrick Cummins HP matches,hp_matches.csv,HP Matches Table,1758
+38.0%,Bowler Patrick Cummins inclusion probability,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+14.4,Bowler Patrick Cummins mean rank,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+83.5%,Bowler Patrick Cummins Innings 2 HP share,pipeline_output_tables.md,Table 6a,**Patrick Cummins** (`1758`)
+0.052375,Batters beta_lomo All Deliveries,opponent_offset.csv,Opponent Offset Table,batter
+0.056785,Batters beta_lomo HP Deliveries,opponent_offset.csv,Opponent Offset Table,batter
+0.051238,Batters beta_lomo Non-HP Deliveries,opponent_offset.csv,Opponent Offset Table,batter
+0.005547,Batters beta_lomo Drift HP vs Non-HP,opponent_offset.csv,Opponent Offset Table,batter
+0.069356,Bowlers alpha_lomo All Deliveries,opponent_offset.csv,Opponent Offset Table,bowler
+0.066761,Bowlers alpha_lomo HP Deliveries,opponent_offset.csv,Opponent Offset Table,bowler
+0.070082,Bowlers alpha_lomo Non-HP Deliveries,opponent_offset.csv,Opponent Offset Table,bowler
+-0.003321,Bowlers alpha_lomo Drift HP vs Non-HP,opponent_offset.csv,Opponent Offset Table,bowler
+0.048482,Batters Var(H_raw),phase2_diagnostics.md,MoM Section,0.048482
+0.044109,Batters mean SE^2,phase2_diagnostics.md,MoM Section,0.044109
+0.004373,Batters tau2_MoM,phase2_diagnostics.md,MoM Section,0.004373
+0.056589,Bowlers Var(H_raw),phase2_diagnostics.md,MoM Section,0.056589
+0.038118,Bowlers mean SE^2,phase2_diagnostics.md,MoM Section,0.038118
+0.018471,Bowlers tau2_MoM,phase2_diagnostics.md,MoM Section,0.018471
++0.6059,Batter Heinrich Klaasen MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Heinrich Klaasen**
+0.1173,Batter Heinrich Klaasen MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Heinrich Klaasen**
++0.2662,Batter Heinrich Klaasen MoM H_p,phase2_diagnostics.md,Table 2.1a,**Heinrich Klaasen**
++0.1715,Batter Heinrich Klaasen MoM H_low,phase2_diagnostics.md,Table 2.1a,**Heinrich Klaasen**
++0.3397,Batter Virat Kohli MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Virat Kohli**
+0.0921,Batter Virat Kohli MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Virat Kohli**
++0.2200,Batter Virat Kohli MoM H_p,phase2_diagnostics.md,Table 2.1a,**Virat Kohli**
++0.1316,Batter Virat Kohli MoM H_low,phase2_diagnostics.md,Table 2.1a,**Virat Kohli**
++0.4262,Batter Pathum Nissanka MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Pathum Nissanka**
+0.1219,Batter Pathum Nissanka MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Pathum Nissanka**
++0.2192,Batter Pathum Nissanka MoM H_p,phase2_diagnostics.md,Table 2.1a,**Pathum Nissanka**
++0.1235,Batter Pathum Nissanka MoM H_low,phase2_diagnostics.md,Table 2.1a,**Pathum Nissanka**
++0.5304,Batter Tim David MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Tim David**
+0.1503,Batter Tim David MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Tim David**
++0.2186,Batter Tim David MoM H_p,phase2_diagnostics.md,Table 2.1a,**Tim David**
++0.1190,Batter Tim David MoM H_low,phase2_diagnostics.md,Table 2.1a,**Tim David**
++0.2207,Batter Namboori Tilak Varma MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Namboori Tilak Varma**
+0.0742,Batter Namboori Tilak Varma MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Namboori Tilak Varma**
++0.1859,Batter Namboori Tilak Varma MoM H_p,phase2_diagnostics.md,Table 2.1a,**Namboori Tilak Varma**
++0.1047,Batter Namboori Tilak Varma MoM H_low,phase2_diagnostics.md,Table 2.1a,**Namboori Tilak Varma**
++0.2975,Batter Suryakumar Yadav MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Suryakumar Yadav**
+0.1130,Batter Suryakumar Yadav MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Suryakumar Yadav**
++0.1938,Batter Suryakumar Yadav MoM H_p,phase2_diagnostics.md,Table 2.1a,**Suryakumar Yadav**
++0.0999,Batter Suryakumar Yadav MoM H_low,phase2_diagnostics.md,Table 2.1a,**Suryakumar Yadav**
++0.3753,Batter Prabhsimran Singh MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Prabhsimran Singh**
+0.1457,Batter Prabhsimran Singh MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Prabhsimran Singh**
++0.1954,Batter Prabhsimran Singh MoM H_p,phase2_diagnostics.md,Table 2.1a,**Prabhsimran Singh**
++0.0963,Batter Prabhsimran Singh MoM H_low,phase2_diagnostics.md,Table 2.1a,**Prabhsimran Singh**
++0.3075,Batter Rovman Powell MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Rovman Powell**
+0.1259,Batter Rovman Powell MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Rovman Powell**
++0.1906,Batter Rovman Powell MoM H_p,phase2_diagnostics.md,Table 2.1a,**Rovman Powell**
++0.0942,Batter Rovman Powell MoM H_low,phase2_diagnostics.md,Table 2.1a,**Rovman Powell**
++0.4106,Batter Kusal Mendis MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Kusal Mendis**
+0.1639,Batter Kusal Mendis MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Kusal Mendis**
++0.1936,Batter Kusal Mendis MoM H_p,phase2_diagnostics.md,Table 2.1a,**Kusal Mendis**
++0.0927,Batter Kusal Mendis MoM H_low,phase2_diagnostics.md,Table 2.1a,**Kusal Mendis**
++0.3390,Batter Yashasvi Jaiswal MoM H_raw,phase2_diagnostics.md,Table 2.1a,**Yashasvi Jaiswal**
+0.1560,Batter Yashasvi Jaiswal MoM SE_CR1,phase2_diagnostics.md,Table 2.1a,**Yashasvi Jaiswal**
++0.1858,Batter Yashasvi Jaiswal MoM H_p,phase2_diagnostics.md,Table 2.1a,**Yashasvi Jaiswal**
++0.0857,Batter Yashasvi Jaiswal MoM H_low,phase2_diagnostics.md,Table 2.1a,**Yashasvi Jaiswal**
++0.4543,Bowler Mitchell Santner MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Mitchell Santner**
+0.1146,Bowler Mitchell Santner MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Mitchell Santner**
++0.3141,Bowler Mitchell Santner MoM H_p,phase2_diagnostics.md,Table 2.1b,**Mitchell Santner**
++0.1700,Bowler Mitchell Santner MoM H_low,phase2_diagnostics.md,Table 2.1b,**Mitchell Santner**
++0.4578,Bowler Kuldeep Yadav MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Kuldeep Yadav**
+0.1249,Bowler Kuldeep Yadav MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Kuldeep Yadav**
++0.3016,Bowler Kuldeep Yadav MoM H_p,phase2_diagnostics.md,Table 2.1b,**Kuldeep Yadav**
++0.1502,Bowler Kuldeep Yadav MoM H_low,phase2_diagnostics.md,Table 2.1b,**Kuldeep Yadav**
++0.3572,Bowler Sunil Narine MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Sunil Narine**
+0.1191,Bowler Sunil Narine MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Sunil Narine**
++0.2527,Bowler Sunil Narine MoM H_p,phase2_diagnostics.md,Table 2.1b,**Sunil Narine**
++0.1053,Bowler Sunil Narine MoM H_low,phase2_diagnostics.md,Table 2.1b,**Sunil Narine**
++0.3821,Bowler Axar Patel MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Axar Patel**
+0.1307,Bowler Axar Patel MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Axar Patel**
++0.2546,Bowler Axar Patel MoM H_p,phase2_diagnostics.md,Table 2.1b,**Axar Patel**
++0.0996,Bowler Axar Patel MoM H_low,phase2_diagnostics.md,Table 2.1b,**Axar Patel**
++0.3931,Bowler Trent Boult MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Trent Boult**
+0.1389,Bowler Trent Boult MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Trent Boult**
++0.2519,Bowler Trent Boult MoM H_p,phase2_diagnostics.md,Table 2.1b,**Trent Boult**
++0.0921,Bowler Trent Boult MoM H_low,phase2_diagnostics.md,Table 2.1b,**Trent Boult**
++0.4102,Bowler Krunal Pandya MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Krunal Pandya**
+0.1476,Bowler Krunal Pandya MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Krunal Pandya**
++0.2513,Bowler Krunal Pandya MoM H_p,phase2_diagnostics.md,Table 2.1b,**Krunal Pandya**
++0.0868,Bowler Krunal Pandya MoM H_low,phase2_diagnostics.md,Table 2.1b,**Krunal Pandya**
++0.2344,Bowler Harshal Patel MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Harshal Patel**
+0.0982,Bowler Harshal Patel MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Harshal Patel**
++0.1940,Bowler Harshal Patel MoM H_p,phase2_diagnostics.md,Table 2.1b,**Harshal Patel**
++0.0630,Bowler Harshal Patel MoM H_low,phase2_diagnostics.md,Table 2.1b,**Harshal Patel**
++0.2460,Bowler Varun Chakravarthy MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Varun Chakravarthy**
+0.1032,Bowler Varun Chakravarthy MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Varun Chakravarthy**
++0.1987,Bowler Varun Chakravarthy MoM H_p,phase2_diagnostics.md,Table 2.1b,**Varun Chakravarthy**
++0.0635,Bowler Varun Chakravarthy MoM H_low,phase2_diagnostics.md,Table 2.1b,**Varun Chakravarthy**
++0.5396,Bowler Mohammed Shami MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Mohammed Shami**
+0.1953,Bowler Mohammed Shami MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Mohammed Shami**
++0.2547,Bowler Mohammed Shami MoM H_p,phase2_diagnostics.md,Table 2.1b,**Mohammed Shami**
++0.0711,Bowler Mohammed Shami MoM H_low,phase2_diagnostics.md,Table 2.1b,**Mohammed Shami**
++0.6722,Bowler Patrick Cummins MoM H_raw,phase2_diagnostics.md,Table 2.1b,**Patrick Cummins**
+0.2271,Bowler Patrick Cummins MoM SE_CR1,phase2_diagnostics.md,Table 2.1b,**Patrick Cummins**
++0.2632,Bowler Patrick Cummins MoM H_p,phase2_diagnostics.md,Table 2.1b,**Patrick Cummins**
++0.0713,Bowler Patrick Cummins MoM H_low,phase2_diagnostics.md,Table 2.1b,**Patrick Cummins**
+-0.118193,Bowler Mitchell Santner decomposition runs term,phase2_diagnostics.md,Table 2.2,Mitchell Santner
++0.498175,Bowler Mitchell Santner decomposition wicket term,phase2_diagnostics.md,Table 2.2,Mitchell Santner
++0.074303,Bowler Mitchell Santner decomposition opponent term,phase2_diagnostics.md,Table 2.2,Mitchell Santner
++0.454285,Bowler Mitchell Santner decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Mitchell Santner
+0.00e+00,Bowler Mitchell Santner decomposition difference check,phase2_diagnostics.md,Table 2.2,Mitchell Santner
+-0.054807,Bowler Kuldeep Yadav decomposition runs term,phase2_diagnostics.md,Table 2.2,Kuldeep Yadav
++0.445651,Bowler Kuldeep Yadav decomposition wicket term,phase2_diagnostics.md,Table 2.2,Kuldeep Yadav
++0.066938,Bowler Kuldeep Yadav decomposition opponent term,phase2_diagnostics.md,Table 2.2,Kuldeep Yadav
++0.457782,Bowler Kuldeep Yadav decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Kuldeep Yadav
+0.00e+00,Bowler Kuldeep Yadav decomposition difference check,phase2_diagnostics.md,Table 2.2,Kuldeep Yadav
+-0.090716,Bowler Sunil Narine decomposition runs term,phase2_diagnostics.md,Table 2.2,Sunil Narine
++0.359908,Bowler Sunil Narine decomposition wicket term,phase2_diagnostics.md,Table 2.2,Sunil Narine
++0.087987,Bowler Sunil Narine decomposition opponent term,phase2_diagnostics.md,Table 2.2,Sunil Narine
++0.357180,Bowler Sunil Narine decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Sunil Narine
+0.00e+00,Bowler Sunil Narine decomposition difference check,phase2_diagnostics.md,Table 2.2,Sunil Narine
+-0.160490,Bowler Axar Patel decomposition runs term,phase2_diagnostics.md,Table 2.2,Axar Patel
++0.486454,Bowler Axar Patel decomposition wicket term,phase2_diagnostics.md,Table 2.2,Axar Patel
++0.056139,Bowler Axar Patel decomposition opponent term,phase2_diagnostics.md,Table 2.2,Axar Patel
++0.382103,Bowler Axar Patel decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Axar Patel
+0.00e+00,Bowler Axar Patel decomposition difference check,phase2_diagnostics.md,Table 2.2,Axar Patel
+-0.173386,Bowler Trent Boult decomposition runs term,phase2_diagnostics.md,Table 2.2,Trent Boult
++0.477481,Bowler Trent Boult decomposition wicket term,phase2_diagnostics.md,Table 2.2,Trent Boult
++0.089036,Bowler Trent Boult decomposition opponent term,phase2_diagnostics.md,Table 2.2,Trent Boult
++0.393131,Bowler Trent Boult decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Trent Boult
+0.00e+00,Bowler Trent Boult decomposition difference check,phase2_diagnostics.md,Table 2.2,Trent Boult
+-0.020237,Bowler Krunal Pandya decomposition runs term,phase2_diagnostics.md,Table 2.2,Krunal Pandya
++0.349703,Bowler Krunal Pandya decomposition wicket term,phase2_diagnostics.md,Table 2.2,Krunal Pandya
++0.080758,Bowler Krunal Pandya decomposition opponent term,phase2_diagnostics.md,Table 2.2,Krunal Pandya
++0.410223,Bowler Krunal Pandya decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Krunal Pandya
+0.00e+00,Bowler Krunal Pandya decomposition difference check,phase2_diagnostics.md,Table 2.2,Krunal Pandya
+-0.165183,Bowler Harshal Patel decomposition runs term,phase2_diagnostics.md,Table 2.2,Harshal Patel
++0.326539,Bowler Harshal Patel decomposition wicket term,phase2_diagnostics.md,Table 2.2,Harshal Patel
++0.073054,Bowler Harshal Patel decomposition opponent term,phase2_diagnostics.md,Table 2.2,Harshal Patel
++0.234410,Bowler Harshal Patel decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Harshal Patel
+-2.78e-17,Bowler Harshal Patel decomposition difference check,phase2_diagnostics.md,Table 2.2,Harshal Patel
+-0.246485,Bowler Varun Chakravarthy decomposition runs term,phase2_diagnostics.md,Table 2.2,Varun Chakravarthy
++0.413581,Bowler Varun Chakravarthy decomposition wicket term,phase2_diagnostics.md,Table 2.2,Varun Chakravarthy
++0.078857,Bowler Varun Chakravarthy decomposition opponent term,phase2_diagnostics.md,Table 2.2,Varun Chakravarthy
++0.245953,Bowler Varun Chakravarthy decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Varun Chakravarthy
+-2.78e-17,Bowler Varun Chakravarthy decomposition difference check,phase2_diagnostics.md,Table 2.2,Varun Chakravarthy
+-0.164064,Bowler Mohammed Shami decomposition runs term,phase2_diagnostics.md,Table 2.2,Mohammed Shami
++0.644890,Bowler Mohammed Shami decomposition wicket term,phase2_diagnostics.md,Table 2.2,Mohammed Shami
++0.058793,Bowler Mohammed Shami decomposition opponent term,phase2_diagnostics.md,Table 2.2,Mohammed Shami
++0.539619,Bowler Mohammed Shami decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Mohammed Shami
+0.00e+00,Bowler Mohammed Shami decomposition difference check,phase2_diagnostics.md,Table 2.2,Mohammed Shami
+-0.108475,Bowler Patrick Cummins decomposition runs term,phase2_diagnostics.md,Table 2.2,Patrick Cummins
++0.683713,Bowler Patrick Cummins decomposition wicket term,phase2_diagnostics.md,Table 2.2,Patrick Cummins
++0.096980,Bowler Patrick Cummins decomposition opponent term,phase2_diagnostics.md,Table 2.2,Patrick Cummins
++0.672218,Bowler Patrick Cummins decomposition reported H_raw,phase2_diagnostics.md,Table 2.2,Patrick Cummins
+0.00e+00,Bowler Patrick Cummins decomposition difference check,phase2_diagnostics.md,Table 2.2,Patrick Cummins

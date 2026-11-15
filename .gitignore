@@ -1,0 +1,49 @@
+# Bytecode & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Binary Caches & Datasets
+*.pkl
+
+# Local Archive & Legacy Scratch Files
+archive/
+scratch*.py
+scratch_prompt.txt
+task_prompt.txt
+
+# Intermediate Development & Debugging Scripts
+debug_mismatch.py
+list_missing.py
+check_report_manifest.py
+build_manifest.py
+get_all_hashes.py
+audit_report_phase4_5.py
+create_submission_lists.py
+export_pdf.py
+update_hashes.py
+draft_journey.py
+export_journey_pdf.py
+run_phase6_checks.py
+run_phase6_audit.py
+prompt10.txt
+
+# Intermediate HTML Build Artifacts
+report.html
+journey.html
+
+# Verification Run Logs & Snapshots
+run1_tables.md
+run2_tables.md
+run1_tables_no_ts.txt
+pipeline_output_tables_run1.md
+superr_selector_season_2_unified_methodology_report (2).md
+
+# System & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.patch
+*.log

@@ -1,0 +1,152 @@
+{
+  "mode": "final",
+  "N_replications": 100,
+  "batters": {
+    "cohort_size": 78,
+    "matches_count": 752,
+    "mean_CR1_SE": 0.5451722687737512,
+    "ICC": 0.0508,
+    "tau_SH": 0.20760752062349913,
+    "scenarios": {
+      "Null": {
+        "true_tau": 0.0,
+        "SNR": 0.0,
+        "CR1_coverage_all": 0.8750000000000001,
+        "CR1_coverage_top10": 0.544,
+        "EB_coverage_all": 0.9974358974358976,
+        "EB_coverage_top10": 0.987,
+        "rejection_rate": 0.29,
+        "mse_reduction_pct": 98.04989317350208
+      },
+      "Signal_1x": {
+        "true_tau": 0.20760752062349913,
+        "SNR": 0.3808108601900606,
+        "CR1_coverage_all": 0.877051282051282,
+        "CR1_coverage_top10": 0.56,
+        "EB_coverage_all": 0.601153846153846,
+        "EB_coverage_top10": 0.5710000000000001,
+        "rejection_rate": 0.43,
+        "mse_reduction_pct": 90.18107732915975
+      },
+      "Signal_2x": {
+        "true_tau": 0.41521504124699826,
+        "SNR": 0.7616217203801212,
+        "CR1_coverage_all": 0.8778205128205129,
+        "CR1_coverage_top10": 0.607,
+        "EB_coverage_all": 0.7705128205128204,
+        "EB_coverage_top10": 0.754,
+        "rejection_rate": 0.91,
+        "mse_reduction_pct": 72.35497943122914
+      },
+      "Signal_4x": {
+        "true_tau": 0.8304300824939965,
+        "SNR": 1.5232434407602424,
+        "CR1_coverage_all": 0.8784615384615385,
+        "CR1_coverage_top10": 0.7120000000000001,
+        "EB_coverage_all": 0.8816666666666668,
+        "EB_coverage_top10": 0.853,
+        "rejection_rate": 1.0,
+        "mse_reduction_pct": 42.52784523836737
+      }
+    },
+    "snr_for_80_power": 0.674352564919899,
+    "null_fpr_by_icc": {
+      "ICC_0.0000": {
+        "FPR": 0.17,
+        "mean_S_obs": 86.51554982847748,
+        "std_S_obs": 14.684251188652375
+      },
+      "ICC_0.0508": {
+        "FPR": 0.28,
+        "mean_S_obs": 89.7484244155907,
+        "std_S_obs": 16.53720321453733
+      }
+    }
+  },
+  "bowlers": {
+    "cohort_size": 82,
+    "matches_count": 747,
+    "mean_CR1_SE": 0.5304634578410548,
+    "ICC": 0.0132,
+    "tau_SH": 0.01,
+    "scenarios": {
+      "Null": {
+        "true_tau": 0.0,
+        "SNR": 0.0,
+        "CR1_coverage_all": 0.8839024390243904,
+        "CR1_coverage_top10": 0.5539999999999999,
+        "EB_coverage_all": 0.9982926829268294,
+        "EB_coverage_top10": 0.992,
+        "rejection_rate": 0.19,
+        "mse_reduction_pct": 98.66908426501911
+      },
+      "Signal_1x": {
+        "true_tau": 0.01,
+        "SNR": 0.018851439910110353,
+        "CR1_coverage_all": 0.8847560975609757,
+        "CR1_coverage_top10": 0.5479999999999999,
+        "EB_coverage_all": 0.9406097560975608,
+        "EB_coverage_top10": 0.9230000000000002,
+        "rejection_rate": 0.16,
+        "mse_reduction_pct": 98.62761827187018
+      },
+      "Signal_2x": {
+        "true_tau": 0.02,
+        "SNR": 0.037702879820220705,
+        "CR1_coverage_all": 0.885,
+        "CR1_coverage_top10": 0.5519999999999999,
+        "EB_coverage_all": 0.7895121951219513,
+        "EB_coverage_top10": 0.795,
+        "rejection_rate": 0.19,
+        "mse_reduction_pct": 98.50813579755659
+      },
+      "Signal_4x": {
+        "true_tau": 0.04,
+        "SNR": 0.07540575964044141,
+        "CR1_coverage_all": 0.886341463414634,
+        "CR1_coverage_top10": 0.5820000000000001,
+        "EB_coverage_all": 0.6426829268292683,
+        "EB_coverage_top10": 0.631,
+        "rejection_rate": 0.17,
+        "mse_reduction_pct": 98.26027294039459
+      },
+      "Signal_tau_0.05": {
+        "true_tau": 0.05,
+        "SNR": 0.09425719955055177,
+        "CR1_coverage_all": 0.8882926829268292,
+        "CR1_coverage_top10": 0.545,
+        "EB_coverage_all": 0.5708536585365853,
+        "EB_coverage_top10": 0.561,
+        "rejection_rate": 0.21,
+        "mse_reduction_pct": 97.47122304867703
+      },
+      "Signal_tau_0.10": {
+        "true_tau": 0.1,
+        "SNR": 0.18851439910110354,
+        "CR1_coverage_all": 0.8858536585365853,
+        "CR1_coverage_top10": 0.57,
+        "EB_coverage_all": 0.5454878048780487,
+        "EB_coverage_top10": 0.53,
+        "rejection_rate": 0.17,
+        "mse_reduction_pct": 95.46743009802839
+      },
+      "Signal_tau_0.20": {
+        "true_tau": 0.2,
+        "SNR": 0.3770287982022071,
+        "CR1_coverage_all": 0.8837804878048781,
+        "CR1_coverage_top10": 0.5670000000000001,
+        "EB_coverage_all": 0.6252439024390243,
+        "EB_coverage_top10": 0.605,
+        "rejection_rate": 0.45,
+        "mse_reduction_pct": 87.29379361095494
+      }
+    },
+    "snr_for_80_power": 0.72
+  },
+  "gate_evaluation": {
+    "G4_batters_null_fpr_pass": false,
+    "G4_bowlers_null_fpr_pass": false,
+    "G5_batters_cr1_cov_pass": true,
+    "G5_batters_eb_cov_pass": false
+  }
+}
