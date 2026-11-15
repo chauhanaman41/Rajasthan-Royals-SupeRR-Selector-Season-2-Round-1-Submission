@@ -1,0 +1,186 @@
+{
+ "summary": {
+  "player_id": 45381,
+  "player_name": "PV Satyanarayan Raju",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 2,
+  "primary_team_name": "Mumbai Indians",
+  "teams_list": [
+   "Mumbai Indians"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 1,
+  "runs_scored": 1,
+  "strike_rate": 100.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 69.0,
+  "balls_bowled": 29,
+  "runs_conceded": 48,
+  "wickets": 2,
+  "economy": 9.93,
+  "dot_pct_bowl": 31.03,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 5,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/45381.webp",
+  "avatar_url": "./public/assets/players/avatars/45381.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 40702,
+   "date": "2025-03-29",
+   "stage": "League",
+   "comp_name": "IPL 2025",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "balls_bowl": 22,
+   "runs_conceded": 36,
+   "wickets": 2,
+   "dots_bowl": 8,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 40696,
+   "date": "2025-03-23",
+   "stage": "League",
+   "comp_name": "IPL 2025",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "runs_bat": 1,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 7,
+   "runs_conceded": 12,
+   "wickets": 0,
+   "dots_bowl": 1
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7920,
+   "opp_name": "Nathan Ellis",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 23450,
+   "opp_name": "Sai Sudharsan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 6725,
+   "opp_name": "Sherfane Rutherford",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 9.6
+  },
+  {
+   "opp_id": 4722,
+   "opp_name": "Rashid Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 6059,
+   "opp_name": "Ruturaj Gaikwad",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 3628,
+   "opp_name": "Kagiso Rabada",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 4854,
+   "opp_name": "Rachin Ravindra",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 5577,
+   "opp_name": "Sai Kishore",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

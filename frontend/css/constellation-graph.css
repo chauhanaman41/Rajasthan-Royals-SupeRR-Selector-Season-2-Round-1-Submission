@@ -1,0 +1,262 @@
+/*
+  frontend/css/constellation-graph.css
+  Mode 2: Fuselab AI Bioluminescent Constellation & Radial Tree Explorer (design.mp4)
+*/
+
+.constellation-wrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 120px);
+  min-height: 720px;
+  background: var(--bg-constellation);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid rgba(0, 229, 255, 0.18);
+  box-shadow: 0 24px 60px rgba(2, 8, 14, 0.85);
+  margin-top: 16px;
+}
+
+/* Bioluminescent Canvas Background */
+#constellationCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: grab;
+}
+
+#constellationCanvas:active {
+  cursor: grabbing;
+}
+
+/* Left Vertical Timeline Scrubber (2021 - 2026) */
+.timeline-scrubber-pane {
+  position: absolute;
+  top: 40px;
+  left: 36px;
+  z-index: 10;
+  background: rgba(4, 15, 22, 0.75);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+.timeline-scrubber-title {
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--cyan-accent);
+  letter-spacing: 1px;
+}
+
+.timeline-years-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.timeline-year-btn {
+  background: transparent;
+  border: none;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  transition: all var(--trans-fast);
+  position: relative;
+}
+
+.timeline-year-btn:hover {
+  color: #ffffff;
+  background: rgba(0, 229, 255, 0.15);
+}
+
+.timeline-year-btn.active {
+  color: #030a0e;
+  background: var(--cyan-accent);
+  box-shadow: 0 0 16px var(--cyan-accent);
+}
+
+/* Top Constellation Filter Bar */
+.constellation-toolbar {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(4, 15, 22, 0.75);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  border-radius: var(--radius-pill);
+  padding: 6px 12px;
+}
+
+.constellation-filter-btn {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: all var(--trans-fast);
+}
+
+.constellation-filter-btn:hover {
+  color: #ffffff;
+}
+
+.constellation-filter-btn.active {
+  background: rgba(0, 229, 255, 0.2);
+  color: var(--cyan-accent);
+  border: 1px solid rgba(0, 229, 255, 0.5);
+}
+
+/* --- RADIAL CUBIC BEZIER DRILLDOWN & GLASS DRAWER --- */
+.radial-drilldown-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none; /* Allows canvas clicks below except on interactive elements */
+  display: none; /* Shown when a player is selected */
+}
+
+.radial-drilldown-layer.active {
+  display: block;
+}
+
+.radial-svg-stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+
+/* Right Slide-Over Glass Inspector Drawer */
+.glass-inspector-drawer {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 380px;
+  height: calc(100% - 48px);
+  background: rgba(7, 20, 28, 0.85);
+  backdrop-filter: blur(28px);
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.7), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-xl);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 20;
+  pointer-events: auto;
+  transform: translateX(420px);
+  transition: transform var(--trans-smooth);
+}
+
+.glass-inspector-drawer.open {
+  transform: translateX(0);
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer-player-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.drawer-player-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--cyan-accent);
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.5);
+  object-fit: cover;
+}
+
+.drawer-close-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.drawer-kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.drawer-kpi-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(0, 229, 255, 0.15);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+}
+
+.drawer-kpi-box .val {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: var(--font-display);
+  color: var(--cyan-accent);
+}
+
+.drawer-kpi-box .lbl {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.drawer-switch-studio-btn {
+  background: var(--coral-gradient);
+  border: none;
+  color: #ffffff;
+  padding: 14px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 0.92rem;
+  cursor: pointer;
+  box-shadow: 0 8px 24px var(--coral-glow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform var(--trans-fast);
+  margin-top: auto;
+}
+
+.drawer-switch-studio-btn:hover {
+  transform: translateY(-2px);
+}

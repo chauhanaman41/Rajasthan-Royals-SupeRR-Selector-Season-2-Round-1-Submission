@@ -1,0 +1,167 @@
+{
+ "summary": {
+  "player_id": 19124,
+  "player_name": "Anas Khan",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 283,
+  "primary_team_name": "Hong Kong",
+  "teams_list": [
+   "Hong Kong"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 8,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Slow left-arm orthodox",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 23,
+  "runs_conceded": 12,
+  "wickets": 7,
+  "economy": 3.13,
+  "dot_pct_bowl": 60.87,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/19124.webp",
+  "avatar_url": "./public/assets/players/avatars/19124.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37093,
+   "date": "2024-10-22",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Afghanistan A",
+   "opponent_id": 4444,
+   "balls_bowl": 23,
+   "runs_conceded": 12,
+   "wickets": 7,
+   "dots_bowl": 14,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 5808,
+   "opp_name": "Karim Janat",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 1,
+   "econ": 5.2
+  },
+  {
+   "opp_id": 3543,
+   "opp_name": "Shahidullah Kamal",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 3550,
+   "opp_name": "Sharafuddin Ashraf",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 6433,
+   "opp_name": "Darwish Rasooli",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 8033,
+   "opp_name": "Abdul Rahmani",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 6436,
+   "opp_name": "Qais Ahmad",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 8647,
+   "opp_name": "Sediqullah Atal",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 17911,
+   "opp_name": "Nangeyalia Kharote",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 32705,
+   "opp_name": "Faridoon Dawoodzai",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

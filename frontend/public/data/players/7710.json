@@ -1,0 +1,127 @@
+{
+ "summary": {
+  "player_id": 7710,
+  "player_name": "Brandon Glover",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 24,
+  "primary_team_name": "Netherlands",
+  "teams_list": [
+   "Netherlands"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 9,
+  "batting_type": "RHB",
+  "balls_faced": 1,
+  "runs_scored": 4,
+  "strike_rate": 400.0,
+  "boundary_pct": 100.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 19,
+  "runs_conceded": 17,
+  "wickets": 0,
+  "economy": 5.37,
+  "dot_pct_bowl": 52.63,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 3,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0003,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7710.webp",
+  "avatar_url": "./public/assets/players/avatars/7710.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 35427,
+   "date": "2024-08-26",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Canada",
+   "opponent_id": 89,
+   "runs_bat": 4,
+   "balls_bat": 1,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 19,
+   "runs_conceded": 17,
+   "wickets": 0,
+   "dots_bowl": 10
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7001,
+   "opp_name": "Dilon Heyliger",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 400.0
+  },
+  {
+   "opp_id": 8408,
+   "opp_name": "Shreyas Movva",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 6.5
+  },
+  {
+   "opp_id": 39991,
+   "opp_name": "Parveen Kumar",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 6995,
+   "opp_name": "Saad Zafar",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

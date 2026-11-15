@@ -1,0 +1,163 @@
+{
+ "summary": {
+  "player_id": 47314,
+  "player_name": "Wafiullah Tarakhil",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 78,
+  "primary_team_name": "Afghanistan",
+  "teams_list": [
+   "Afghanistan A",
+   "Afghanistan"
+  ],
+  "competitions_count": 6,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 4,
+  "batting_type": "RHB",
+  "balls_faced": 19,
+  "runs_scored": 12,
+  "strike_rate": 63.16,
+  "boundary_pct": 5.26,
+  "dot_pct_bat": 63.16,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0815,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 3,
+   "hp_matches": 1,
+   "shrinkage_B": 0.007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/47314.webp",
+  "avatar_url": "./public/assets/players/avatars/47314.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 46755,
+   "date": "2025-10-05",
+   "stage": "Others",
+   "comp_name": "Afghanistan v Bangladesh T20I Series 2025",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 11,
+   "balls_bat": 13,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 46754,
+   "date": "2025-10-03",
+   "stage": "Others",
+   "comp_name": "Afghanistan v Bangladesh T20I Series 2025",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 1,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 37093,
+   "date": "2024-10-22",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4658,
+   "opp_name": "Nasum Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 42.9
+  },
+  {
+   "opp_id": 7905,
+   "opp_name": "Tanzim Sakib",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 38855,
+   "opp_name": "Mohammad Saifuddin",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 19125,
+   "opp_name": "Ayush Shukla",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 8380,
+   "opp_name": "Mohammad Rishad Hossain",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

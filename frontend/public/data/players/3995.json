@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "player_id": 3995,
+  "player_name": "Donald Tiripano",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 72,
+  "primary_team_name": "Zimbabwe",
+  "teams_list": [
+   "Zimbabwe"
+  ],
+  "competitions_count": 2,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 8,
+  "batting_type": "RHB",
+  "balls_faced": 3,
+  "runs_scored": 1,
+  "strike_rate": 33.33,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 66.67,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm fast-medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 35,
+  "runs_conceded": 49,
+  "wickets": 1,
+  "economy": 8.4,
+  "dot_pct_bowl": 42.86,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/3995.webp",
+  "avatar_url": "./public/assets/players/avatars/3995.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 15611,
+   "date": "2022-06-14",
+   "stage": "League",
+   "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+   "opponent_name": "Afghanistan",
+   "opponent_id": 78,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 14,
+   "runs_conceded": 18,
+   "wickets": 1,
+   "dots_bowl": 8
+  },
+  {
+   "match_id": 15610,
+   "date": "2022-06-12",
+   "stage": "League",
+   "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+   "opponent_name": "Afghanistan",
+   "opponent_id": 78,
+   "runs_bat": 1,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 21,
+   "runs_conceded": 31,
+   "wickets": 0,
+   "dots_bowl": 7
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7967,
+   "opp_name": "Noor Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 7227,
+   "opp_name": "Nijat Masood",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3306,
+   "opp_name": "Afsar Zazai",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 9.4
+  },
+  {
+   "opp_id": 6433,
+   "opp_name": "Darwish Rasooli",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 7152,
+   "opp_name": "Hazratullah Zazai",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 7.0
+  },
+  {
+   "opp_id": 3544,
+   "opp_name": "Usman Ghani",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 2533,
+   "opp_name": "Najibullah Zadran",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 4.5
+  },
+  {
+   "opp_id": 3545,
+   "opp_name": "Ihsanullah Janat",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 1107,
+   "opp_name": "Mohammad Nabi",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 22.0
+  }
+ ]
+}

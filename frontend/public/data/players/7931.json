@@ -1,0 +1,234 @@
+{
+ "summary": {
+  "player_id": 7931,
+  "player_name": "Aritra Dutta",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 311,
+  "primary_team_name": "Singapore",
+  "teams_list": [
+   "Singapore"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 1,
+  "batting_type": "RHB",
+  "balls_faced": 65,
+  "runs_scored": 92,
+  "strike_rate": 141.54,
+  "boundary_pct": 18.46,
+  "dot_pct_bat": 41.54,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0793,
+   "h_p": 0.002,
+   "ci_lower": -0.079,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 13,
+   "hp_matches": 1,
+   "shrinkage_B": 0.031,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7931.webp",
+  "avatar_url": "./public/assets/players/avatars/7931.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 16867,
+   "date": "2022-08-24",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Kuwait",
+   "opponent_id": 312,
+   "runs_bat": 21,
+   "balls_bat": 17,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16864,
+   "date": "2022-08-22",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 42,
+   "balls_bat": 29,
+   "fours": 1,
+   "sixes": 4,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16862,
+   "date": "2022-08-20",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 29,
+   "balls_bat": 19,
+   "fours": 3,
+   "sixes": 2,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 16498,
+   "opp_name": "Sultan Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 14,
+   "wickets": 0,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 137.5
+  },
+  {
+   "opp_id": 15280,
+   "opp_name": "Sayed Monib",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 112.5
+  },
+  {
+   "opp_id": 33443,
+   "opp_name": "Sabir Ali",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 17,
+   "wickets": 0,
+   "sr": 212.5
+  },
+  {
+   "opp_id": 7201,
+   "opp_name": "Haroon Arshad",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 8639,
+   "opp_name": "Kartik Meiyappan",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 20.0
+  },
+  {
+   "opp_id": 31107,
+   "opp_name": "Yasin Patel",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 1,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 24346,
+   "opp_name": "Mohamed Shafeeq",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 125.0
+  },
+  {
+   "opp_id": 8638,
+   "opp_name": "Basil Hameed",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 266.7
+  },
+  {
+   "opp_id": 19020,
+   "opp_name": "Ateeq Iqbal",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 166.7
+  },
+  {
+   "opp_id": 5750,
+   "opp_name": "Ehsan Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 8005,
+   "opp_name": "Zawar Farid",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 8009,
+   "opp_name": "Junaid Siddique",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

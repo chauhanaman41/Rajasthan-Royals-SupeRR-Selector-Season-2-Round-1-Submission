@@ -1,0 +1,140 @@
+{
+ "summary": {
+  "player_id": 5231,
+  "player_name": "Oshane Thomas",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 28,
+  "primary_team_name": "West Indies",
+  "teams_list": [
+   "West Indies"
+  ],
+  "competitions_count": 3,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 73.3,
+  "balls_bowled": 24,
+  "runs_conceded": 36,
+  "wickets": 0,
+  "economy": 9.0,
+  "dot_pct_bowl": 20.83,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/5231.webp",
+  "avatar_url": "./public/assets/players/avatars/5231.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 28067,
+   "date": "2023-12-22",
+   "stage": "Others",
+   "comp_name": "England in West Indies T20I Series 2023",
+   "opponent_name": "England",
+   "opponent_id": 22,
+   "balls_bowl": 24,
+   "runs_conceded": 36,
+   "wickets": 0,
+   "dots_bowl": 5,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 5553,
+   "opp_name": "Phil Salt",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 16,
+   "wickets": 0,
+   "econ": 10.7
+  },
+  {
+   "opp_id": 4391,
+   "opp_name": "Liam Livingstone",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 13.5
+  },
+  {
+   "opp_id": 4409,
+   "opp_name": "Sam Curran",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 1596,
+   "opp_name": "Moeen Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 1171,
+   "opp_name": "Chris Woakes",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

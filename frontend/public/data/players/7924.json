@@ -1,0 +1,189 @@
+{
+ "summary": {
+  "player_id": 7924,
+  "player_name": "Kushal Malla",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 282,
+  "primary_team_name": "Nepal",
+  "teams_list": [
+   "Nepal"
+  ],
+  "competitions_count": 2,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 4,
+  "batting_type": "LHB",
+  "balls_faced": 55,
+  "runs_scored": 49,
+  "strike_rate": 89.09,
+  "boundary_pct": 10.91,
+  "dot_pct_bat": 60.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0798,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 11,
+   "hp_matches": 1,
+   "shrinkage_B": 0.027,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7924.webp",
+  "avatar_url": "./public/assets/players/avatars/7924.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 46251,
+   "date": "2025-09-30",
+   "stage": "Others",
+   "comp_name": "Nepal v West Indies T20I Series 2025",
+   "opponent_name": "West Indies",
+   "opponent_id": 28,
+   "runs_bat": 12,
+   "balls_bat": 21,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 46250,
+   "date": "2025-09-28",
+   "stage": "Others",
+   "comp_name": "Nepal v West Indies T20I Series 2025",
+   "opponent_name": "West Indies",
+   "opponent_id": 28,
+   "runs_bat": 7,
+   "balls_bat": 9,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 46249,
+   "date": "2025-09-27",
+   "stage": "Others",
+   "comp_name": "Nepal v West Indies T20I Series 2025",
+   "opponent_name": "West Indies",
+   "opponent_id": 28,
+   "runs_bat": 30,
+   "balls_bat": 25,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2417,
+   "opp_name": "Akeal Hosein",
+   "opp_type": "Bowler Faced",
+   "balls": 15,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 60.0
+  },
+  {
+   "opp_id": 2633,
+   "opp_name": "Jason Holder",
+   "opp_type": "Bowler Faced",
+   "balls": 15,
+   "runs": 11,
+   "wickets": 1,
+   "sr": 73.3
+  },
+  {
+   "opp_id": 3272,
+   "opp_name": "Fabian Allen",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 14,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 4837,
+   "opp_name": "Obed McCoy",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 2416,
+   "opp_name": "Kyle Mayers",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 60609,
+   "opp_name": "Navin Bidaisee",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 8298,
+   "opp_name": "Ramon Simmonds",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 36553,
+   "opp_name": "Jediah Blades",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "summary": {
+  "player_id": 4604,
+  "player_name": "Mitchell Swepson",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 20,
+  "primary_team_name": "Australia",
+  "teams_list": [
+   "Australia"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 1,
+  "runs_scored": 2,
+  "strike_rate": 200.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Leg-Break",
+  "pace_or_spin": "Spin",
+  "avg_speed": 74.3,
+  "balls_bowled": 12,
+  "runs_conceded": 31,
+  "wickets": 0,
+  "economy": 15.5,
+  "dot_pct_bowl": 16.67,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4604.webp",
+  "avatar_url": "./public/assets/players/avatars/4604.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 17763,
+   "date": "2022-10-09",
+   "stage": "League",
+   "comp_name": "England in Australia T20I Series 2022",
+   "opponent_name": "England",
+   "opponent_id": 22,
+   "runs_bat": 2,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 12,
+   "runs_conceded": 31,
+   "wickets": 0,
+   "dots_bowl": 2
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4409,
+   "opp_name": "Sam Curran",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 24,
+   "wickets": 0,
+   "econ": 24.0
+  },
+  {
+   "opp_id": 1183,
+   "opp_name": "Alex Hales",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 7.0
+  }
+ ]
+}

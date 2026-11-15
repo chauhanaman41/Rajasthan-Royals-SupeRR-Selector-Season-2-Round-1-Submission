@@ -1,0 +1,227 @@
+{
+ "summary": {
+  "player_id": 7227,
+  "player_name": "Nijat Masood",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 78,
+  "primary_team_name": "Afghanistan",
+  "teams_list": [
+   "Afghanistan"
+  ],
+  "competitions_count": 4,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 5,
+  "runs_scored": 4,
+  "strike_rate": 80.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 40.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 1,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 71,
+  "runs_conceded": 90,
+  "wickets": 5,
+  "economy": 7.61,
+  "dot_pct_bowl": 29.58,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 14,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0014,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7227.webp",
+  "avatar_url": "./public/assets/players/avatars/7227.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 15611,
+   "date": "2022-06-14",
+   "stage": "League",
+   "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "runs_bat": 4,
+   "balls_bat": 5,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 19,
+   "runs_conceded": 26,
+   "wickets": 0,
+   "dots_bowl": 6
+  },
+  {
+   "match_id": 15610,
+   "date": "2022-06-12",
+   "stage": "League",
+   "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "balls_bowl": 24,
+   "runs_conceded": 29,
+   "wickets": 2,
+   "dots_bowl": 5,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 15609,
+   "date": "2022-06-11",
+   "stage": "League",
+   "comp_name": "Afghanistan in Zimbabwe T20I Series 2022",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "balls_bowl": 28,
+   "runs_conceded": 35,
+   "wickets": 3,
+   "dots_bowl": 10,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 1159,
+   "opp_name": "Tendai Chatara",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 80.0
+  },
+  {
+   "opp_id": 24887,
+   "opp_name": "Innocent Kaia",
+   "opp_type": "Batter Bowled To",
+   "balls": 15,
+   "runs": 15,
+   "wickets": 1,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 4867,
+   "opp_name": "Wesley Madhevere",
+   "opp_type": "Batter Bowled To",
+   "balls": 14,
+   "runs": 23,
+   "wickets": 0,
+   "econ": 9.9
+  },
+  {
+   "opp_id": 2984,
+   "opp_name": "Sikandar Raza",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 23,
+   "wickets": 1,
+   "econ": 12.5
+  },
+  {
+   "opp_id": 1159,
+   "opp_name": "Tendai Chatara",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 5.2
+  },
+  {
+   "opp_id": 7709,
+   "opp_name": "Ainsley Ndlovu",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 5.1
+  },
+  {
+   "opp_id": 1116,
+   "opp_name": "Craig Ervine",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 1,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 8600,
+   "opp_name": "Tadiwanashe Marumani",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 1649,
+   "opp_name": "Regis Chakabva",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 2,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 2463,
+   "opp_name": "Ryan Burl",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 3995,
+   "opp_name": "Donald Tiripano",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 22134,
+   "opp_name": "Luke Jongwe",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

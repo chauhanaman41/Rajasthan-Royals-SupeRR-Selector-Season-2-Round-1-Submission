@@ -1,0 +1,231 @@
+{
+ "summary": {
+  "player_id": 35506,
+  "player_name": "Quentin Sampson",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 28,
+  "primary_team_name": "West Indies",
+  "teams_list": [
+   "West Indies"
+  ],
+  "competitions_count": 3,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 53,
+  "runs_scored": 56,
+  "strike_rate": 105.66,
+  "boundary_pct": 11.32,
+  "dot_pct_bat": 43.4,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.08,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 10,
+   "hp_matches": 1,
+   "shrinkage_B": 0.024,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/35506.webp",
+  "avatar_url": "./public/assets/players/avatars/35506.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50406,
+   "date": "2026-10-11",
+   "stage": "Others",
+   "comp_name": "West Indies in India T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "runs_bat": 21,
+   "balls_bat": 18,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48598,
+   "date": "2026-01-22",
+   "stage": "Others",
+   "comp_name": "Afghanistan v West Indies T20I Series 2026",
+   "opponent_name": "Afghanistan",
+   "opponent_id": 78,
+   "runs_bat": 3,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48597,
+   "date": "2026-01-21",
+   "stage": "Others",
+   "comp_name": "Afghanistan v West Indies T20I Series 2026",
+   "opponent_name": "Afghanistan",
+   "opponent_id": 78,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48596,
+   "date": "2026-01-19",
+   "stage": "Others",
+   "comp_name": "Afghanistan v West Indies T20I Series 2026",
+   "opponent_name": "Afghanistan",
+   "opponent_id": 78,
+   "runs_bat": 30,
+   "balls_bat": 24,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4722,
+   "opp_name": "Rashid Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 16,
+   "runs": 16,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6464,
+   "opp_name": "Arshdeep Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 7241,
+   "opp_name": "Ziaur Rahman",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 7,
+   "wickets": 2,
+   "sr": 116.7
+  },
+  {
+   "opp_id": 7967,
+   "opp_name": "Noor Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 2214,
+   "opp_name": "Gulbadin Naib",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 8221,
+   "opp_name": "Nitish Reddy",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 1,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 27960,
+   "opp_name": "Mayank Yadav",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 58246,
+   "opp_name": "Prince Yadav",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 7240,
+   "opp_name": "FazalHaq Farooqi",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 1107,
+   "opp_name": "Mohammad Nabi",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6450,
+   "opp_name": "Mujeeb Ur Rahman",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

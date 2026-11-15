@@ -1,0 +1,180 @@
+{
+ "summary": {
+  "player_id": 27962,
+  "player_name": "Saurav Chauhan",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 5,
+  "primary_team_name": "Royal Challengers Bengaluru",
+  "teams_list": [
+   "Royal Challengers Bengaluru"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 4,
+  "batting_type": "LHB",
+  "balls_faced": 16,
+  "runs_scored": 18,
+  "strike_rate": 112.5,
+  "boundary_pct": 12.5,
+  "dot_pct_bat": 43.75,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0815,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 3,
+   "hp_matches": 1,
+   "shrinkage_B": 0.007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/27962.webp",
+  "avatar_url": "./public/assets/players/avatars/27962.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 31248,
+   "date": "2024-04-15",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Sunrisers Hyderabad",
+   "opponent_id": 242,
+   "runs_bat": 0,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 31243,
+   "date": "2024-04-11",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 9,
+   "balls_bat": 9,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 30074,
+   "date": "2024-04-06",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "runs_bat": 9,
+   "balls_bat": 6,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6628,
+   "opp_name": "Gerald Coetzee",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 120.0
+  },
+  {
+   "opp_id": 2933,
+   "opp_name": "Jasprit Bumrah",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 1,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 305,
+   "opp_name": "Ravichandran Ashwin",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 233.3
+  },
+  {
+   "opp_id": 1612,
+   "opp_name": "Yuzvendra Chahal",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 1758,
+   "opp_name": "Patrick Cummins",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3653,
+   "opp_name": "Avesh Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7312,
+   "opp_name": "Nandre Burger",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

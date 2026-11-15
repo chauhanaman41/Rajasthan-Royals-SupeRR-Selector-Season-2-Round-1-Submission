@@ -1,0 +1,368 @@
+{
+ "summary": {
+  "player_id": 34880,
+  "player_name": "Saad Masood",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 341,
+  "primary_team_name": "Pakistan A",
+  "teams_list": [
+   "Pakistan A"
+  ],
+  "competitions_count": 1,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "RHB",
+  "balls_faced": 63,
+  "runs_scored": 84,
+  "strike_rate": 133.33,
+  "boundary_pct": 20.63,
+  "dot_pct_bat": 47.62,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0796,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 12,
+   "hp_matches": 1,
+   "shrinkage_B": 0.029,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Leg-Break",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 93,
+  "runs_conceded": 106,
+  "wickets": 10,
+  "economy": 6.84,
+  "dot_pct_bowl": 50.54,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 18,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0018,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/34880.webp",
+  "avatar_url": "./public/assets/players/avatars/34880.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48029,
+   "date": "2025-11-23",
+   "stage": "Final",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Bangladesh A",
+   "opponent_id": 3093,
+   "runs_bat": 43,
+   "balls_bat": 30,
+   "fours": 4,
+   "sixes": 3,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 19,
+   "runs_conceded": 32,
+   "wickets": 1,
+   "dots_bowl": 9
+  },
+  {
+   "match_id": 48028,
+   "date": "2025-11-21",
+   "stage": "Semi Final",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Sri Lanka A",
+   "opponent_id": 3674,
+   "runs_bat": 22,
+   "balls_bat": 26,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 25,
+   "runs_conceded": 17,
+   "wickets": 3,
+   "dots_bowl": 17
+  },
+  {
+   "match_id": 48020,
+   "date": "2025-11-16",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "India A",
+   "opponent_id": 222,
+   "balls_bowl": 24,
+   "runs_conceded": 31,
+   "wickets": 2,
+   "dots_bowl": 7,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 48015,
+   "date": "2025-11-14",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Oman",
+   "opponent_id": 313,
+   "runs_bat": 19,
+   "balls_bat": 7,
+   "fours": 1,
+   "sixes": 2,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 25,
+   "runs_conceded": 26,
+   "wickets": 4,
+   "dots_bowl": 14
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7052,
+   "opp_name": "Dunith Wellalage",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 9,
+   "wickets": 1,
+   "sr": 81.8
+  },
+  {
+   "opp_id": 25341,
+   "opp_name": "Mahfuzur Rabby",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 13,
+   "wickets": 0,
+   "sr": 144.4
+  },
+  {
+   "opp_id": 24767,
+   "opp_name": "Ripon Mondol",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 13,
+   "wickets": 1,
+   "sr": 162.5
+  },
+  {
+   "opp_id": 39637,
+   "opp_name": "Garuka Sanketh",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 157.1
+  },
+  {
+   "opp_id": 48616,
+   "opp_name": "Abdul Saqlain",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 16,
+   "wickets": 0,
+   "sr": 228.6
+  },
+  {
+   "opp_id": 7906,
+   "opp_name": "Rakibul Hasan",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 16.7
+  },
+  {
+   "opp_id": 24372,
+   "opp_name": "Muzahir Raza",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 18,
+   "wickets": 0,
+   "sr": 300.0
+  },
+  {
+   "opp_id": 33114,
+   "opp_name": "Milan Rathnayake",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 40.0
+  },
+  {
+   "opp_id": 26530,
+   "opp_name": "Treveen Mathew",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 37572,
+   "opp_name": "Shafiq Jan",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 39638,
+   "opp_name": "Vishen Halambage",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 5.2
+  },
+  {
+   "opp_id": 6932,
+   "opp_name": "Pramod Madushan",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 1.7
+  },
+  {
+   "opp_id": 35102,
+   "opp_name": "Zikria Islam",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 12.9
+  },
+  {
+   "opp_id": 16284,
+   "opp_name": "Habibur Rahman Sohan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 14,
+   "wickets": 1,
+   "econ": 14.0
+  },
+  {
+   "opp_id": 50284,
+   "opp_name": "Vaibhav Sooryavanshi",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 7906,
+   "opp_name": "Rakibul Hasan",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 16.8
+  },
+  {
+   "opp_id": 20006,
+   "opp_name": "Ramandeep Singh",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 4.8
+  },
+  {
+   "opp_id": 24372,
+   "opp_name": "Muzahir Raza",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 7.2
+  },
+  {
+   "opp_id": 26854,
+   "opp_name": "SM Meherob Hasan",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 37052,
+   "opp_name": "Naman Dhir",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 1,
+   "econ": 10.8
+  },
+  {
+   "opp_id": 27137,
+   "opp_name": "Hammad Mirza",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 1.5
+  },
+  {
+   "opp_id": 7059,
+   "opp_name": "Nehal Wadhera",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 25138,
+   "opp_name": "Harsh Dubey",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 25341,
+   "opp_name": "Mahfuzur Rabby",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 27059,
+   "opp_name": "Karan Sonavale",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  }
+ ]
+}

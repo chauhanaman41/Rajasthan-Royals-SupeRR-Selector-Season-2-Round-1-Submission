@@ -1,0 +1,162 @@
+{
+ "summary": {
+  "player_id": 28185,
+  "player_name": "Kamil Pooran",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 28,
+  "primary_team_name": "West Indies",
+  "teams_list": [
+   "West Indies"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 42,
+  "runs_scored": 58,
+  "strike_rate": 138.1,
+  "boundary_pct": 21.43,
+  "dot_pct_bat": 40.48,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0804,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 8,
+   "hp_matches": 1,
+   "shrinkage_B": 0.02,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/28185.webp",
+  "avatar_url": "./public/assets/players/avatars/28185.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50406,
+   "date": "2026-10-11",
+   "stage": "Others",
+   "comp_name": "West Indies in India T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "runs_bat": 42,
+   "balls_bat": 29,
+   "fours": 3,
+   "sixes": 3,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50405,
+   "date": "2026-10-09",
+   "stage": "Others",
+   "comp_name": "West Indies in India T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "runs_bat": 4,
+   "balls_bat": 2,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50404,
+   "date": "2026-10-06",
+   "stage": "Others",
+   "comp_name": "West Indies in India T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "runs_bat": 12,
+   "balls_bat": 11,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6464,
+   "opp_name": "Arshdeep Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 11,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 2876,
+   "opp_name": "Axar Patel",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 14,
+   "wickets": 0,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 37052,
+   "opp_name": "Naman Dhir",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 23,
+   "wickets": 1,
+   "sr": 230.0
+  },
+  {
+   "opp_id": 27960,
+   "opp_name": "Mayank Yadav",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 9,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 58246,
+   "opp_name": "Prince Yadav",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  }
+ ]
+}

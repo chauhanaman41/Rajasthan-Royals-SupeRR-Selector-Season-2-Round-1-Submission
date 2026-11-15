@@ -1,0 +1,186 @@
+{
+ "summary": {
+  "player_id": 19754,
+  "player_name": "Raja Khan",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 272,
+  "primary_team_name": "United Arab Emirates",
+  "teams_list": [
+   "United Arab Emirates"
+  ],
+  "competitions_count": 4,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 9,
+  "batting_type": "LHB",
+  "balls_faced": 2,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 100.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 51,
+  "runs_conceded": 79,
+  "wickets": 1,
+  "economy": 9.29,
+  "dot_pct_bowl": 35.29,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 10,
+   "hp_matches": 0,
+   "shrinkage_B": 0.001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/19754.webp",
+  "avatar_url": "./public/assets/players/avatars/19754.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 43171,
+   "date": "2025-05-21",
+   "stage": "Others",
+   "comp_name": "Bangladesh in United Arab Emirates T20I Series 2025",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "balls_bowl": 24,
+   "runs_conceded": 27,
+   "wickets": 1,
+   "dots_bowl": 11,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 37095,
+   "date": "2024-10-23",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 27,
+   "runs_conceded": 52,
+   "wickets": 0,
+   "dots_bowl": 7
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 19530,
+   "opp_name": "Shahnawaz Dhani",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 7338,
+   "opp_name": "Haider Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 14,
+   "runs": 24,
+   "wickets": 0,
+   "econ": 10.3
+  },
+  {
+   "opp_id": 7900,
+   "opp_name": "Tanzid Hasan",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 18,
+   "wickets": 1,
+   "econ": 10.8
+  },
+  {
+   "opp_id": 8741,
+   "opp_name": "Mohammad Haris",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 8.6
+  },
+  {
+   "opp_id": 4773,
+   "opp_name": "Jaker Ali Anik",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 27517,
+   "opp_name": "Yasir Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 18,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 6643,
+   "opp_name": "Hasan Mahmud",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 7905,
+   "opp_name": "Tanzim Sakib",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 7903,
+   "opp_name": "Shamim Hossain",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  }
+ ]
+}

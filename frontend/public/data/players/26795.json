@@ -1,0 +1,250 @@
+{
+ "summary": {
+  "player_id": 26795,
+  "player_name": "Joel Davies",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 20,
+  "primary_team_name": "Australia",
+  "teams_list": [
+   "Australia"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "LHB",
+  "balls_faced": 14,
+  "runs_scored": 20,
+  "strike_rate": 142.86,
+  "boundary_pct": 14.29,
+  "dot_pct_bat": 21.43,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0818,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Slow left-arm orthodox",
+  "pace_or_spin": "Spin",
+  "avg_speed": 80.7,
+  "balls_bowled": 50,
+  "runs_conceded": 56,
+  "wickets": 4,
+  "economy": 6.72,
+  "dot_pct_bowl": 48.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 10,
+   "hp_matches": 1,
+   "shrinkage_B": 0.001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/26795.webp",
+  "avatar_url": "./public/assets/players/avatars/26795.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50599,
+   "date": "2026-06-21",
+   "stage": "Others",
+   "comp_name": "Australia in Bangladesh T20I Series 2026",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "balls_bowl": 13,
+   "runs_conceded": 19,
+   "wickets": 0,
+   "dots_bowl": 5,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 50598,
+   "date": "2026-06-19",
+   "stage": "Others",
+   "comp_name": "Australia in Bangladesh T20I Series 2026",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 13,
+   "balls_bat": 8,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 18,
+   "runs_conceded": 21,
+   "wickets": 1,
+   "dots_bowl": 7
+  },
+  {
+   "match_id": 50597,
+   "date": "2026-06-17",
+   "stage": "Others",
+   "comp_name": "Australia in Bangladesh T20I Series 2026",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 7,
+   "balls_bat": 6,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 19,
+   "runs_conceded": 16,
+   "wickets": 3,
+   "dots_bowl": 12
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4373,
+   "opp_name": "Mustafizur Rahman",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 220.0
+  },
+  {
+   "opp_id": 4780,
+   "opp_name": "Mohammad Saif Hassan",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 8380,
+   "opp_name": "Mohammad Rishad Hossain",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 166.7
+  },
+  {
+   "opp_id": 48616,
+   "opp_name": "Abdul Saqlain",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 37939,
+   "opp_name": "Nahid Rana",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4780,
+   "opp_name": "Mohammad Saif Hassan",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 9,
+   "wickets": 1,
+   "econ": 6.8
+  },
+  {
+   "opp_id": 5837,
+   "opp_name": "Mahedi Hasan",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 7901,
+   "opp_name": "Parvez Emon",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 10,
+   "wickets": 1,
+   "econ": 7.5
+  },
+  {
+   "opp_id": 8380,
+   "opp_name": "Mohammad Rishad Hossain",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 6651,
+   "opp_name": "Towhid Hridoy",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 7.0
+  },
+  {
+   "opp_id": 7903,
+   "opp_name": "Shamim Hossain",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 2680,
+   "opp_name": "Nurul Hasan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 7.5
+  },
+  {
+   "opp_id": 48616,
+   "opp_name": "Abdul Saqlain",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 4373,
+   "opp_name": "Mustafizur Rahman",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  }
+ ]
+}

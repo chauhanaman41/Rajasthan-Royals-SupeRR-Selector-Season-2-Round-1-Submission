@@ -1,0 +1,213 @@
+{
+ "summary": {
+  "player_id": 48575,
+  "player_name": "Sahil Parakh",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 7,
+  "primary_team_name": "Delhi Capitals",
+  "teams_list": [
+   "Delhi Capitals"
+  ],
+  "competitions_count": 1,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 3,
+  "batting_type": "LHB",
+  "balls_faced": 33,
+  "runs_scored": 46,
+  "strike_rate": 139.39,
+  "boundary_pct": 21.21,
+  "dot_pct_bat": 42.42,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0809,
+   "h_p": 0.001,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 6,
+   "hp_matches": 1,
+   "shrinkage_B": 0.015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/48575.webp",
+  "avatar_url": "./public/assets/players/avatars/48575.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50391,
+   "date": "2026-05-24",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Kolkata Knight Riders",
+   "opponent_id": 8,
+   "runs_bat": 24,
+   "balls_bat": 17,
+   "fours": 3,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50383,
+   "date": "2026-05-17",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "runs_bat": 9,
+   "balls_bat": 8,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50376,
+   "date": "2026-05-11",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Punjab Kings",
+   "opponent_id": 4,
+   "runs_bat": 13,
+   "balls_bat": 6,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50360,
+   "date": "2026-04-27",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 781,
+   "opp_name": "Sunil Narine",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 12,
+   "wickets": 1,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 6256,
+   "opp_name": "Varun Chakravarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 137.5
+  },
+  {
+   "opp_id": 6287,
+   "opp_name": "Yash Thakur",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 13,
+   "wickets": 0,
+   "sr": 260.0
+  },
+  {
+   "opp_id": 67036,
+   "opp_name": "Brijesh Sharma",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 175.0
+  },
+  {
+   "opp_id": 360,
+   "opp_name": "Bhuvneshwar Kumar",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3298,
+   "opp_name": "Jofra Archer",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 41503,
+   "opp_name": "Yash Punja",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6464,
+   "opp_name": "Arshdeep Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 28021,
+   "opp_name": "Saurabh Dubey",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

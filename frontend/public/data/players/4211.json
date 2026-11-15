@@ -1,0 +1,233 @@
+{
+ "summary": {
+  "player_id": 4211,
+  "player_name": "Vishnu Vinod",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 4,
+  "primary_team_name": "Punjab Kings",
+  "teams_list": [
+   "Sunrisers Hyderabad",
+   "Mumbai Indians",
+   "Punjab Kings"
+  ],
+  "competitions_count": 5,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 2,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 40,
+  "runs_scored": 52,
+  "strike_rate": 130.0,
+  "boundary_pct": 15.0,
+  "dot_pct_bat": 35.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0804,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 8,
+   "hp_matches": 1,
+   "shrinkage_B": 0.02,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4211.webp",
+  "avatar_url": "./public/assets/players/avatars/4211.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50379,
+   "date": "2026-05-14",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 15,
+   "balls_bat": 8,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 21585,
+   "date": "2023-05-26",
+   "stage": "Qualifier",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "runs_bat": 5,
+   "balls_bat": 8,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 20243,
+   "date": "2023-05-16",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Lucknow Super Giants",
+   "opponent_id": 3509,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 20237,
+   "date": "2023-05-12",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "runs_bat": 30,
+   "balls_bat": 20,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7967,
+   "opp_name": "Noor Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3275,
+   "opp_name": "Alzarri Joseph",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 157.1
+  },
+  {
+   "opp_id": 1566,
+   "opp_name": "Mohammed Shami",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 220.0
+  },
+  {
+   "opp_id": 4807,
+   "opp_name": "Joshua Little",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 80.0
+  },
+  {
+   "opp_id": 2878,
+   "opp_name": "Mohit Sharma",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 2,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 3629,
+   "opp_name": "Corbin Bosch",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 366.7
+  },
+  {
+   "opp_id": 6287,
+   "opp_name": "Yash Thakur",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 2847,
+   "opp_name": "Shardul Thakur",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 2933,
+   "opp_name": "Jasprit Bumrah",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 1813,
+   "opp_name": "Deepak Chahar",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6669,
+   "opp_name": "Mohsin Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

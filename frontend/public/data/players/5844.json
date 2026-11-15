@@ -1,0 +1,249 @@
+{
+ "summary": {
+  "player_id": 5844,
+  "player_name": "Ebadot Hossain",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 21,
+  "primary_team_name": "Bangladesh",
+  "teams_list": [
+   "Bangladesh"
+  ],
+  "competitions_count": 4,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 42.5,
+  "balls_bowled": 83,
+  "runs_conceded": 102,
+  "wickets": 7,
+  "economy": 7.37,
+  "dot_pct_bowl": 44.58,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 16,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0016,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/5844.webp",
+  "avatar_url": "./public/assets/players/avatars/5844.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 17741,
+   "date": "2022-10-12",
+   "stage": "League",
+   "comp_name": "New Zealand T20I Tri Series 2022/23",
+   "opponent_name": "New Zealand",
+   "opponent_id": 17,
+   "balls_bowl": 26,
+   "runs_conceded": 38,
+   "wickets": 2,
+   "dots_bowl": 10,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 17632,
+   "date": "2022-09-27",
+   "stage": "League",
+   "comp_name": "Bangladesh in United Arab Emirates T20I Series 2022",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "balls_bowl": 25,
+   "runs_conceded": 23,
+   "wickets": 1,
+   "dots_bowl": 12,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 16657,
+   "date": "2022-09-01",
+   "stage": "League",
+   "comp_name": "Mens Twenty20 Asia Cup 2022",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "balls_bowl": 32,
+   "runs_conceded": 41,
+   "wickets": 4,
+   "dots_bowl": 15,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7406,
+   "opp_name": "Rizwan CP",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 18,
+   "wickets": 0,
+   "econ": 9.8
+  },
+  {
+   "opp_id": 3672,
+   "opp_name": "Kusal Mendis",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 4.5
+  },
+  {
+   "opp_id": 8638,
+   "opp_name": "Basil Hameed",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 3,
+   "wickets": 1,
+   "econ": 2.2
+  },
+  {
+   "opp_id": 274,
+   "opp_name": "Martin Guptill",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 2436,
+   "opp_name": "Dasun Shanaka",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 4847,
+   "opp_name": "Finn Allen",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 4853,
+   "opp_name": "Glenn Phillips",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 10,
+   "wickets": 1,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 1941,
+   "opp_name": "Devon Conway",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 6160,
+   "opp_name": "Chamika Karunaratne",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 22565,
+   "opp_name": "Muhammad Waseem",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 1.2
+  },
+  {
+   "opp_id": 2351,
+   "opp_name": "Danushka Gunathilaka",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 4895,
+   "opp_name": "Charith Asalanka",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 2003,
+   "opp_name": "Bhanuka Rajapaksa",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 4901,
+   "opp_name": "Asitha Fernando",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 6512,
+   "opp_name": "Michael Bracewell",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  }
+ ]
+}

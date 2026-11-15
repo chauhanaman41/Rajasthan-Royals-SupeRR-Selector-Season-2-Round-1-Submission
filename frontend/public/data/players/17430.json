@@ -1,0 +1,136 @@
+{
+ "summary": {
+  "player_id": 17430,
+  "player_name": "Conor Olphert",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 23,
+  "primary_team_name": "Ireland",
+  "teams_list": [
+   "Ireland"
+  ],
+  "competitions_count": 3,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 76.4,
+  "balls_bowled": 37,
+  "runs_conceded": 58,
+  "wickets": 0,
+  "economy": 9.41,
+  "dot_pct_bowl": 37.84,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/17430.webp",
+  "avatar_url": "./public/assets/players/avatars/17430.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 15796,
+   "date": "2022-06-28",
+   "stage": "League",
+   "comp_name": "India in Ireland T20I Series 2022",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 23,
+   "runs_conceded": 42,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 15795,
+   "date": "2022-06-26",
+   "stage": "League",
+   "comp_name": "India in Ireland T20I Series 2022",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 14,
+   "runs_conceded": 16,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3648,
+   "opp_name": "Deepak Hooda",
+   "opp_type": "Batter Bowled To",
+   "balls": 24,
+   "runs": 46,
+   "wickets": 0,
+   "econ": 11.5
+  },
+  {
+   "opp_id": 143,
+   "opp_name": "Dinesh Karthik",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 2258,
+   "opp_name": "Sanju Samson",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 8.4
+  },
+  {
+   "opp_id": 3330,
+   "opp_name": "Hardik Pandya",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  }
+ ]
+}

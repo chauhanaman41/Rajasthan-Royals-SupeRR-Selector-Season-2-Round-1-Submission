@@ -1,0 +1,122 @@
+{
+ "summary": {
+  "player_id": 36984,
+  "player_name": "Raghav Goyal",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 2,
+  "primary_team_name": "Mumbai Indians",
+  "teams_list": [
+   "Mumbai Indians"
+  ],
+  "competitions_count": 1,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 12,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Left-arm Chinaman",
+  "pace_or_spin": "Spin",
+  "avg_speed": 68.7,
+  "balls_bowled": 24,
+  "runs_conceded": 33,
+  "wickets": 0,
+  "economy": 8.25,
+  "dot_pct_bowl": 29.17,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/36984.webp",
+  "avatar_url": "./public/assets/players/avatars/36984.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 20229,
+   "date": "2023-05-06",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "balls_bowl": 24,
+   "runs_conceded": 33,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 1941,
+   "opp_name": "Devon Conway",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 7.8
+  },
+  {
+   "opp_id": 535,
+   "opp_name": "Ambati Rayudu",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 3.6
+  },
+  {
+   "opp_id": 4755,
+   "opp_name": "Shivam Dube",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 15.6
+  },
+  {
+   "opp_id": 167,
+   "opp_name": "Ajinkya Rahane",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

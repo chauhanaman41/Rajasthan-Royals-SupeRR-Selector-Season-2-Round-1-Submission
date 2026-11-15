@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "player_id": 19998,
+  "player_name": "Rajvardhan Hangargekar",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3509,
+  "primary_team_name": "Lucknow Super Giants",
+  "teams_list": [
+   "Chennai Super Kings",
+   "Lucknow Super Giants"
+  ],
+  "competitions_count": 4,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 82.6,
+  "balls_bowled": 43,
+  "runs_conceded": 53,
+  "wickets": 3,
+  "economy": 7.4,
+  "dot_pct_bowl": 48.84,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 8,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0008,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/19998.webp",
+  "avatar_url": "./public/assets/players/avatars/19998.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 20186,
+   "date": "2023-04-03",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Lucknow Super Giants",
+   "opponent_id": 3509,
+   "balls_bowl": 15,
+   "runs_conceded": 21,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 20181,
+   "date": "2023-03-31",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "balls_bowl": 28,
+   "runs_conceded": 32,
+   "wickets": 3,
+   "dots_bowl": 14,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2877,
+   "opp_name": "Vijay Shankar",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 12,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 109,
+   "opp_name": "Wriddhiman Saha",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 1,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 914,
+   "opp_name": "Krishnappa Gowtham",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 1.0
+  },
+  {
+   "opp_id": 3125,
+   "opp_name": "Nicholas Pooran",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 16.8
+  },
+  {
+   "opp_id": 6288,
+   "opp_name": "Shubman Gill",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 3330,
+   "opp_name": "Hardik Pandya",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 3926,
+   "opp_name": "Rahul Tewatia",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 6460,
+   "opp_name": "Ayush Badoni",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 23450,
+   "opp_name": "Sai Sudharsan",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 2639,
+   "opp_name": "Marcus Stoinis",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

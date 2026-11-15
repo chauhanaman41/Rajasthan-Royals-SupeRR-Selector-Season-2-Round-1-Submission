@@ -1,0 +1,138 @@
+{
+ "summary": {
+  "player_id": 3651,
+  "player_name": "Ricky Bhui",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 7,
+  "primary_team_name": "Delhi Capitals",
+  "teams_list": [
+   "Delhi Capitals"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 3,
+  "batting_type": "RHB",
+  "balls_faced": 9,
+  "runs_scored": 3,
+  "strike_rate": 33.33,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 66.67,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 1,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/3651.webp",
+  "avatar_url": "./public/assets/players/avatars/3651.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 30064,
+   "date": "2024-03-28",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 30057,
+   "date": "2024-03-23",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Punjab Kings",
+   "opponent_id": 4,
+   "runs_bat": 3,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6161,
+   "opp_name": "Rahul Chahar",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 3628,
+   "opp_name": "Kagiso Rabada",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 7312,
+   "opp_name": "Nandre Burger",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 7325,
+   "opp_name": "Harpreet Brar",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "summary": {
+  "player_id": 7406,
+  "player_name": "Rizwan CP",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 272,
+  "primary_team_name": "United Arab Emirates",
+  "teams_list": [
+   "United Arab Emirates"
+  ],
+  "competitions_count": 2,
+  "appearances": 5,
+  "captain_matches": 4,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 4,
+  "batting_type": "RHB",
+  "balls_faced": 105,
+  "runs_scored": 118,
+  "strike_rate": 112.38,
+  "boundary_pct": 8.57,
+  "dot_pct_bat": 26.67,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0776,
+   "h_p": 0.002,
+   "ci_lower": -0.078,
+   "ci_upper": 0.083,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 21,
+   "hp_matches": 1,
+   "shrinkage_B": 0.05,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7406.webp",
+  "avatar_url": "./public/assets/players/avatars/7406.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 17632,
+   "date": "2022-09-27",
+   "stage": "League",
+   "comp_name": "Bangladesh in United Arab Emirates T20I Series 2022",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 51,
+   "balls_bat": 38,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 17631,
+   "date": "2022-09-25",
+   "stage": "League",
+   "comp_name": "Bangladesh in United Arab Emirates T20I Series 2022",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 5,
+   "balls_bat": 6,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16866,
+   "date": "2022-08-24",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 49,
+   "balls_bat": 45,
+   "fours": 4,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16864,
+   "date": "2022-08-22",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Singapore",
+   "opponent_id": 311,
+   "runs_bat": 13,
+   "balls_bat": 16,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 19125,
+   "opp_name": "Ayush Shukla",
+   "opp_type": "Bowler Faced",
+   "balls": 12,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 2972,
+   "opp_name": "Yasim Murtaza",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 5844,
+   "opp_name": "Ebadot Hossain",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 18,
+   "wickets": 0,
+   "sr": 163.6
+  },
+  {
+   "opp_id": 7935,
+   "opp_name": "Mohammad Ghazanfar",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 111.1
+  },
+  {
+   "opp_id": 5750,
+   "opp_name": "Ehsan Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 31835,
+   "opp_name": "Akshay Roopak Puri",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 7,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 2681,
+   "opp_name": "Taskin Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 3282,
+   "opp_name": "Mehidy Hasan Miraz",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4658,
+   "opp_name": "Nasum Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 15,
+   "wickets": 0,
+   "sr": 250.0
+  },
+  {
+   "opp_id": 4373,
+   "opp_name": "Mustafizur Rahman",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 80.0
+  },
+  {
+   "opp_id": 7928,
+   "opp_name": "Vinoth Baskaran",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 38855,
+   "opp_name": "Mohammad Saifuddin",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7927,
+   "opp_name": "Janak Prakash",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 3281,
+   "opp_name": "Mosaddek Hossain",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 200.0
+  }
+ ]
+}

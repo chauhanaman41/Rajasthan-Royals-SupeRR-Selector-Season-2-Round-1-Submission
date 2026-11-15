@@ -1,0 +1,186 @@
+{
+ "summary": {
+  "player_id": 71727,
+  "player_name": "Razaullah Razaullah",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 25,
+  "primary_team_name": "Pakistan",
+  "teams_list": [
+   "Pakistan"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 9,
+  "batting_type": "RHB",
+  "balls_faced": 1,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 100.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 68.2,
+  "balls_bowled": 39,
+  "runs_conceded": 64,
+  "wickets": 1,
+  "economy": 9.85,
+  "dot_pct_bowl": 43.59,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/71727.webp",
+  "avatar_url": "./public/assets/players/avatars/71727.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 55080,
+   "date": "2026-10-13",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 0,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 19,
+   "runs_conceded": 37,
+   "wickets": 0,
+   "dots_bowl": 7
+  },
+  {
+   "match_id": 55078,
+   "date": "2026-10-09",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "balls_bowl": 20,
+   "runs_conceded": 27,
+   "wickets": 1,
+   "dots_bowl": 10,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 19312,
+   "opp_name": "Nuwan Thushara",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3672,
+   "opp_name": "Kusal Mendis",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 22,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 19309,
+   "opp_name": "Lahiru Udara",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 19,
+   "wickets": 0,
+   "econ": 11.4
+  },
+  {
+   "opp_id": 4904,
+   "opp_name": "Kamindu Mendis",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 39640,
+   "opp_name": "Sineth Jayawardena",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2399,
+   "opp_name": "Dushmantha Chameera",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 39657,
+   "opp_name": "Eshan Malinga",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 2436,
+   "opp_name": "Dasun Shanaka",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 19316,
+   "opp_name": "Maheesh Theekshana",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  }
+ ]
+}

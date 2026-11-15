@@ -1,0 +1,156 @@
+{
+ "summary": {
+  "player_id": 39640,
+  "player_name": "Sineth Jayawardena",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 27,
+  "primary_team_name": "Sri Lanka",
+  "teams_list": [
+   "Sri Lanka"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "LHB",
+  "balls_faced": 49,
+  "runs_scored": 60,
+  "strike_rate": 122.45,
+  "boundary_pct": 22.45,
+  "dot_pct_bat": 55.1,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0802,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 9,
+   "hp_matches": 0,
+   "shrinkage_B": 0.022,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/39640.webp",
+  "avatar_url": "./public/assets/players/avatars/39640.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 55080,
+   "date": "2026-10-13",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Pakistan",
+   "opponent_id": 25,
+   "runs_bat": 38,
+   "balls_bat": 27,
+   "fours": 5,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 55079,
+   "date": "2026-10-11",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Pakistan",
+   "opponent_id": 25,
+   "runs_bat": 22,
+   "balls_bat": 22,
+   "fours": 4,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6506,
+   "opp_name": "Mohammad Imran Randhawa",
+   "opp_type": "Bowler Faced",
+   "balls": 17,
+   "runs": 13,
+   "wickets": 1,
+   "sr": 76.5
+  },
+  {
+   "opp_id": 20704,
+   "opp_name": "Salman Mirza",
+   "opp_type": "Bowler Faced",
+   "balls": 13,
+   "runs": 27,
+   "wickets": 0,
+   "sr": 207.7
+  },
+  {
+   "opp_id": 8049,
+   "opp_name": "Naseem Shah",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 114.3
+  },
+  {
+   "opp_id": 34466,
+   "opp_name": "Arafat Minhas",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 34485,
+   "opp_name": "Sufiyan Muqeem",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 71727,
+   "opp_name": "Razaullah Razaullah",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "summary": {
+  "player_id": 58727,
+  "player_name": "Abhinandan Singh",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 5,
+  "primary_team_name": "Royal Challengers Bengaluru",
+  "teams_list": [
+   "Royal Challengers Bengaluru"
+  ],
+  "competitions_count": 2,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 110.1,
+  "balls_bowled": 60,
+  "runs_conceded": 120,
+  "wickets": 3,
+  "economy": 12.0,
+  "dot_pct_bowl": 28.33,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 12,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0012,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/58727.webp",
+  "avatar_url": "./public/assets/players/avatars/58727.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50140,
+   "date": "2026-04-10",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "balls_bowl": 20,
+   "runs_conceded": 52,
+   "wickets": 0,
+   "dots_bowl": 4,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 50135,
+   "date": "2026-04-05",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "balls_bowl": 22,
+   "runs_conceded": 30,
+   "wickets": 2,
+   "dots_bowl": 6,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 50125,
+   "date": "2026-03-28",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Sunrisers Hyderabad",
+   "opponent_id": 242,
+   "balls_bowl": 18,
+   "runs_conceded": 38,
+   "wickets": 1,
+   "dots_bowl": 7,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4117,
+   "opp_name": "Ishan Kishan",
+   "opp_type": "Batter Bowled To",
+   "balls": 13,
+   "runs": 30,
+   "wickets": 1,
+   "econ": 13.8
+  },
+  {
+   "opp_id": 7260,
+   "opp_name": "Dhruv Jurel",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 35,
+   "wickets": 0,
+   "econ": 17.5
+  },
+  {
+   "opp_id": 4755,
+   "opp_name": "Shivam Dube",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 5.1
+  },
+  {
+   "opp_id": 3645,
+   "opp_name": "Sarfaraz Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 13.0
+  },
+  {
+   "opp_id": 50284,
+   "opp_name": "Vaibhav Sooryavanshi",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 45966,
+   "opp_name": "Prashant Veer",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 47370,
+   "opp_name": "Aniket Verma",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 152,
+   "opp_name": "Ravindra Jadeja",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 3174,
+   "opp_name": "Matt Henry",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 27964,
+   "opp_name": "Anshul Kamboj",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2382,
+   "opp_name": "Jamie Overton",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 4260,
+   "opp_name": "Heinrich Klaasen",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

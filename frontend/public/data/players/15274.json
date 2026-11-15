@@ -1,0 +1,225 @@
+{
+ "summary": {
+  "player_id": 15274,
+  "player_name": "Ravija Sandaruwan",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 312,
+  "primary_team_name": "Kuwait",
+  "teams_list": [
+   "Kuwait"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 46,
+  "runs_scored": 68,
+  "strike_rate": 147.83,
+  "boundary_pct": 19.57,
+  "dot_pct_bat": 36.96,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0802,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 9,
+   "hp_matches": 1,
+   "shrinkage_B": 0.022,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/15274.webp",
+  "avatar_url": "./public/assets/players/avatars/15274.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 16867,
+   "date": "2022-08-24",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Singapore",
+   "opponent_id": 311,
+   "runs_bat": 28,
+   "balls_bat": 14,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16865,
+   "date": "2022-08-23",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 6,
+   "balls_bat": 7,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16863,
+   "date": "2022-08-21",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 34,
+   "balls_bat": 25,
+   "fours": 1,
+   "sixes": 3,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3839,
+   "opp_name": "Amjad Mahboob",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 15,
+   "wickets": 0,
+   "sr": 187.5
+  },
+  {
+   "opp_id": 3253,
+   "opp_name": "Rohan Mustafa",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 8638,
+   "opp_name": "Basil Hameed",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 8009,
+   "opp_name": "Junaid Siddique",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 140.0
+  },
+  {
+   "opp_id": 3040,
+   "opp_name": "Kashif Daud",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 175.0
+  },
+  {
+   "opp_id": 3255,
+   "opp_name": "Ahmed Raza 1",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 1,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 5750,
+   "opp_name": "Ehsan Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 7927,
+   "opp_name": "Janak Prakash",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 300.0
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 7928,
+   "opp_name": "Vinoth Baskaran",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 19125,
+   "opp_name": "Ayush Shukla",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 31835,
+   "opp_name": "Akshay Roopak Puri",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

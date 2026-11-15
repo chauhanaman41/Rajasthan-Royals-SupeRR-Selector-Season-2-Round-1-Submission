@@ -1,0 +1,172 @@
+{
+ "summary": {
+  "player_id": 66103,
+  "player_name": "Noor Rahman",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 78,
+  "primary_team_name": "Afghanistan",
+  "teams_list": [
+   "Afghanistan A",
+   "Afghanistan"
+  ],
+  "competitions_count": 4,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 2,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 22,
+  "runs_scored": 12,
+  "strike_rate": 54.55,
+  "boundary_pct": 9.09,
+  "dot_pct_bat": 72.73,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0813,
+   "h_p": 0.0,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 1,
+   "shrinkage_B": 0.01,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/66103.webp",
+  "avatar_url": "./public/assets/players/avatars/66103.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 55561,
+   "date": "2026-11-01",
+   "stage": "Others",
+   "comp_name": "Afghanistan v Zimbabwe T20I Series 2026",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 54410,
+   "date": "2026-09-17",
+   "stage": "Others",
+   "comp_name": "Afghanistan vs India in India T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "runs_bat": 11,
+   "balls_bat": 17,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48022,
+   "date": "2025-11-17",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Bangladesh A",
+   "opponent_id": 3093,
+   "runs_bat": 1,
+   "balls_bat": 3,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7503,
+   "opp_name": "Ravi Bishnoi",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 3,
+   "wickets": 1,
+   "sr": 42.9
+  },
+  {
+   "opp_id": 2876,
+   "opp_name": "Axar Patel",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 6287,
+   "opp_name": "Yash Thakur",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 21780,
+   "opp_name": "Ernest Masuku",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 24767,
+   "opp_name": "Ripon Mondol",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 26854,
+   "opp_name": "SM Meherob Hasan",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

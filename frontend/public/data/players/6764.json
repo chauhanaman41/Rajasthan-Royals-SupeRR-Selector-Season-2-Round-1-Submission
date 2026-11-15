@@ -1,0 +1,104 @@
+{
+ "summary": {
+  "player_id": 6764,
+  "player_name": "Bukkapatnam Siddharth",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 313,
+  "primary_team_name": "Oman",
+  "teams_list": [
+   "Oman"
+  ],
+  "competitions_count": 1,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 6,
+  "runs_conceded": 13,
+  "wickets": 0,
+  "economy": 13.0,
+  "dot_pct_bowl": 16.67,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 1,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/6764.webp",
+  "avatar_url": "./public/assets/players/avatars/6764.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37091,
+   "date": "2024-10-21",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "balls_bowl": 6,
+   "runs_conceded": 13,
+   "wickets": 0,
+   "dots_bowl": 1,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6443,
+   "opp_name": "Rohail Nazir",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 34466,
+   "opp_name": "Arafat Minhas",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  }
+ ]
+}

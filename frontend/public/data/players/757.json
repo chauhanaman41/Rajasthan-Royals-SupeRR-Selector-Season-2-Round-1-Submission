@@ -1,0 +1,147 @@
+{
+ "summary": {
+  "player_id": 757,
+  "player_name": "Sybrand Engelbrecht",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 24,
+  "primary_team_name": "Netherlands",
+  "teams_list": [
+   "Netherlands"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 3,
+  "batting_type": "RHB",
+  "balls_faced": 11,
+  "runs_scored": 10,
+  "strike_rate": 90.91,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 27.27,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0818,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/757.webp",
+  "avatar_url": "./public/assets/players/avatars/757.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 32623,
+   "date": "2024-05-22",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Scotland",
+   "opponent_id": 26,
+   "runs_bat": 2,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 32620,
+   "date": "2024-05-18",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Scotland",
+   "opponent_id": 26,
+   "runs_bat": 8,
+   "balls_bat": 9,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3689,
+   "opp_name": "Mark Watt",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3686,
+   "opp_name": "CB Sole",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 30925,
+   "opp_name": "Bradley Currie",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3361,
+   "opp_name": "Michael Leask",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3683,
+   "opp_name": "Gavin Main",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

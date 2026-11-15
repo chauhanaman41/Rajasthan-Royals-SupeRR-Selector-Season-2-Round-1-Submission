@@ -1,0 +1,249 @@
+{
+ "summary": {
+  "player_id": 52338,
+  "player_name": "Usman Tariq",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 25,
+  "primary_team_name": "Pakistan",
+  "teams_list": [
+   "Pakistan"
+  ],
+  "competitions_count": 4,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 64.6,
+  "balls_bowled": 66,
+  "runs_conceded": 58,
+  "wickets": 8,
+  "economy": 5.27,
+  "dot_pct_bowl": 42.42,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 13,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0013,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/52338.webp",
+  "avatar_url": "./public/assets/players/avatars/52338.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48916,
+   "date": "2026-01-31",
+   "stage": "Others",
+   "comp_name": "Australia in Pakistan T20I Series 2026",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "balls_bowl": 16,
+   "runs_conceded": 16,
+   "wickets": 2,
+   "dots_bowl": 6,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 47979,
+   "date": "2025-11-23",
+   "stage": "League",
+   "comp_name": "Pakistan T20I Tri-Series 2025",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "balls_bowl": 24,
+   "runs_conceded": 18,
+   "wickets": 4,
+   "dots_bowl": 13,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 46742,
+   "date": "2025-11-01",
+   "stage": "Others",
+   "comp_name": "South Africa in Pakistan T20I Series 2025",
+   "opponent_name": "South Africa",
+   "opponent_id": 19,
+   "balls_bowl": 26,
+   "runs_conceded": 24,
+   "wickets": 2,
+   "dots_bowl": 9,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2463,
+   "opp_name": "Ryan Burl",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 9.3
+  },
+  {
+   "opp_id": 3727,
+   "opp_name": "Matthew Short",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 7.7
+  },
+  {
+   "opp_id": 33969,
+   "opp_name": "Tinotenda Maposa",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 1.7
+  },
+  {
+   "opp_id": 25216,
+   "opp_name": "Andile Simelane",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 768,
+   "opp_name": "Reeza Hendricks",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 1,
+   "econ": 4.8
+  },
+  {
+   "opp_id": 3629,
+   "opp_name": "Corbin Bosch",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 4.8
+  },
+  {
+   "opp_id": 8182,
+   "opp_name": "Donovan Ferreira",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 6342,
+   "opp_name": "Matthew Breetzke",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 1.5
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 1,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2636,
+   "opp_name": "Adam Zampa",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2984,
+   "opp_name": "Sikandar Raza",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 5738,
+   "opp_name": "Xavier Bartlett",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 6350,
+   "opp_name": "Matthew Kuhnemann",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 7894,
+   "opp_name": "Tony Munyonga",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 21784,
+   "opp_name": "Brad Evans",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  }
+ ]
+}

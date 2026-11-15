@@ -1,0 +1,373 @@
+{
+ "summary": {
+  "player_id": 24812,
+  "player_name": "Chris Greaves",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 26,
+  "primary_team_name": "Scotland",
+  "teams_list": [
+   "Scotland"
+  ],
+  "competitions_count": 2,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "RHB",
+  "balls_faced": 34,
+  "runs_scored": 22,
+  "strike_rate": 64.71,
+  "boundary_pct": 2.94,
+  "dot_pct_bat": 55.88,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0809,
+   "h_p": 0.001,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 6,
+   "hp_matches": 1,
+   "shrinkage_B": 0.015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Leg-Break",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 54,
+  "runs_conceded": 79,
+  "wickets": 3,
+  "economy": 8.78,
+  "dot_pct_bowl": 20.37,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 10,
+   "hp_matches": 1,
+   "shrinkage_B": 0.001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/24812.webp",
+  "avatar_url": "./public/assets/players/avatars/24812.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 36560,
+   "date": "2024-09-06",
+   "stage": "League",
+   "comp_name": "Australia in Scotland T20I Series 2024",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 6,
+   "balls_bat": 7,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 12,
+   "runs_conceded": 26,
+   "wickets": 0,
+   "dots_bowl": 1
+  },
+  {
+   "match_id": 32624,
+   "date": "2024-05-23",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Ireland",
+   "opponent_id": 23,
+   "runs_bat": 9,
+   "balls_bat": 14,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 18,
+   "runs_conceded": 28,
+   "wickets": 1,
+   "dots_bowl": 2
+  },
+  {
+   "match_id": 32623,
+   "date": "2024-05-22",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 5,
+   "balls_bat": 10,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 18,
+   "runs_conceded": 13,
+   "wickets": 2,
+   "dots_bowl": 8
+  },
+  {
+   "match_id": 32620,
+   "date": "2024-05-18",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 2,
+   "balls_bat": 3,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 6,
+   "runs_conceded": 12,
+   "wickets": 0,
+   "dots_bowl": 0
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6985,
+   "opp_name": "Bas de Leede",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 28.6
+  },
+  {
+   "opp_id": 2639,
+   "opp_name": "Marcus Stoinis",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 5441,
+   "opp_name": "Barry McCarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 7741,
+   "opp_name": "Gareth Delany",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3720,
+   "opp_name": "Craig Young",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 5379,
+   "opp_name": "Mark Adair",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 27743,
+   "opp_name": "DT Doram",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 2636,
+   "opp_name": "Adam Zampa",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 19902,
+   "opp_name": "Tim Pringle",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3772,
+   "opp_name": "Logan van Beek",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 3772,
+   "opp_name": "Logan van Beek",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 3.6
+  },
+  {
+   "opp_id": 4814,
+   "opp_name": "Lorcan Tucker",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 19,
+   "wickets": 0,
+   "econ": 11.4
+  },
+  {
+   "opp_id": 3954,
+   "opp_name": "Andrew Balbirnie",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 4736,
+   "opp_name": "Josh Inglis",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 443,
+   "opp_name": "Paul Stirling",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 2639,
+   "opp_name": "Marcus Stoinis",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 16.0
+  },
+  {
+   "opp_id": 4412,
+   "opp_name": "Max ODowd",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 16.0
+  },
+  {
+   "opp_id": 22188,
+   "opp_name": "Aryan Dutt",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 42811,
+   "opp_name": "Michael Levitt",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 1791,
+   "opp_name": "Wesley Barresi",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 6881,
+   "opp_name": "Scott Edwards",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 6985,
+   "opp_name": "Bas de Leede",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 19902,
+   "opp_name": "Tim Pringle",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

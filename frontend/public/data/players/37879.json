@@ -1,0 +1,231 @@
+{
+ "summary": {
+  "player_id": 37879,
+  "player_name": "Khawaja Nafay",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 25,
+  "primary_team_name": "Pakistan",
+  "teams_list": [
+   "Pakistan"
+  ],
+  "competitions_count": 3,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 5,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 39,
+  "runs_scored": 62,
+  "strike_rate": 158.97,
+  "boundary_pct": 15.38,
+  "dot_pct_bat": 23.08,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0806,
+   "h_p": 0.001,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 1,
+   "shrinkage_B": 0.017,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/37879.webp",
+  "avatar_url": "./public/assets/players/avatars/37879.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 55080,
+   "date": "2026-10-13",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 3,
+   "balls_bat": 5,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 55078,
+   "date": "2026-10-09",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in Pakistan T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 12,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48917,
+   "date": "2026-02-01",
+   "stage": "Others",
+   "comp_name": "Australia in Pakistan T20I Series 2026",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 21,
+   "balls_bat": 12,
+   "fours": 1,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48514,
+   "date": "2026-01-12",
+   "stage": "Others",
+   "comp_name": "Pakistan in Sri Lanka T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 26,
+   "balls_bat": 15,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2407,
+   "opp_name": "Dhananjaya de Silva",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 4900,
+   "opp_name": "Wanindu Hasaranga",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 1,
+   "sr": 180.0
+  },
+  {
+   "opp_id": 8654,
+   "opp_name": "Cooper Connolly",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 1,
+   "sr": 180.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 275.0
+  },
+  {
+   "opp_id": 8661,
+   "opp_name": "Matheesha Pathirana",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 225.0
+  },
+  {
+   "opp_id": 6350,
+   "opp_name": "Matthew Kuhnemann",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 19315,
+   "opp_name": "Vijayakanth Viyaskanth",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 19316,
+   "opp_name": "Maheesh Theekshana",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 2436,
+   "opp_name": "Dasun Shanaka",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 7052,
+   "opp_name": "Dunith Wellalage",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 39657,
+   "opp_name": "Eshan Malinga",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 350.0
+  }
+ ]
+}

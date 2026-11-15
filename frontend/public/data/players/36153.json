@@ -1,0 +1,207 @@
+{
+ "summary": {
+  "player_id": 36153,
+  "player_name": "Syed Haider",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 272,
+  "primary_team_name": "United Arab Emirates",
+  "teams_list": [
+   "United Arab Emirates"
+  ],
+  "competitions_count": 1,
+  "appearances": 0,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 0,
+  "batting_type": "RHB",
+  "balls_faced": 49,
+  "runs_scored": 60,
+  "strike_rate": 122.45,
+  "boundary_pct": 14.29,
+  "dot_pct_bat": 36.73,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0802,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 9,
+   "hp_matches": 1,
+   "shrinkage_B": 0.022,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/36153.webp",
+  "avatar_url": "./public/assets/players/avatars/36153.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37095,
+   "date": "2024-10-23",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 12,
+   "balls_bat": 16,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 37092,
+   "date": "2024-10-21",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "India A",
+   "opponent_id": 222,
+   "runs_bat": 4,
+   "balls_bat": 4,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 37087,
+   "date": "2024-10-19",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Oman",
+   "opponent_id": 313,
+   "runs_bat": 44,
+   "balls_bat": 29,
+   "fours": 3,
+   "sixes": 2,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3871,
+   "opp_name": "Aamir Kaleem",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 87.5
+  },
+  {
+   "opp_id": 34485,
+   "opp_name": "Sufiyan Muqeem",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4450,
+   "opp_name": "Mehran Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 142.9
+  },
+  {
+   "opp_id": 3876,
+   "opp_name": "Sufyan Mehmood",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 166.7
+  },
+  {
+   "opp_id": 34466,
+   "opp_name": "Arafat Minhas",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 4974,
+   "opp_name": "Mohammad Nadeem",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 300.0
+  },
+  {
+   "opp_id": 7327,
+   "opp_name": "Rasikh Salam",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3613,
+   "opp_name": "Shakeel Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 7699,
+   "opp_name": "Abbas Afridi",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 25231,
+   "opp_name": "Samay Shrivastava",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

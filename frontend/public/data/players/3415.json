@@ -1,0 +1,282 @@
+{
+ "summary": {
+  "player_id": 3415,
+  "player_name": "Matthew Cross",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 26,
+  "primary_team_name": "Scotland",
+  "teams_list": [
+   "Scotland"
+  ],
+  "competitions_count": 2,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 5,
+  "impact_in": 0,
+  "modal_bat_order": 5,
+  "batting_type": "RHB",
+  "balls_faced": 110,
+  "runs_scored": 132,
+  "strike_rate": 120.0,
+  "boundary_pct": 13.64,
+  "dot_pct_bat": 33.64,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0774,
+   "h_p": 0.003,
+   "ci_lower": -0.077,
+   "ci_upper": 0.083,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 22,
+   "hp_matches": 1,
+   "shrinkage_B": 0.052,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/3415.webp",
+  "avatar_url": "./public/assets/players/avatars/3415.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 36561,
+   "date": "2024-09-07",
+   "stage": "League",
+   "comp_name": "Australia in Scotland T20I Series 2024",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 7,
+   "balls_bat": 13,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 36559,
+   "date": "2024-09-04",
+   "stage": "League",
+   "comp_name": "Australia in Scotland T20I Series 2024",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 27,
+   "balls_bat": 21,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 32624,
+   "date": "2024-05-23",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Ireland",
+   "opponent_id": 23,
+   "runs_bat": 35,
+   "balls_bat": 30,
+   "fours": 3,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 32623,
+   "date": "2024-05-22",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 14,
+   "balls_bat": 14,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 32620,
+   "date": "2024-05-18",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 49,
+   "balls_bat": 32,
+   "fours": 3,
+   "sixes": 3,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2636,
+   "opp_name": "Adam Zampa",
+   "opp_type": "Bowler Faced",
+   "balls": 15,
+   "runs": 15,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 2997,
+   "opp_name": "Paul van Meekeren",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 17,
+   "wickets": 0,
+   "sr": 170.0
+  },
+  {
+   "opp_id": 7741,
+   "opp_name": "Gareth Delany",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 70.0
+  },
+  {
+   "opp_id": 4815,
+   "opp_name": "Benjamin White",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 125.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 6,
+   "wickets": 1,
+   "sr": 85.7
+  },
+  {
+   "opp_id": 22188,
+   "opp_name": "Aryan Dutt",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 128.6
+  },
+  {
+   "opp_id": 3772,
+   "opp_name": "Logan van Beek",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 6,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 27743,
+   "opp_name": "DT Doram",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 2639,
+   "opp_name": "Marcus Stoinis",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 5441,
+   "opp_name": "Barry McCarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6985,
+   "opp_name": "Bas de Leede",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 46378,
+   "opp_name": "Kyle Klein",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 1389,
+   "opp_name": "Sean Abbott",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 3720,
+   "opp_name": "Craig Young",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 1,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 3771,
+   "opp_name": "Vivian Kingma",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 266.7
+  }
+ ]
+}

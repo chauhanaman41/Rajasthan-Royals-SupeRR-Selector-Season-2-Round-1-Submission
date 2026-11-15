@@ -1,0 +1,132 @@
+{
+ "summary": {
+  "player_id": 7354,
+  "player_name": "Al Alis",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3093,
+  "primary_team_name": "Bangladesh A",
+  "teams_list": [
+   "Bangladesh",
+   "Bangladesh A"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 25,
+  "runs_conceded": 28,
+  "wickets": 2,
+  "economy": 6.72,
+  "dot_pct_bowl": 56.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 5,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7354.webp",
+  "avatar_url": "./public/assets/players/avatars/7354.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37090,
+   "date": "2024-10-20",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Afghanistan A",
+   "opponent_id": 4444,
+   "balls_bowl": 25,
+   "runs_conceded": 28,
+   "wickets": 2,
+   "dots_bowl": 14,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3543,
+   "opp_name": "Shahidullah Kamal",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 2.7
+  },
+  {
+   "opp_id": 8647,
+   "opp_name": "Sediqullah Atal",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 8.7
+  },
+  {
+   "opp_id": 5808,
+   "opp_name": "Karim Janat",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 6433,
+   "opp_name": "Darwish Rasooli",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 17937,
+   "opp_name": "Zubaid Akbari",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 18.0
+  }
+ ]
+}

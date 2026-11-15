@@ -1,0 +1,147 @@
+{
+ "summary": {
+  "player_id": 35133,
+  "player_name": "Sufyan Yousuf",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 313,
+  "primary_team_name": "Oman",
+  "teams_list": [
+   "Oman"
+  ],
+  "competitions_count": 2,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 2,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 8,
+  "runs_scored": 5,
+  "strike_rate": 62.5,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 50.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 1,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/35133.webp",
+  "avatar_url": "./public/assets/players/avatars/35133.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48019,
+   "date": "2025-11-16",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48015,
+   "date": "2025-11-14",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 3,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 48278,
+   "opp_name": "Ubaid Shah",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 27464,
+   "opp_name": "Aayan Afzal Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 28655,
+   "opp_name": "Muhammad Rohid",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 28664,
+   "opp_name": "Zahid Ali",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 69806,
+   "opp_name": "Mohammad Salman",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

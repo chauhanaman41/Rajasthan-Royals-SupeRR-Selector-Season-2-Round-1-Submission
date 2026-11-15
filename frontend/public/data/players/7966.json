@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "player_id": 7966,
+  "player_name": "Farmanullah Safi",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 4444,
+  "primary_team_name": "Afghanistan A",
+  "teams_list": [
+   "Afghanistan A"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "LHB",
+  "balls_faced": 36,
+  "runs_scored": 30,
+  "strike_rate": 83.33,
+  "boundary_pct": 5.56,
+  "dot_pct_bat": 44.44,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0806,
+   "h_p": 0.001,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 1,
+   "shrinkage_B": 0.017,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 37,
+  "runs_conceded": 39,
+  "wickets": 1,
+  "economy": 6.32,
+  "dot_pct_bowl": 40.54,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7966.webp",
+  "avatar_url": "./public/assets/players/avatars/7966.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48025,
+   "date": "2025-11-19",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 23,
+   "balls_bat": 17,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 24,
+   "runs_conceded": 19,
+   "wickets": 1,
+   "dots_bowl": 11
+  },
+  {
+   "match_id": 48022,
+   "date": "2025-11-17",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Bangladesh A",
+   "opponent_id": 3093,
+   "runs_bat": 6,
+   "balls_bat": 17,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48018,
+   "date": "2025-11-15",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Sri Lanka A",
+   "opponent_id": 3674,
+   "runs_bat": 1,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 13,
+   "runs_conceded": 20,
+   "wickets": 0,
+   "dots_bowl": 4
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 26854,
+   "opp_name": "SM Meherob Hasan",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 37.5
+  },
+  {
+   "opp_id": 3285,
+   "opp_name": "Abu Haider",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 28.6
+  },
+  {
+   "opp_id": 21196,
+   "opp_name": "Mohammad Waheed",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 171.4
+  },
+  {
+   "opp_id": 5750,
+   "opp_name": "Ehsan Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 116.7
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6784,
+   "opp_name": "Hassan Mohammad",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7906,
+   "opp_name": "Rakibul Hasan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 7155,
+   "opp_name": "Sahan Arachchige",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 19315,
+   "opp_name": "Vijayakanth Viyaskanth",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3802,
+   "opp_name": "Anshuman Rath",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 7052,
+   "opp_name": "Dunith Wellalage",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 6.9
+  },
+  {
+   "opp_id": 6473,
+   "opp_name": "Nuwanidu Fernando",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 3377,
+   "opp_name": "Babar Hayat",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 3383,
+   "opp_name": "Kinchit Shah",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 37311,
+   "opp_name": "Shiv Mathur",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 7.5
+  },
+  {
+   "opp_id": 3382,
+   "opp_name": "Nizakat Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 6784,
+   "opp_name": "Hassan Mohammad",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 21196,
+   "opp_name": "Mohammad Waheed",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "summary": {
+  "player_id": 31518,
+  "player_name": "Akshat Raghuwanshi",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3509,
+  "primary_team_name": "Lucknow Super Giants",
+  "teams_list": [
+   "Lucknow Super Giants"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 27,
+  "runs_scored": 29,
+  "strike_rate": 107.41,
+  "boundary_pct": 7.41,
+  "dot_pct_bat": 33.33,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0811,
+   "h_p": 0.001,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 5,
+   "hp_matches": 0,
+   "shrinkage_B": 0.012,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/31518.webp",
+  "avatar_url": "./public/assets/players/avatars/31518.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50374,
+   "date": "2026-05-10",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "runs_bat": 18,
+   "balls_bat": 20,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 50368,
+   "date": "2026-05-04",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 11,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2417,
+   "opp_name": "Akeal Hosein",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 1,
+   "sr": 87.5
+  },
+  {
+   "opp_id": 2382,
+   "opp_name": "Jamie Overton",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 20.0
+  },
+  {
+   "opp_id": 7250,
+   "opp_name": "Mukesh Choudhary",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 32862,
+   "opp_name": "Allah Ghazanfar",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7967,
+   "opp_name": "Noor Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 6272,
+   "opp_name": "William Jacks",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 350.0
+  },
+  {
+   "opp_id": 6359,
+   "opp_name": "Raghu Sharma",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  }
+ ]
+}

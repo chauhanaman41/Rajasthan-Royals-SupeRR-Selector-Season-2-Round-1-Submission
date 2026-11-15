@@ -1,0 +1,171 @@
+{
+ "summary": {
+  "player_id": 4802,
+  "player_name": "Stephen Doheny",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 23,
+  "primary_team_name": "Ireland",
+  "teams_list": [
+   "Ireland"
+  ],
+  "competitions_count": 7,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 1,
+  "impact_in": 0,
+  "modal_bat_order": 3,
+  "batting_type": "RHB",
+  "balls_faced": 21,
+  "runs_scored": 19,
+  "strike_rate": 90.48,
+  "boundary_pct": 9.52,
+  "dot_pct_bat": 47.62,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0813,
+   "h_p": 0.0,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 1,
+   "shrinkage_B": 0.01,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4802.webp",
+  "avatar_url": "./public/assets/players/avatars/4802.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 19692,
+   "date": "2023-01-15",
+   "stage": "League",
+   "comp_name": "Ireland in Zimbabwe T20I Series 2023",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 19691,
+   "date": "2023-01-14",
+   "stage": "League",
+   "comp_name": "Ireland in Zimbabwe T20I Series 2023",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 19690,
+   "date": "2023-01-12",
+   "stage": "League",
+   "comp_name": "Ireland in Zimbabwe T20I Series 2023",
+   "opponent_name": "Zimbabwe",
+   "opponent_id": 72,
+   "runs_bat": 15,
+   "balls_bat": 13,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 21784,
+   "opp_name": "Brad Evans",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 8,
+   "wickets": 1,
+   "sr": 88.9
+  },
+  {
+   "opp_id": 4874,
+   "opp_name": "Richard Ngarava",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 160.0
+  },
+  {
+   "opp_id": 1159,
+   "opp_name": "Tendai Chatara",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 2463,
+   "opp_name": "Ryan Burl",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 4639,
+   "opp_name": "Wellington Masakadza",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 4867,
+   "opp_name": "Wesley Madhevere",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

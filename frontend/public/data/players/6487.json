@@ -1,0 +1,259 @@
+{
+ "summary": {
+  "player_id": 6487,
+  "player_name": "Priyam Garg",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 7,
+  "primary_team_name": "Delhi Capitals",
+  "teams_list": [
+   "Sunrisers Hyderabad",
+   "Delhi Capitals"
+  ],
+  "competitions_count": 2,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 1,
+  "batting_type": "RHB",
+  "balls_faced": 56,
+  "runs_scored": 68,
+  "strike_rate": 121.43,
+  "boundary_pct": 12.5,
+  "dot_pct_bat": 37.5,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0798,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 11,
+   "hp_matches": 1,
+   "shrinkage_B": 0.027,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/6487.webp",
+  "avatar_url": "./public/assets/players/avatars/6487.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 20224,
+   "date": "2023-05-02",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "runs_bat": 10,
+   "balls_bat": 14,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 20220,
+   "date": "2023-04-29",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Sunrisers Hyderabad",
+   "opponent_id": 242,
+   "runs_bat": 12,
+   "balls_bat": 9,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 14164,
+   "date": "2022-05-22",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Punjab Kings",
+   "opponent_id": 4,
+   "runs_bat": 4,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 14159,
+   "date": "2022-05-17",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 42,
+   "balls_bat": 26,
+   "fours": 4,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6518,
+   "opp_name": "Daniel Sams",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 19,
+   "wickets": 0,
+   "sr": 190.0
+  },
+  {
+   "opp_id": 6683,
+   "opp_name": "Mayank Markande",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 15,
+   "wickets": 1,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 1566,
+   "opp_name": "Mohammed Shami",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 57.1
+  },
+  {
+   "opp_id": 6281,
+   "opp_name": "Abhishek Sharma",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 180.0
+  },
+  {
+   "opp_id": 4807,
+   "opp_name": "Joshua Little",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 125.0
+  },
+  {
+   "opp_id": 6464,
+   "opp_name": "Arshdeep Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 3330,
+   "opp_name": "Hardik Pandya",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 5665,
+   "opp_name": "Sanjay Yadav",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 233.3
+  },
+  {
+   "opp_id": 2417,
+   "opp_name": "Akeal Hosein",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3628,
+   "opp_name": "Kagiso Rabada",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 5940,
+   "opp_name": "Riley Meredith",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 20006,
+   "opp_name": "Ramandeep Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 2933,
+   "opp_name": "Jasprit Bumrah",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4391,
+   "opp_name": "Liam Livingstone",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

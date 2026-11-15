@@ -1,0 +1,155 @@
+{
+ "summary": {
+  "player_id": 3040,
+  "player_name": "Kashif Daud",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 272,
+  "primary_team_name": "United Arab Emirates",
+  "teams_list": [
+   "United Arab Emirates"
+  ],
+  "competitions_count": 2,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 2,
+  "runs_scored": 1,
+  "strike_rate": 50.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 50.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 11,
+  "runs_conceded": 21,
+  "wickets": 1,
+  "economy": 11.45,
+  "dot_pct_bowl": 27.27,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/3040.webp",
+  "avatar_url": "./public/assets/players/avatars/3040.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 16866,
+   "date": "2022-08-24",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 1,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16863,
+   "date": "2022-08-21",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Kuwait",
+   "opponent_id": 312,
+   "balls_bowl": 11,
+   "runs_conceded": 21,
+   "wickets": 1,
+   "dots_bowl": 3,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 5750,
+   "opp_name": "Ehsan Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 15274,
+   "opp_name": "Ravija Sandaruwan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 31107,
+   "opp_name": "Yasin Patel",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 7,
+   "wickets": 1,
+   "econ": 14.0
+  },
+  {
+   "opp_id": 25501,
+   "opp_name": "Meet Bhavsar",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 15280,
+   "opp_name": "Sayed Monib",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 24346,
+   "opp_name": "Mohamed Shafeeq",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 24.0
+  }
+ ]
+}

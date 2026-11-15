@@ -1,0 +1,277 @@
+{
+ "summary": {
+  "player_id": 4276,
+  "player_name": "Basil Thampi",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 2,
+  "primary_team_name": "Mumbai Indians",
+  "teams_list": [
+   "Mumbai Indians"
+  ],
+  "competitions_count": 1,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm fast-medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 100.8,
+  "balls_bowled": 102,
+  "runs_conceded": 146,
+  "wickets": 5,
+  "economy": 8.59,
+  "dot_pct_bowl": 46.08,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 20,
+   "hp_matches": 1,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4276.webp",
+  "avatar_url": "./public/assets/players/avatars/4276.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 14116,
+   "date": "2022-04-13",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Punjab Kings",
+   "opponent_id": 4,
+   "balls_bowl": 26,
+   "runs_conceded": 45,
+   "wickets": 2,
+   "dots_bowl": 9,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14111,
+   "date": "2022-04-09",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "balls_bowl": 25,
+   "runs_conceded": 28,
+   "wickets": 0,
+   "dots_bowl": 12,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14107,
+   "date": "2022-04-06",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Kolkata Knight Riders",
+   "opponent_id": 8,
+   "balls_bowl": 18,
+   "runs_conceded": 15,
+   "wickets": 0,
+   "dots_bowl": 11,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14102,
+   "date": "2022-04-02",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "balls_bowl": 6,
+   "runs_conceded": 26,
+   "wickets": 0,
+   "dots_bowl": 1,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14095,
+   "date": "2022-03-27",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Delhi Capitals",
+   "opponent_id": 7,
+   "balls_bowl": 27,
+   "runs_conceded": 32,
+   "wickets": 3,
+   "dots_bowl": 14,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6671,
+   "opp_name": "Lalit Yadav",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 8.2
+  },
+  {
+   "opp_id": 7544,
+   "opp_name": "Venkatesh Iyer",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 3.3
+  },
+  {
+   "opp_id": 142,
+   "opp_name": "Shikhar Dhawan",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 16,
+   "wickets": 1,
+   "econ": 9.6
+  },
+  {
+   "opp_id": 47,
+   "opp_name": "Virat Kohli",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 8.7
+  },
+  {
+   "opp_id": 6467,
+   "opp_name": "Anuj Rawat",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 8.7
+  },
+  {
+   "opp_id": 88,
+   "opp_name": "Faf du Plessis",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 1.7
+  },
+  {
+   "opp_id": 992,
+   "opp_name": "Mayank Agarwal",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 26,
+   "wickets": 0,
+   "econ": 26.0
+  },
+  {
+   "opp_id": 2876,
+   "opp_name": "Axar Patel",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 8.4
+  },
+  {
+   "opp_id": 3782,
+   "opp_name": "M Shahrukh Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 12,
+   "wickets": 1,
+   "econ": 14.4
+  },
+  {
+   "opp_id": 5928,
+   "opp_name": "Prithvi Shaw",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 7.2
+  },
+  {
+   "opp_id": 1924,
+   "opp_name": "Sam Billings",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 167,
+   "opp_name": "Ajinkya Rahane",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 3916,
+   "opp_name": "Jitesh Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 2847,
+   "opp_name": "Shardul Thakur",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 3.0
+  }
+ ]
+}

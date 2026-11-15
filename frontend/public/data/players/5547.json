@@ -1,0 +1,309 @@
+{
+ "summary": {
+  "player_id": 5547,
+  "player_name": "Nosthush Kenjige",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 315,
+  "primary_team_name": "United States Of America",
+  "teams_list": [
+   "United States Of America"
+  ],
+  "competitions_count": 1,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 9,
+  "batting_type": "RHB",
+  "balls_faced": 13,
+  "runs_scored": 8,
+  "strike_rate": 61.54,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 46.15,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0818,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Slow left-arm orthodox",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 79,
+  "runs_conceded": 108,
+  "wickets": 2,
+  "economy": 8.2,
+  "dot_pct_bowl": 37.97,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 15,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/5547.webp",
+  "avatar_url": "./public/assets/players/avatars/5547.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 35429,
+   "date": "2024-08-28",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 6,
+   "balls_bat": 10,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 24,
+   "runs_conceded": 33,
+   "wickets": 0,
+   "dots_bowl": 7
+  },
+  {
+   "match_id": 35428,
+   "date": "2024-08-27",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Canada",
+   "opponent_id": 89,
+   "balls_bowl": 25,
+   "runs_conceded": 21,
+   "wickets": 2,
+   "dots_bowl": 13,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 35425,
+   "date": "2024-08-25",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Netherlands",
+   "opponent_id": 24,
+   "runs_bat": 2,
+   "balls_bat": 3,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 18,
+   "runs_conceded": 41,
+   "wickets": 0,
+   "dots_bowl": 3
+  },
+  {
+   "match_id": 35424,
+   "date": "2024-08-24",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Canada",
+   "opponent_id": 89,
+   "balls_bowl": 12,
+   "runs_conceded": 13,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Tie/NR",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 22188,
+   "opp_name": "Aryan Dutt",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 27743,
+   "opp_name": "DT Doram",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 46378,
+   "opp_name": "Kyle Klein",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 45457,
+   "opp_name": "Zach Lion Cachet",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 4412,
+   "opp_name": "Max ODowd",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7912,
+   "opp_name": "Vikramjit Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4412,
+   "opp_name": "Max ODowd",
+   "opp_type": "Batter Bowled To",
+   "balls": 15,
+   "runs": 30,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 32399,
+   "opp_name": "Aaron Johnson",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 11,
+   "wickets": 1,
+   "econ": 5.5
+  },
+  {
+   "opp_id": 42811,
+   "opp_name": "Michael Levitt",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 22,
+   "wickets": 0,
+   "econ": 11.0
+  },
+  {
+   "opp_id": 43250,
+   "opp_name": "Dilpreet Singh Bajwa",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 16,
+   "wickets": 0,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 6881,
+   "opp_name": "Scott Edwards",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 14.0
+  },
+  {
+   "opp_id": 8405,
+   "opp_name": "Kanwarpal Tathgur",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 7002,
+   "opp_name": "Nicholas Kirton",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 8408,
+   "opp_name": "Shreyas Movva",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 22187,
+   "opp_name": "Ryan Klein",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 42810,
+   "opp_name": "Noah Croes",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 7003,
+   "opp_name": "Rayyan Pathan",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 45457,
+   "opp_name": "Zach Lion Cachet",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 7912,
+   "opp_name": "Vikramjit Singh",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

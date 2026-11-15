@@ -1,0 +1,127 @@
+{
+ "summary": {
+  "player_id": 2321,
+  "player_name": "Olly Stone",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 22,
+  "primary_team_name": "England",
+  "teams_list": [
+   "England"
+  ],
+  "competitions_count": 1,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 1,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 100.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 106.1,
+  "balls_bowled": 25,
+  "runs_conceded": 35,
+  "wickets": 0,
+  "economy": 8.4,
+  "dot_pct_bowl": 16.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 5,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/2321.webp",
+  "avatar_url": "./public/assets/players/avatars/2321.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 17556,
+   "date": "2022-09-25",
+   "stage": "League",
+   "comp_name": "England in Pakistan T20I Series 2022",
+   "opponent_name": "Pakistan",
+   "opponent_id": 25,
+   "runs_bat": 0,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 25,
+   "runs_conceded": 35,
+   "wickets": 0,
+   "dots_bowl": 4
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7364,
+   "opp_name": "Haris Rauf",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3024,
+   "opp_name": "Mohammad Rizwan",
+   "opp_type": "Batter Bowled To",
+   "balls": 14,
+   "runs": 22,
+   "wickets": 0,
+   "econ": 9.4
+  },
+  {
+   "opp_id": 2485,
+   "opp_name": "Babar Azam",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 3097,
+   "opp_name": "Shan Masood",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 8.4
+  }
+ ]
+}

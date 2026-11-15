@@ -1,0 +1,87 @@
+/* 
+  frontend/css/variables.css
+  SupeRR Selector Season 2 — Global Design Tokens & Glassmorphic Palette
+  Inspired by Nixtio NBA Player Profile UI (design.webp) and Fuselab Bioluminescent UI (design.mp4)
+*/
+
+:root {
+  /* Color Palette: Royal Violet, Deep Obsidian & Vibrant Coral */
+  --bg-space: #0c081c;
+  --bg-radial: radial-gradient(130% 120% at 50% 0%, #30175c 0%, #170d33 45%, #0a0518 100%);
+  --bg-constellation: radial-gradient(circle at 50% 50%, #071924 0%, #030a0e 100%);
+  
+  /* Brand Accents */
+  --coral-primary: #ff5733;
+  --coral-glow: rgba(255, 87, 51, 0.45);
+  --coral-gradient: linear-gradient(135deg, #ff6b4a 0%, #ff451d 100%);
+  --rr-pink: #ea1a85;
+  --rr-blue: #254aa5;
+  --gold-accent: #ffd700;
+  --cyan-accent: #00e5ff;
+  --purple-accent: #a855f7;
+
+  /* Glassmorphism Tokens */
+  --glass-bg: rgba(255, 255, 255, 0.055);
+  --glass-bg-hover: rgba(255, 255, 255, 0.095);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-highlight: rgba(255, 255, 255, 0.22);
+  --glass-shadow: 0 20px 50px rgba(5, 2, 18, 0.65);
+  --glass-inner-glow: inset 0 1px 1px rgba(255, 255, 255, 0.25);
+  --card-blur: blur(24px);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-display: 'Oswald', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.72);
+  --text-muted: rgba(255, 255, 255, 0.44);
+  --text-dark: #120b24;
+
+  /* Radii */
+  --radius-xl: 32px;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --trans-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-space);
+  background-image: var(--bg-radial);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(12, 8, 28, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius-pill);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}

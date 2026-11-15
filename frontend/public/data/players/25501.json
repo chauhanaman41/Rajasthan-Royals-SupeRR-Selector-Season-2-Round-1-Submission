@@ -1,0 +1,189 @@
+{
+ "summary": {
+  "player_id": 25501,
+  "player_name": "Meet Bhavsar",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 312,
+  "primary_team_name": "Kuwait",
+  "teams_list": [
+   "Kuwait"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 1,
+  "batting_type": "LHB",
+  "balls_faced": 42,
+  "runs_scored": 53,
+  "strike_rate": 126.19,
+  "boundary_pct": 19.05,
+  "dot_pct_bat": 50.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0804,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 8,
+   "hp_matches": 1,
+   "shrinkage_B": 0.02,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/25501.webp",
+  "avatar_url": "./public/assets/players/avatars/25501.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 16867,
+   "date": "2022-08-24",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Singapore",
+   "opponent_id": 311,
+   "runs_bat": 17,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16865,
+   "date": "2022-08-23",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 9,
+   "balls_bat": 12,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16863,
+   "date": "2022-08-21",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 27,
+   "balls_bat": 23,
+   "fours": 4,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 8009,
+   "opp_name": "Junaid Siddique",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 125.0
+  },
+  {
+   "opp_id": 19125,
+   "opp_name": "Ayush Shukla",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 112.5
+  },
+  {
+   "opp_id": 3253,
+   "opp_name": "Rohan Mustafa",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 142.9
+  },
+  {
+   "opp_id": 8638,
+   "opp_name": "Basil Hameed",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 1,
+   "sr": 83.3
+  },
+  {
+   "opp_id": 7928,
+   "opp_name": "Vinoth Baskaran",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 16,
+   "wickets": 1,
+   "sr": 320.0
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3040,
+   "opp_name": "Kashif Daud",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3839,
+   "opp_name": "Amjad Mahboob",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  }
+ ]
+}

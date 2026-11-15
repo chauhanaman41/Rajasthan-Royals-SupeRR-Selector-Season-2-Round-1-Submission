@@ -1,0 +1,195 @@
+{
+ "summary": {
+  "player_id": 20989,
+  "player_name": "Vivrant Sharma",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 242,
+  "primary_team_name": "Sunrisers Hyderabad",
+  "teams_list": [
+   "Sunrisers Hyderabad"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 1,
+  "batting_type": "LHB",
+  "balls_faced": 49,
+  "runs_scored": 69,
+  "strike_rate": 140.82,
+  "boundary_pct": 22.45,
+  "dot_pct_bat": 36.73,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0802,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 9,
+   "hp_matches": 0,
+   "shrinkage_B": 0.022,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Leg-Break",
+  "pace_or_spin": "Spin",
+  "avg_speed": 80.2,
+  "balls_bowled": 21,
+  "runs_conceded": 34,
+  "wickets": 0,
+  "economy": 9.71,
+  "dot_pct_bowl": 33.33,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/20989.webp",
+  "avatar_url": "./public/assets/players/avatars/20989.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 20249,
+   "date": "2023-05-21",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 69,
+   "balls_bat": 49,
+   "fours": 9,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 8,
+   "runs_conceded": 17,
+   "wickets": 0,
+   "dots_bowl": 2
+  },
+  {
+   "match_id": 20232,
+   "date": "2023-05-07",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "balls_bowl": 13,
+   "runs_conceded": 17,
+   "wickets": 0,
+   "dots_bowl": 5,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 23,
+   "opp_name": "Piyush Chawla",
+   "opp_type": "Bowler Faced",
+   "balls": 13,
+   "runs": 23,
+   "wickets": 0,
+   "sr": 176.9
+  },
+  {
+   "opp_id": 2054,
+   "opp_name": "Jason Behrendorff",
+   "opp_type": "Bowler Faced",
+   "balls": 12,
+   "runs": 13,
+   "wickets": 0,
+   "sr": 108.3
+  },
+  {
+   "opp_id": 786,
+   "opp_name": "Chris Jordan",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 20,
+   "wickets": 0,
+   "sr": 222.2
+  },
+  {
+   "opp_id": 7574,
+   "opp_name": "Kumar Kartikeya Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 8177,
+   "opp_name": "Akash Madhwal",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 3,
+   "wickets": 1,
+   "sr": 60.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 126,
+   "opp_name": "Rohit Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 10.8
+  },
+  {
+   "opp_id": 2258,
+   "opp_name": "Sanju Samson",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 5939,
+   "opp_name": "Cameron Green",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 16.0
+  }
+ ]
+}

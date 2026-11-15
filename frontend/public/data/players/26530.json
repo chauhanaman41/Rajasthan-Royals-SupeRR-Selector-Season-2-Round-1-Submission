@@ -1,0 +1,300 @@
+{
+ "summary": {
+  "player_id": 26530,
+  "player_name": "Treveen Mathew",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 27,
+  "primary_team_name": "Sri Lanka",
+  "teams_list": [
+   "Sri Lanka A",
+   "Sri Lanka"
+  ],
+  "competitions_count": 2,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 14,
+  "runs_scored": 4,
+  "strike_rate": 28.57,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 71.43,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0818,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.005,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 77,
+  "runs_conceded": 63,
+  "wickets": 7,
+  "economy": 4.91,
+  "dot_pct_bowl": 50.65,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 15,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/26530.webp",
+  "avatar_url": "./public/assets/players/avatars/26530.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48028,
+   "date": "2025-11-21",
+   "stage": "Semi Final",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 4,
+   "balls_bat": 14,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 25,
+   "runs_conceded": 21,
+   "wickets": 3,
+   "dots_bowl": 13
+  },
+  {
+   "match_id": 48026,
+   "date": "2025-11-19",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Bangladesh A",
+   "opponent_id": 3093,
+   "balls_bowl": 27,
+   "runs_conceded": 22,
+   "wickets": 1,
+   "dots_bowl": 12,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 48021,
+   "date": "2025-11-17",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "balls_bowl": 25,
+   "runs_conceded": 20,
+   "wickets": 3,
+   "dots_bowl": 14,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 46982,
+   "opp_name": "Shahid Aziz",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 20310,
+   "opp_name": "Ahmed Daniyal",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 34485,
+   "opp_name": "Sufiyan Muqeem",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 34880,
+   "opp_name": "Saad Masood",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 48278,
+   "opp_name": "Ubaid Shah",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3802,
+   "opp_name": "Anshuman Rath",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 4.7
+  },
+  {
+   "opp_id": 27259,
+   "opp_name": "Jishan Alam",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 3.3
+  },
+  {
+   "opp_id": 33675,
+   "opp_name": "Mohammad Naeem",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 10,
+   "wickets": 1,
+   "econ": 7.5
+  },
+  {
+   "opp_id": 16284,
+   "opp_name": "Habibur Rahman Sohan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 19012,
+   "opp_name": "Zeeshan Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 3,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 27517,
+   "opp_name": "Yasir Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 60689,
+   "opp_name": "Zawad Abrar",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 2972,
+   "opp_name": "Yasim Murtaza",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 1,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 8739,
+   "opp_name": "Muhammad Irfan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 1,
+   "econ": 4.5
+  },
+  {
+   "opp_id": 6644,
+   "opp_name": "Mahidul Ankon",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 7908,
+   "opp_name": "Mohammad Akbar Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 34880,
+   "opp_name": "Saad Masood",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 26843,
+   "opp_name": "Maaz Sadaqat",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 37311,
+   "opp_name": "Shiv Mathur",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 3377,
+   "opp_name": "Babar Hayat",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  }
+ ]
+}

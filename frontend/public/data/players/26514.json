@@ -1,0 +1,304 @@
+{
+ "summary": {
+  "player_id": 26514,
+  "player_name": "Nimesh Vimukthi",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3674,
+  "primary_team_name": "Sri Lanka A",
+  "teams_list": [
+   "Sri Lanka A"
+  ],
+  "competitions_count": 1,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "LHB",
+  "balls_faced": 19,
+  "runs_scored": 23,
+  "strike_rate": 121.05,
+  "boundary_pct": 10.53,
+  "dot_pct_bat": 36.84,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0815,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 3,
+   "hp_matches": 0,
+   "shrinkage_B": 0.007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Slow left-arm orthodox",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 103,
+  "runs_conceded": 133,
+  "wickets": 1,
+  "economy": 7.75,
+  "dot_pct_bowl": 35.92,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 20,
+   "hp_matches": 1,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/26514.webp",
+  "avatar_url": "./public/assets/players/avatars/26514.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37099,
+   "date": "2024-10-27",
+   "stage": "Final",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Afghanistan A",
+   "opponent_id": 4444,
+   "runs_bat": 23,
+   "balls_bat": 19,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 26,
+   "runs_conceded": 37,
+   "wickets": 0,
+   "dots_bowl": 9
+  },
+  {
+   "match_id": 37097,
+   "date": "2024-10-25",
+   "stage": "Semi Final",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "balls_bowl": 26,
+   "runs_conceded": 37,
+   "wickets": 0,
+   "dots_bowl": 10,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 37094,
+   "date": "2024-10-22",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Bangladesh A",
+   "opponent_id": 3093,
+   "balls_bowl": 27,
+   "runs_conceded": 26,
+   "wickets": 1,
+   "dots_bowl": 9,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 37089,
+   "date": "2024-10-20",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "balls_bowl": 24,
+   "runs_conceded": 33,
+   "wickets": 0,
+   "dots_bowl": 9,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6436,
+   "opp_name": "Qais Ahmad",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 137.5
+  },
+  {
+   "opp_id": 5808,
+   "opp_name": "Karim Janat",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 183.3
+  },
+  {
+   "opp_id": 3550,
+   "opp_name": "Sharafuddin Ashraf",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 17898,
+   "opp_name": "Bilal Sami",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 6440,
+   "opp_name": "Omair Yousuf",
+   "opp_type": "Batter Bowled To",
+   "balls": 15,
+   "runs": 31,
+   "wickets": 0,
+   "econ": 12.4
+  },
+  {
+   "opp_id": 8647,
+   "opp_name": "Sediqullah Atal",
+   "opp_type": "Batter Bowled To",
+   "balls": 13,
+   "runs": 22,
+   "wickets": 0,
+   "econ": 10.2
+  },
+  {
+   "opp_id": 19012,
+   "opp_name": "Zeeshan Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 3377,
+   "opp_name": "Babar Hayat",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 6.9
+  },
+  {
+   "opp_id": 6433,
+   "opp_name": "Darwish Rasooli",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 1.7
+  },
+  {
+   "opp_id": 6651,
+   "opp_name": "Towhid Hridoy",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2972,
+   "opp_name": "Yasim Murtaza",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 10.8
+  },
+  {
+   "opp_id": 7338,
+   "opp_name": "Haider Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 4.8
+  },
+  {
+   "opp_id": 25341,
+   "opp_name": "Mahfuzur Rabby",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 3802,
+   "opp_name": "Anshuman Rath",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 4780,
+   "opp_name": "Mohammad Saif Hassan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 5808,
+   "opp_name": "Karim Janat",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 13.5
+  },
+  {
+   "opp_id": 7908,
+   "opp_name": "Mohammad Akbar Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 4.5
+  },
+  {
+   "opp_id": 7901,
+   "opp_name": "Parvez Emon",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 14.0
+  },
+  {
+   "opp_id": 7903,
+   "opp_name": "Shamim Hossain",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

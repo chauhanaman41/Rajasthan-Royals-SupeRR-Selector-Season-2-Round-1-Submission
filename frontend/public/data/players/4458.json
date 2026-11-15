@@ -1,0 +1,189 @@
+{
+ "summary": {
+  "player_id": 4458,
+  "player_name": "Aneurin Donald",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 22,
+  "primary_team_name": "England",
+  "teams_list": [
+   "England"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 24,
+  "runs_scored": 46,
+  "strike_rate": 191.67,
+  "boundary_pct": 33.33,
+  "dot_pct_bat": 33.33,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0813,
+   "h_p": 0.0,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 1,
+   "shrinkage_B": 0.01,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4458.webp",
+  "avatar_url": "./public/assets/players/avatars/4458.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 45491,
+   "date": "2026-09-19",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in England T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 13,
+   "balls_bat": 6,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 45490,
+   "date": "2026-09-17",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in England T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 21,
+   "balls_bat": 13,
+   "fours": 2,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 45489,
+   "date": "2026-09-15",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in England T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 12,
+   "balls_bat": 5,
+   "fours": 1,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 7689,
+   "opp_name": "Dilshan Madushanka",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 166.7
+  },
+  {
+   "opp_id": 2399,
+   "opp_name": "Dushmantha Chameera",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 15,
+   "wickets": 0,
+   "sr": 300.0
+  },
+  {
+   "opp_id": 19316,
+   "opp_name": "Maheesh Theekshana",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 12,
+   "wickets": 0,
+   "sr": 300.0
+  },
+  {
+   "opp_id": 39657,
+   "opp_name": "Eshan Malinga",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 4900,
+   "opp_name": "Wanindu Hasaranga",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 19307,
+   "opp_name": "Tharindu Rathnayake",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 7052,
+   "opp_name": "Dunith Wellalage",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 19312,
+   "opp_name": "Nuwan Thushara",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

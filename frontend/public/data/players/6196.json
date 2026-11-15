@@ -1,0 +1,277 @@
+{
+ "summary": {
+  "player_id": 6196,
+  "player_name": "Josh Tongue",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 22,
+  "primary_team_name": "England",
+  "teams_list": [
+   "England"
+  ],
+  "competitions_count": 4,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 11,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 95.5,
+  "balls_bowled": 126,
+  "runs_conceded": 177,
+  "wickets": 9,
+  "economy": 8.43,
+  "dot_pct_bowl": 50.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 25,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0025,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/6196.webp",
+  "avatar_url": "./public/assets/players/avatars/6196.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 45489,
+   "date": "2026-09-15",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in England T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "balls_bowl": 26,
+   "runs_conceded": 22,
+   "wickets": 1,
+   "dots_bowl": 18,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 45394,
+   "date": "2026-07-11",
+   "stage": "Others",
+   "comp_name": "India in England T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 26,
+   "runs_conceded": 51,
+   "wickets": 1,
+   "dots_bowl": 11,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 45393,
+   "date": "2026-07-09",
+   "stage": "Others",
+   "comp_name": "India in England T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 24,
+   "runs_conceded": 36,
+   "wickets": 2,
+   "dots_bowl": 11,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 45392,
+   "date": "2026-07-07",
+   "stage": "Others",
+   "comp_name": "India in England T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 24,
+   "runs_conceded": 28,
+   "wickets": 4,
+   "dots_bowl": 12,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 45391,
+   "date": "2026-07-04",
+   "stage": "Others",
+   "comp_name": "India in England T20I Series 2026",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 26,
+   "runs_conceded": 40,
+   "wickets": 1,
+   "dots_bowl": 11,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4117,
+   "opp_name": "Ishan Kishan",
+   "opp_type": "Batter Bowled To",
+   "balls": 16,
+   "runs": 24,
+   "wickets": 2,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 6281,
+   "opp_name": "Abhishek Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 16,
+   "runs": 27,
+   "wickets": 1,
+   "econ": 10.1
+  },
+  {
+   "opp_id": 7897,
+   "opp_name": "Namboori Tilak Varma",
+   "opp_type": "Batter Bowled To",
+   "balls": 14,
+   "runs": 24,
+   "wickets": 2,
+   "econ": 10.3
+  },
+  {
+   "opp_id": 3647,
+   "opp_name": "Shreyas Iyer",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 16,
+   "wickets": 0,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 4755,
+   "opp_name": "Shivam Dube",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 16,
+   "wickets": 1,
+   "econ": 8.7
+  },
+  {
+   "opp_id": 50284,
+   "opp_name": "Vaibhav Sooryavanshi",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 24,
+   "wickets": 0,
+   "econ": 13.1
+  },
+  {
+   "opp_id": 29888,
+   "opp_name": "Harshit Rana",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 7,
+   "wickets": 1,
+   "econ": 4.7
+  },
+  {
+   "opp_id": 7052,
+   "opp_name": "Dunith Wellalage",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 10.3
+  },
+  {
+   "opp_id": 7049,
+   "opp_name": "Kamil Mishara",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 4904,
+   "opp_name": "Kamindu Mendis",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 19309,
+   "opp_name": "Lahiru Udara",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 4.8
+  },
+  {
+   "opp_id": 2258,
+   "opp_name": "Sanju Samson",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 6464,
+   "opp_name": "Arshdeep Singh",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 6931,
+   "opp_name": "Pathum Nissanka",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 58246,
+   "opp_name": "Prince Yadav",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

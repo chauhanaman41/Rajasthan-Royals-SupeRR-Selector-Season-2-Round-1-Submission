@@ -1,0 +1,278 @@
+{
+ "summary": {
+  "player_id": 28021,
+  "player_name": "Saurabh Dubey",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 8,
+  "primary_team_name": "Kolkata Knight Riders",
+  "teams_list": [
+   "Sunrisers Hyderabad",
+   "Kolkata Knight Riders"
+  ],
+  "competitions_count": 2,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 2,
+  "runs_scored": 4,
+  "strike_rate": 200.0,
+  "boundary_pct": 50.0,
+  "dot_pct_bat": 50.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Left-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 102.2,
+  "balls_bowled": 87,
+  "runs_conceded": 92,
+  "wickets": 5,
+  "economy": 6.34,
+  "dot_pct_bowl": 58.62,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 17,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0017,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/28021.webp",
+  "avatar_url": "./public/assets/players/avatars/28021.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50391,
+   "date": "2026-05-24",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Delhi Capitals",
+   "opponent_id": 7,
+   "runs_bat": 4,
+   "balls_bat": 2,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 28,
+   "runs_conceded": 24,
+   "wickets": 2,
+   "dots_bowl": 17
+  },
+  {
+   "match_id": 50386,
+   "date": "2026-05-20",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "balls_bowl": 26,
+   "runs_conceded": 32,
+   "wickets": 2,
+   "dots_bowl": 16,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 50381,
+   "date": "2026-05-16",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Gujarat Titans",
+   "opponent_id": 3508,
+   "balls_bowl": 20,
+   "runs_conceded": 15,
+   "wickets": 1,
+   "dots_bowl": 12,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 50378,
+   "date": "2026-05-13",
+   "stage": "League",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "balls_bowl": 13,
+   "runs_conceded": 21,
+   "wickets": 0,
+   "dots_bowl": 6,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 829,
+   "opp_name": "Mitchell Starc",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 23450,
+   "opp_name": "Sai Sudharsan",
+   "opp_type": "Batter Bowled To",
+   "balls": 14,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 4.7
+  },
+  {
+   "opp_id": 126,
+   "opp_name": "Rohit Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 7,
+   "wickets": 1,
+   "econ": 4.2
+  },
+  {
+   "opp_id": 23311,
+   "opp_name": "Jacob Bethell",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 1077,
+   "opp_name": "David Miller",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 14,
+   "wickets": 1,
+   "econ": 9.3
+  },
+  {
+   "opp_id": 19714,
+   "opp_name": "Abishek Porel",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 953,
+   "opp_name": "Lokesh Rahul",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 1813,
+   "opp_name": "Deepak Chahar",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 8101,
+   "opp_name": "Ashutosh Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 813,
+   "opp_name": "Jos Buttler",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 3330,
+   "opp_name": "Hardik Pandya",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 7897,
+   "opp_name": "Namboori Tilak Varma",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 47,
+   "opp_name": "Virat Kohli",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 1699,
+   "opp_name": "Suryakumar Yadav",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 6,
+   "wickets": 1,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 3629,
+   "opp_name": "Corbin Bosch",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 4007,
+   "opp_name": "Ryan Rickelton",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  }
+ ]
+}

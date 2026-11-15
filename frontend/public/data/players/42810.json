@@ -1,0 +1,282 @@
+{
+ "summary": {
+  "player_id": 42810,
+  "player_name": "Noah Croes",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 24,
+  "primary_team_name": "Netherlands",
+  "teams_list": [
+   "Netherlands"
+  ],
+  "competitions_count": 2,
+  "appearances": 6,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 56,
+  "runs_scored": 54,
+  "strike_rate": 96.43,
+  "boundary_pct": 8.93,
+  "dot_pct_bat": 41.07,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0798,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 11,
+   "hp_matches": 1,
+   "shrinkage_B": 0.027,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/42810.webp",
+  "avatar_url": "./public/assets/players/avatars/42810.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 45907,
+   "date": "2025-09-01",
+   "stage": "Others",
+   "comp_name": "Netherlands in Bangladesh T20I Series 2025",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 2,
+   "balls_bat": 4,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 45906,
+   "date": "2025-08-30",
+   "stage": "Others",
+   "comp_name": "Netherlands in Bangladesh T20I Series 2025",
+   "opponent_name": "Bangladesh",
+   "opponent_id": 21,
+   "runs_bat": 11,
+   "balls_bat": 14,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 35429,
+   "date": "2024-08-28",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "United States Of America",
+   "opponent_id": 315,
+   "runs_bat": 2,
+   "balls_bat": 5,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 35427,
+   "date": "2024-08-26",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "Canada",
+   "opponent_id": 89,
+   "runs_bat": 32,
+   "balls_bat": 29,
+   "fours": 2,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 35425,
+   "date": "2024-08-25",
+   "stage": "League",
+   "comp_name": "Netherlands Tri-Nation T20I Series [Aug 2024] 2024",
+   "opponent_name": "United States Of America",
+   "opponent_id": 315,
+   "runs_bat": 7,
+   "balls_bat": 4,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 6995,
+   "opp_name": "Saad Zafar",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 39991,
+   "opp_name": "Parveen Kumar",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 28.6
+  },
+  {
+   "opp_id": 2681,
+   "opp_name": "Taskin Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 4373,
+   "opp_name": "Mustafizur Rahman",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 60.0
+  },
+  {
+   "opp_id": 7755,
+   "opp_name": "Harsh Thaker",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 773,
+   "opp_name": "Shadley Van Schalkwyk",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 175.0
+  },
+  {
+   "opp_id": 7001,
+   "opp_name": "Dilon Heyliger",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 13,
+   "wickets": 1,
+   "sr": 325.0
+  },
+  {
+   "opp_id": 5547,
+   "opp_name": "Nosthush Kenjige",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 32401,
+   "opp_name": "Akhil Kumar",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 166.7
+  },
+  {
+   "opp_id": 2887,
+   "opp_name": "Harmeet Singh",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 5837,
+   "opp_name": "Mahedi Hasan",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7344,
+   "opp_name": "Shoriful Islam",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 7905,
+   "opp_name": "Tanzim Sakib",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 8380,
+   "opp_name": "Mohammad Rishad Hossain",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7756,
+   "opp_name": "Kaleem Sana",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

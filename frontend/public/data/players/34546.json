@@ -1,0 +1,271 @@
+{
+ "summary": {
+  "player_id": 34546,
+  "player_name": "Aryan Bisht",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 313,
+  "primary_team_name": "Oman",
+  "teams_list": [
+   "Oman"
+  ],
+  "competitions_count": 2,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 77,
+  "runs_scored": 60,
+  "strike_rate": 77.92,
+  "boundary_pct": 6.49,
+  "dot_pct_bat": 49.35,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0789,
+   "h_p": 0.002,
+   "ci_lower": -0.079,
+   "ci_upper": 0.083,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 15,
+   "hp_matches": 1,
+   "shrinkage_B": 0.036,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 23,
+  "runs_conceded": 24,
+  "wickets": 1,
+  "economy": 6.26,
+  "dot_pct_bowl": 30.43,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/34546.webp",
+  "avatar_url": "./public/assets/players/avatars/34546.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 48024,
+   "date": "2025-11-18",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "India A",
+   "opponent_id": 222,
+   "runs_bat": 4,
+   "balls_bat": 5,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 23,
+   "runs_conceded": 24,
+   "wickets": 1,
+   "dots_bowl": 7
+  },
+  {
+   "match_id": 48019,
+   "date": "2025-11-16",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 30,
+   "balls_bat": 31,
+   "fours": 2,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 48015,
+   "date": "2025-11-14",
+   "stage": "League",
+   "comp_name": "Asia Cup Rising Stars 2025",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 2,
+   "balls_bat": 5,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 45501,
+   "date": "2025-09-15",
+   "stage": "League",
+   "comp_name": "Asia Cup 2025",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 24,
+   "balls_bat": 36,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 28756,
+   "opp_name": "Haider Ali",
+   "opp_type": "Bowler Faced",
+   "balls": 13,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 53.8
+  },
+  {
+   "opp_id": 29558,
+   "opp_name": "Muhammad Arfan",
+   "opp_type": "Bowler Faced",
+   "balls": 13,
+   "runs": 10,
+   "wickets": 2,
+   "sr": 76.9
+  },
+  {
+   "opp_id": 27466,
+   "opp_name": "Dhruv Parashar",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 72.7
+  },
+  {
+   "opp_id": 28655,
+   "opp_name": "Muhammad Rohid",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 114.3
+  },
+  {
+   "opp_id": 31513,
+   "opp_name": "Ethan Dsouza",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 11,
+   "wickets": 0,
+   "sr": 157.1
+  },
+  {
+   "opp_id": 27380,
+   "opp_name": "Harshit Kaushik",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 27464,
+   "opp_name": "Aayan Afzal Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 16.7
+  },
+  {
+   "opp_id": 26843,
+   "opp_name": "Maaz Sadaqat",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 42548,
+   "opp_name": "Muhammad Jawadullah",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 5,
+   "wickets": 1,
+   "sr": 125.0
+  },
+  {
+   "opp_id": 37052,
+   "opp_name": "Naman Dhir",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 25138,
+   "opp_name": "Harsh Dubey",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 34880,
+   "opp_name": "Saad Masood",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 7059,
+   "opp_name": "Nehal Wadhera",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 8,
+   "wickets": 1,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 25138,
+   "opp_name": "Harsh Dubey",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 12,
+   "wickets": 0,
+   "econ": 7.2
+  },
+  {
+   "opp_id": 3916,
+   "opp_name": "Jitesh Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 24.0
+  }
+ ]
+}

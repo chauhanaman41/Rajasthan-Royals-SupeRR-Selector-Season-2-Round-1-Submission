@@ -1,0 +1,249 @@
+{
+ "summary": {
+  "player_id": 3299,
+  "player_name": "Andrew Tye",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3509,
+  "primary_team_name": "Lucknow Super Giants",
+  "teams_list": [
+   "Lucknow Super Giants"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 10,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 96.1,
+  "balls_bowled": 69,
+  "runs_conceded": 104,
+  "wickets": 3,
+  "economy": 9.04,
+  "dot_pct_bowl": 39.13,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 13,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0013,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/3299.webp",
+  "avatar_url": "./public/assets/players/avatars/3299.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 14108,
+   "date": "2022-04-07",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Delhi Capitals",
+   "opponent_id": 7,
+   "balls_bowl": 19,
+   "runs_conceded": 27,
+   "wickets": 0,
+   "dots_bowl": 9,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14105,
+   "date": "2022-04-04",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Sunrisers Hyderabad",
+   "opponent_id": 242,
+   "balls_bowl": 25,
+   "runs_conceded": 38,
+   "wickets": 0,
+   "dots_bowl": 7,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 14100,
+   "date": "2022-03-31",
+   "stage": "League",
+   "comp_name": "IPL 2022",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "balls_bowl": 25,
+   "runs_conceded": 39,
+   "wickets": 3,
+   "dots_bowl": 11,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4703,
+   "opp_name": "Rishabh Pant",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 17,
+   "wickets": 0,
+   "econ": 12.8
+  },
+  {
+   "opp_id": 169,
+   "opp_name": "Robin Uthappa",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 19,
+   "wickets": 0,
+   "econ": 16.3
+  },
+  {
+   "opp_id": 1440,
+   "opp_name": "Rahul Tripathi",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 3645,
+   "opp_name": "Sarfaraz Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 3.6
+  },
+  {
+   "opp_id": 4823,
+   "opp_name": "Washington Sundar",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 9.6
+  },
+  {
+   "opp_id": 5928,
+   "opp_name": "Prithvi Shaw",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 8.4
+  },
+  {
+   "opp_id": 6726,
+   "opp_name": "Romario Shepherd",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 8.4
+  },
+  {
+   "opp_id": 4755,
+   "opp_name": "Shivam Dube",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 535,
+   "opp_name": "Ambati Rayudu",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 14.0
+  },
+  {
+   "opp_id": 1596,
+   "opp_name": "Moeen Ali",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 3125,
+   "opp_name": "Nicholas Pooran",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 6281,
+   "opp_name": "Abhishek Sharma",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 8,
+   "opp_name": "Mahendra Singh Dhoni",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 152,
+   "opp_name": "Ravindra Jadeja",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 1,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 3605,
+   "opp_name": "Aiden Markram",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

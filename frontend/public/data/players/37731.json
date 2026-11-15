@@ -1,0 +1,127 @@
+{
+ "summary": {
+  "player_id": 37731,
+  "player_name": "Musheer Khan",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 4,
+  "primary_team_name": "Punjab Kings",
+  "teams_list": [
+   "Punjab Kings"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 8,
+  "batting_type": "RHB",
+  "balls_faced": 3,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 100.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Slow left-arm orthodox",
+  "pace_or_spin": "Spin",
+  "avg_speed": 57.7,
+  "balls_bowled": 12,
+  "runs_conceded": 27,
+  "wickets": 1,
+  "economy": 13.5,
+  "dot_pct_bowl": 8.33,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/37731.webp",
+  "avatar_url": "./public/assets/players/avatars/37731.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 40764,
+   "date": "2025-05-29",
+   "stage": "Qualifier",
+   "comp_name": "IPL 2025",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "runs_bat": 0,
+   "balls_bat": 3,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 12,
+   "runs_conceded": 27,
+   "wickets": 1,
+   "dots_bowl": 1
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 36982,
+   "opp_name": "Suyash Sharma",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 5039,
+   "opp_name": "Rajat Patidar",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 15.6
+  },
+  {
+   "opp_id": 992,
+   "opp_name": "Mayank Agarwal",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 11,
+   "wickets": 1,
+   "econ": 16.5
+  },
+  {
+   "opp_id": 5553,
+   "opp_name": "Phil Salt",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

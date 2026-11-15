@@ -1,0 +1,433 @@
+{
+ "summary": {
+  "player_id": 6985,
+  "player_name": "Bas de Leede",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 24,
+  "primary_team_name": "Netherlands",
+  "teams_list": [
+   "Netherlands"
+  ],
+  "competitions_count": 2,
+  "appearances": 5,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 4,
+  "batting_type": "RHB",
+  "balls_faced": 169,
+  "runs_scored": 186,
+  "strike_rate": 110.06,
+  "boundary_pct": 10.65,
+  "dot_pct_bat": 36.69,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0752,
+   "h_p": 0.004,
+   "ci_lower": -0.075,
+   "ci_upper": 0.083,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 33,
+   "hp_matches": 1,
+   "shrinkage_B": 0.076,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 0.0,
+  "balls_bowled": 78,
+  "runs_conceded": 103,
+  "wickets": 4,
+  "economy": 7.92,
+  "dot_pct_bowl": 35.9,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 15,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/6985.webp",
+  "avatar_url": "./public/assets/players/avatars/6985.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 32625,
+   "date": "2024-05-24",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Ireland",
+   "opponent_id": 23,
+   "runs_bat": 8,
+   "balls_bat": 6,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 26,
+   "runs_conceded": 41,
+   "wickets": 2,
+   "dots_bowl": 7
+  },
+  {
+   "match_id": 32623,
+   "date": "2024-05-22",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Scotland",
+   "opponent_id": 26,
+   "runs_bat": 27,
+   "balls_bat": 27,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 27,
+   "runs_conceded": 37,
+   "wickets": 1,
+   "dots_bowl": 10
+  },
+  {
+   "match_id": 32621,
+   "date": "2024-05-19",
+   "stage": "Others",
+   "comp_name": "Netherlands Tri-Nation T20I Series 2024",
+   "opponent_name": "Ireland",
+   "opponent_id": 23,
+   "runs_bat": 32,
+   "balls_bat": 31,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 16667,
+   "date": "2022-08-05",
+   "stage": "League",
+   "comp_name": "New Zealand in Netherlands T20I Series 2022",
+   "opponent_name": "New Zealand",
+   "opponent_id": 17,
+   "runs_bat": 53,
+   "balls_bat": 49,
+   "fours": 3,
+   "sixes": 2,
+   "is_dismissed": false,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 12,
+   "runs_conceded": 13,
+   "wickets": 1,
+   "dots_bowl": 5
+  },
+  {
+   "match_id": 16666,
+   "date": "2022-08-04",
+   "stage": "League",
+   "comp_name": "New Zealand in Netherlands T20I Series 2022",
+   "opponent_name": "New Zealand",
+   "opponent_id": 17,
+   "runs_bat": 66,
+   "balls_bat": 56,
+   "fours": 5,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 13,
+   "runs_conceded": 12,
+   "wickets": 0,
+   "dots_bowl": 6
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 2526,
+   "opp_name": "Ish Sodhi",
+   "opp_type": "Bowler Faced",
+   "balls": 22,
+   "runs": 31,
+   "wickets": 0,
+   "sr": 140.9
+  },
+  {
+   "opp_id": 4101,
+   "opp_name": "Mitchell Santner",
+   "opp_type": "Bowler Faced",
+   "balls": 22,
+   "runs": 19,
+   "wickets": 0,
+   "sr": 86.4
+  },
+  {
+   "opp_id": 4856,
+   "opp_name": "Benjamin Sears",
+   "opp_type": "Bowler Faced",
+   "balls": 19,
+   "runs": 17,
+   "wickets": 0,
+   "sr": 89.5
+  },
+  {
+   "opp_id": 5892,
+   "opp_name": "Blair Tickner",
+   "opp_type": "Bowler Faced",
+   "balls": 15,
+   "runs": 20,
+   "wickets": 1,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 4692,
+   "opp_name": "Lockie Ferguson",
+   "opp_type": "Bowler Faced",
+   "balls": 13,
+   "runs": 16,
+   "wickets": 0,
+   "sr": 123.1
+  },
+  {
+   "opp_id": 3686,
+   "opp_name": "CB Sole",
+   "opp_type": "Bowler Faced",
+   "balls": 9,
+   "runs": 18,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 4815,
+   "opp_name": "Benjamin White",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6512,
+   "opp_name": "Michael Bracewell",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 0,
+   "sr": 87.5
+  },
+  {
+   "opp_id": 7094,
+   "opp_name": "Curtis Campher",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 14,
+   "wickets": 0,
+   "sr": 175.0
+  },
+  {
+   "opp_id": 1101,
+   "opp_name": "George Dockrell",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 83.3
+  },
+  {
+   "opp_id": 3323,
+   "opp_name": "Jimmy Neesham",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 9,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 3689,
+   "opp_name": "Mark Watt",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 5441,
+   "opp_name": "Barry McCarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 30925,
+   "opp_name": "Bradley Currie",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 16.7
+  },
+  {
+   "opp_id": 3683,
+   "opp_name": "Gavin Main",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 1101,
+   "opp_name": "George Dockrell",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 25,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 4101,
+   "opp_name": "Mitchell Santner",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 7.5
+  },
+  {
+   "opp_id": 7094,
+   "opp_name": "Curtis Campher",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 5.1
+  },
+  {
+   "opp_id": 24812,
+   "opp_name": "Chris Greaves",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 2,
+   "wickets": 1,
+   "econ": 1.7
+  },
+  {
+   "opp_id": 274,
+   "opp_name": "Martin Guptill",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 4853,
+   "opp_name": "Glenn Phillips",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 5.0
+  },
+  {
+   "opp_id": 3689,
+   "opp_name": "Mark Watt",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 13,
+   "wickets": 0,
+   "econ": 15.6
+  },
+  {
+   "opp_id": 4102,
+   "opp_name": "George Munsey",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 16.8
+  },
+  {
+   "opp_id": 3415,
+   "opp_name": "Matthew Cross",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 9.0
+  },
+  {
+   "opp_id": 4106,
+   "opp_name": "Daryl Mitchell",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 443,
+   "opp_name": "Paul Stirling",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 3686,
+   "opp_name": "CB Sole",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 4812,
+   "opp_name": "Harry Tector",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 24982,
+   "opp_name": "Charlie Tear",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 5379,
+   "opp_name": "Mark Adair",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 18.0
+  }
+ ]
+}

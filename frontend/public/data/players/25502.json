@@ -1,0 +1,160 @@
+{
+ "summary": {
+  "player_id": 25502,
+  "player_name": "Adnan Idrees",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 312,
+  "primary_team_name": "Kuwait",
+  "teams_list": [
+   "Kuwait"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 3,
+  "batting_type": "RHB",
+  "balls_faced": 8,
+  "runs_scored": 4,
+  "strike_rate": 50.0,
+  "boundary_pct": 12.5,
+  "dot_pct_bat": 87.5,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 1,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm Leg-Break",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 12,
+  "runs_conceded": 16,
+  "wickets": 1,
+  "economy": 8.0,
+  "dot_pct_bowl": 33.33,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 2,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/25502.webp",
+  "avatar_url": "./public/assets/players/avatars/25502.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 16865,
+   "date": "2022-08-23",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "Hong Kong",
+   "opponent_id": 283,
+   "runs_bat": 4,
+   "balls_bat": 7,
+   "fours": 1,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 12,
+   "runs_conceded": 16,
+   "wickets": 1,
+   "dots_bowl": 4
+  },
+  {
+   "match_id": 16863,
+   "date": "2022-08-21",
+   "stage": "League",
+   "comp_name": "Asia Cup T20 Qualifiers 2022",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 0,
+   "balls_bat": 1,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 19125,
+   "opp_name": "Ayush Shukla",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 1,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 3373,
+   "opp_name": "Aizaz Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 8638,
+   "opp_name": "Basil Hameed",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 3377,
+   "opp_name": "Babar Hayat",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 13.2
+  },
+  {
+   "opp_id": 3382,
+   "opp_name": "Nizakat Khan",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 2972,
+   "opp_name": "Yasim Murtaza",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  }
+ ]
+}

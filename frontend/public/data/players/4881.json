@@ -1,0 +1,195 @@
+{
+ "summary": {
+  "player_id": 4881,
+  "player_name": "Dipendra Airee",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 282,
+  "primary_team_name": "Nepal",
+  "teams_list": [
+   "Nepal"
+  ],
+  "competitions_count": 2,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 6,
+  "batting_type": "RHB",
+  "balls_faced": 21,
+  "runs_scored": 17,
+  "strike_rate": 80.95,
+  "boundary_pct": 4.76,
+  "dot_pct_bat": 52.38,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0813,
+   "h_p": 0.0,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.01,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm offbreak",
+  "pace_or_spin": "Spin",
+  "avg_speed": 0.0,
+  "balls_bowled": 36,
+  "runs_conceded": 24,
+  "wickets": 2,
+  "economy": 4.0,
+  "dot_pct_bowl": 72.22,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 7,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/4881.webp",
+  "avatar_url": "./public/assets/players/avatars/4881.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 46250,
+   "date": "2025-09-28",
+   "stage": "Others",
+   "comp_name": "Nepal v West Indies T20I Series 2025",
+   "opponent_name": "West Indies",
+   "opponent_id": 28,
+   "balls_bowl": 18,
+   "runs_conceded": 4,
+   "wickets": 1,
+   "dots_bowl": 14,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 46249,
+   "date": "2025-09-27",
+   "stage": "Others",
+   "comp_name": "Nepal v West Indies T20I Series 2025",
+   "opponent_name": "West Indies",
+   "opponent_id": 28,
+   "runs_bat": 17,
+   "balls_bat": 21,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Both",
+   "balls_bowl": 18,
+   "runs_conceded": 20,
+   "wickets": 1,
+   "dots_bowl": 12
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 60609,
+   "opp_name": "Navin Bidaisee",
+   "opp_type": "Bowler Faced",
+   "balls": 11,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 72.7
+  },
+  {
+   "opp_id": 2633,
+   "opp_name": "Jason Holder",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 6,
+   "wickets": 1,
+   "sr": 120.0
+  },
+  {
+   "opp_id": 2417,
+   "opp_name": "Akeal Hosein",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 4837,
+   "opp_name": "Obed McCoy",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 2416,
+   "opp_name": "Kyle Mayers",
+   "opp_type": "Batter Bowled To",
+   "balls": 15,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 2.4
+  },
+  {
+   "opp_id": 37201,
+   "opp_name": "Jewel Andrew",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 0.9
+  },
+  {
+   "opp_id": 3272,
+   "opp_name": "Fabian Allen",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 1,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 6739,
+   "opp_name": "Amir Jangoo",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 1.2
+  },
+  {
+   "opp_id": 15551,
+   "opp_name": "Ackeem Auguste",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 7,
+   "wickets": 0,
+   "econ": 21.0
+  },
+  {
+   "opp_id": 4830,
+   "opp_name": "Keacy Carty",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

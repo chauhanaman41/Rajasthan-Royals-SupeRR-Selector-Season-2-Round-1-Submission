@@ -1,0 +1,122 @@
+{
+ "summary": {
+  "player_id": 31227,
+  "player_name": "Vidhwath Kaverappa",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 4,
+  "primary_team_name": "Punjab Kings",
+  "teams_list": [
+   "Punjab Kings"
+  ],
+  "competitions_count": 2,
+  "appearances": 1,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 12,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 101.4,
+  "balls_bowled": 24,
+  "runs_conceded": 36,
+  "wickets": 2,
+  "economy": 9.0,
+  "dot_pct_bowl": 45.83,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0004,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/31227.webp",
+  "avatar_url": "./public/assets/players/avatars/31227.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 31276,
+   "date": "2024-05-09",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "balls_bowl": 24,
+   "runs_conceded": 36,
+   "wickets": 2,
+   "dots_bowl": 11,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 47,
+   "opp_name": "Virat Kohli",
+   "opp_type": "Batter Bowled To",
+   "balls": 11,
+   "runs": 18,
+   "wickets": 0,
+   "econ": 9.8
+  },
+  {
+   "opp_id": 88,
+   "opp_name": "Faf du Plessis",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 8,
+   "wickets": 1,
+   "econ": 9.6
+  },
+  {
+   "opp_id": 5039,
+   "opp_name": "Rajat Patidar",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 10.8
+  },
+  {
+   "opp_id": 6272,
+   "opp_name": "William Jacks",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 2.0
+  }
+ ]
+}

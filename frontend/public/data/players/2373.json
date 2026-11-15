@@ -1,0 +1,181 @@
+{
+ "summary": {
+  "player_id": 2373,
+  "player_name": "Ashton Turner",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3509,
+  "primary_team_name": "Lucknow Super Giants",
+  "teams_list": [
+   "Australia",
+   "Lucknow Super Giants"
+  ],
+  "competitions_count": 2,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "RHB",
+  "balls_faced": 22,
+  "runs_scored": 23,
+  "strike_rate": 104.55,
+  "boundary_pct": 9.09,
+  "dot_pct_bat": 40.91,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0813,
+   "h_p": 0.0,
+   "ci_lower": -0.081,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 4,
+   "hp_matches": 1,
+   "shrinkage_B": 0.01,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/2373.webp",
+  "avatar_url": "./public/assets/players/avatars/2373.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 31272,
+   "date": "2024-05-05",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Kolkata Knight Riders",
+   "opponent_id": 8,
+   "runs_bat": 16,
+   "balls_bat": 11,
+   "fours": 0,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 31266,
+   "date": "2024-04-30",
+   "stage": "League",
+   "comp_name": "IPL 2024",
+   "opponent_name": "Mumbai Indians",
+   "opponent_id": 2,
+   "runs_bat": 5,
+   "balls_bat": 9,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 25157,
+   "date": "2023-09-03",
+   "stage": "League",
+   "comp_name": "Australia in South Africa T20I Series 2023",
+   "opponent_name": "South Africa",
+   "opponent_id": 19,
+   "runs_bat": 2,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": false,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 1318,
+   "opp_name": "Andre Russell",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 25.0
+  },
+  {
+   "opp_id": 6256,
+   "opp_name": "Varun Chakravarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 13,
+   "wickets": 1,
+   "sr": 325.0
+  },
+  {
+   "opp_id": 19312,
+   "opp_name": "Nuwan Thushara",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 781,
+   "opp_name": "Sunil Narine",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 2933,
+   "opp_name": "Jasprit Bumrah",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 6628,
+   "opp_name": "Gerald Coetzee",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 66.7
+  },
+  {
+   "opp_id": 1107,
+   "opp_name": "Mohammad Nabi",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  }
+ ]
+}

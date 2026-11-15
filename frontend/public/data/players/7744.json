@@ -1,0 +1,283 @@
+{
+ "summary": {
+  "player_id": 7744,
+  "player_name": "Jordan Cox",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 5,
+  "primary_team_name": "Royal Challengers Bengaluru",
+  "teams_list": [
+   "England",
+   "Royal Challengers Bengaluru"
+  ],
+  "competitions_count": 8,
+  "appearances": 9,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 7,
+  "batting_type": "RHB",
+  "balls_faced": 74,
+  "runs_scored": 100,
+  "strike_rate": 135.14,
+  "boundary_pct": 18.92,
+  "dot_pct_bat": 41.89,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0791,
+   "h_p": 0.002,
+   "ci_lower": -0.079,
+   "ci_upper": 0.083,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 14,
+   "hp_matches": 1,
+   "shrinkage_B": 0.034,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/7744.webp",
+  "avatar_url": "./public/assets/players/avatars/7744.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 45490,
+   "date": "2026-09-17",
+   "stage": "Others",
+   "comp_name": "Sri Lanka in England T20I Series 2026",
+   "opponent_name": "Sri Lanka",
+   "opponent_id": 27,
+   "runs_bat": 12,
+   "balls_bat": 7,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 46747,
+   "date": "2025-10-18",
+   "stage": "Others",
+   "comp_name": "England in New Zealand T20I Series 2025",
+   "opponent_name": "New Zealand",
+   "opponent_id": 17,
+   "runs_bat": 16,
+   "balls_bat": 18,
+   "fours": 2,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Tie/NR",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 46009,
+   "date": "2025-09-21",
+   "stage": "Others",
+   "comp_name": "England in Ireland T20I series 2025",
+   "opponent_name": "Ireland",
+   "opponent_id": 23,
+   "runs_bat": 55,
+   "balls_bat": 35,
+   "fours": 4,
+   "sixes": 4,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 36563,
+   "date": "2024-09-13",
+   "stage": "League",
+   "comp_name": "Australia in England T20I Series 2024",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 0,
+   "balls_bat": 2,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 36562,
+   "date": "2024-09-11",
+   "stage": "League",
+   "comp_name": "Australia in England T20I Series 2024",
+   "opponent_name": "Australia",
+   "opponent_id": 20,
+   "runs_bat": 17,
+   "balls_bat": 12,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 22471,
+   "opp_name": "Matthew Humphreys",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 3697,
+   "opp_name": "Kyle Jamieson",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 5,
+   "wickets": 1,
+   "sr": 62.5
+  },
+  {
+   "opp_id": 4815,
+   "opp_name": "Benjamin White",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 14,
+   "wickets": 1,
+   "sr": 175.0
+  },
+  {
+   "opp_id": 5738,
+   "opp_name": "Xavier Bartlett",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 7,
+   "wickets": 1,
+   "sr": 87.5
+  },
+  {
+   "opp_id": 7094,
+   "opp_name": "Curtis Campher",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 17,
+   "wickets": 0,
+   "sr": 242.9
+  },
+  {
+   "opp_id": 3720,
+   "opp_name": "Craig Young",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 6512,
+   "opp_name": "Michael Bracewell",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 80.0
+  },
+  {
+   "opp_id": 830,
+   "opp_name": "Josh Hazlewood",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 10,
+   "wickets": 0,
+   "sr": 250.0
+  },
+  {
+   "opp_id": 5441,
+   "opp_name": "Barry McCarthy",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 19307,
+   "opp_name": "Tharindu Rathnayake",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 1,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 22920,
+   "opp_name": "Jacob Duffy",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 1389,
+   "opp_name": "Sean Abbott",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 4101,
+   "opp_name": "Mitchell Santner",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 50.0
+  },
+  {
+   "opp_id": 39657,
+   "opp_name": "Eshan Malinga",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 4,
+   "wickets": 0,
+   "sr": 200.0
+  },
+  {
+   "opp_id": 4900,
+   "opp_name": "Wanindu Hasaranga",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  }
+ ]
+}

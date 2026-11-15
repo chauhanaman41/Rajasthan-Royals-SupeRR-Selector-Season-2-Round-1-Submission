@@ -1,0 +1,313 @@
+{
+ "summary": {
+  "player_id": 35122,
+  "player_name": "Shah Faisal",
+  "role": "All-Rounder",
+  "is_batter": true,
+  "is_bowler": true,
+  "is_all_rounder": true,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 313,
+  "primary_team_name": "Oman",
+  "teams_list": [
+   "Oman"
+  ],
+  "competitions_count": 1,
+  "appearances": 3,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 5,
+  "batting_type": "LHB",
+  "balls_faced": 15,
+  "runs_scored": 10,
+  "strike_rate": 66.67,
+  "boundary_pct": 6.67,
+  "dot_pct_bat": 73.33,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0815,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 3,
+   "hp_matches": 0,
+   "shrinkage_B": 0.007,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Left-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": 120.5,
+  "balls_bowled": 78,
+  "runs_conceded": 95,
+  "wickets": 5,
+  "economy": 7.31,
+  "dot_pct_bowl": 52.56,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 15,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0015,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/35122.webp",
+  "avatar_url": "./public/assets/players/avatars/35122.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 45506,
+   "date": "2025-09-19",
+   "stage": "League",
+   "comp_name": "Asia Cup 2025",
+   "opponent_name": "India",
+   "opponent_id": 18,
+   "balls_bowl": 24,
+   "runs_conceded": 23,
+   "wickets": 2,
+   "dots_bowl": 15,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 45501,
+   "date": "2025-09-15",
+   "stage": "League",
+   "comp_name": "Asia Cup 2025",
+   "opponent_name": "United Arab Emirates",
+   "opponent_id": 272,
+   "runs_bat": 9,
+   "balls_bat": 12,
+   "fours": 0,
+   "sixes": 1,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 28,
+   "runs_conceded": 41,
+   "wickets": 0,
+   "dots_bowl": 15
+  },
+  {
+   "match_id": 45498,
+   "date": "2025-09-12",
+   "stage": "League",
+   "comp_name": "Asia Cup 2025",
+   "opponent_name": "Pakistan",
+   "opponent_id": 25,
+   "runs_bat": 1,
+   "balls_bat": 3,
+   "fours": 0,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Both",
+   "balls_bowl": 26,
+   "runs_conceded": 31,
+   "wickets": 3,
+   "dots_bowl": 11
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 28756,
+   "opp_name": "Haider Ali",
+   "opp_type": "Bowler Faced",
+   "balls": 8,
+   "runs": 9,
+   "wickets": 1,
+   "sr": 112.5
+  },
+  {
+   "opp_id": 28655,
+   "opp_name": "Muhammad Rohid",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 5189,
+   "opp_name": "Faheem Ashraf",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "sr": 100.0
+  },
+  {
+   "opp_id": 6355,
+   "opp_name": "Shaheen Afridi",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 27466,
+   "opp_name": "Dhruv Parashar",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 34485,
+   "opp_name": "Sufiyan Muqeem",
+   "opp_type": "Bowler Faced",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 0,
+   "sr": 0.0
+  },
+  {
+   "opp_id": 2258,
+   "opp_name": "Sanju Samson",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 11,
+   "wickets": 1,
+   "econ": 5.5
+  },
+  {
+   "opp_id": 22565,
+   "opp_name": "Muhammad Waseem",
+   "opp_type": "Batter Bowled To",
+   "balls": 12,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 8741,
+   "opp_name": "Mohammad Haris",
+   "opp_type": "Batter Bowled To",
+   "balls": 10,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 6.6
+  },
+  {
+   "opp_id": 8726,
+   "opp_name": "Alishan Sharafu",
+   "opp_type": "Batter Bowled To",
+   "balls": 8,
+   "runs": 14,
+   "wickets": 0,
+   "econ": 10.5
+  },
+  {
+   "opp_id": 2490,
+   "opp_name": "Mohammad Nawaz",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 10,
+   "wickets": 1,
+   "econ": 10.0
+  },
+  {
+   "opp_id": 27380,
+   "opp_name": "Harshit Kaushik",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 18,
+   "wickets": 0,
+   "econ": 18.0
+  },
+  {
+   "opp_id": 29888,
+   "opp_name": "Harshit Rana",
+   "opp_type": "Batter Bowled To",
+   "balls": 5,
+   "runs": 10,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 2921,
+   "opp_name": "Fakhar Zaman",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 3091,
+   "opp_name": "Sahibzada Farhan",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 0,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 3644,
+   "opp_name": "Kuldeep Yadav",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 2.0
+  },
+  {
+   "opp_id": 6288,
+   "opp_name": "Shubman Gill",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 49003,
+   "opp_name": "Hasan Nawaz",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 3,
+   "wickets": 1,
+   "econ": 6.0
+  },
+  {
+   "opp_id": 39374,
+   "opp_name": "Muhammad Zohaib",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 7690,
+   "opp_name": "Saim Ayub",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 0,
+   "wickets": 1,
+   "econ": 0.0
+  },
+  {
+   "opp_id": 7897,
+   "opp_name": "Namboori Tilak Varma",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 1,
+   "wickets": 0,
+   "econ": 6.0
+  }
+ ]
+}

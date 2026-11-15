@@ -1,0 +1,264 @@
+{
+ "summary": {
+  "player_id": 6162,
+  "player_name": "Kulwant Khejroliya",
+  "role": "Bowler",
+  "is_batter": false,
+  "is_bowler": true,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 3508,
+  "primary_team_name": "Gujarat Titans",
+  "teams_list": [
+   "Kolkata Knight Riders",
+   "Gujarat Titans"
+  ],
+  "competitions_count": 3,
+  "appearances": 4,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 1,
+  "modal_bat_order": 12,
+  "batting_type": "RHB",
+  "balls_faced": 0,
+  "runs_scored": 0,
+  "strike_rate": 0.0,
+  "boundary_pct": 0.0,
+  "dot_pct_bat": 0.0,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.082,
+   "h_p": 0.0,
+   "ci_lower": -0.082,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.002,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Left-arm medium-fast",
+  "pace_or_spin": "Pace",
+  "avg_speed": 83.8,
+  "balls_bowled": 62,
+  "runs_conceded": 118,
+  "wickets": 3,
+  "economy": 11.42,
+  "dot_pct_bowl": 27.42,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 12,
+   "hp_matches": 1,
+   "shrinkage_B": 0.0012,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/6162.webp",
+  "avatar_url": "./public/assets/players/avatars/6162.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 50942,
+   "date": "2026-05-26",
+   "stage": "Qualifier",
+   "comp_name": "IPL 2026",
+   "opponent_name": "Royal Challengers Bengaluru",
+   "opponent_id": 5,
+   "balls_bowl": 15,
+   "runs_conceded": 28,
+   "wickets": 0,
+   "dots_bowl": 4,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 40716,
+   "date": "2025-04-09",
+   "stage": "League",
+   "comp_name": "IPL 2025",
+   "opponent_name": "Rajasthan Royals",
+   "opponent_id": 3,
+   "balls_bowl": 19,
+   "runs_conceded": 28,
+   "wickets": 1,
+   "dots_bowl": 5,
+   "result": "Win",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 20213,
+   "date": "2023-04-23",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Chennai Super Kings",
+   "opponent_id": 1,
+   "balls_bowl": 19,
+   "runs_conceded": 43,
+   "wickets": 2,
+   "dots_bowl": 6,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  },
+  {
+   "match_id": 20208,
+   "date": "2023-04-20",
+   "stage": "League",
+   "comp_name": "IPL 2023",
+   "opponent_name": "Delhi Capitals",
+   "opponent_id": 7,
+   "balls_bowl": 9,
+   "runs_conceded": 19,
+   "wickets": 0,
+   "dots_bowl": 2,
+   "result": "Loss",
+   "role_in_match": "Bowl"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 4219,
+   "opp_name": "Krunal Pandya",
+   "opp_type": "Batter Bowled To",
+   "balls": 9,
+   "runs": 11,
+   "wickets": 0,
+   "econ": 7.3
+  },
+  {
+   "opp_id": 2258,
+   "opp_name": "Sanju Samson",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 15,
+   "wickets": 0,
+   "econ": 12.9
+  },
+  {
+   "opp_id": 3297,
+   "opp_name": "Shimron Hetmyer",
+   "opp_type": "Batter Bowled To",
+   "balls": 7,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 6.9
+  },
+  {
+   "opp_id": 152,
+   "opp_name": "Ravindra Jadeja",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 15,
+   "wickets": 1,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 5039,
+   "opp_name": "Rajat Patidar",
+   "opp_type": "Batter Bowled To",
+   "balls": 6,
+   "runs": 17,
+   "wickets": 0,
+   "econ": 17.0
+  },
+  {
+   "opp_id": 220,
+   "opp_name": "David Warner",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 8,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 6059,
+   "opp_name": "Ruturaj Gaikwad",
+   "opp_type": "Batter Bowled To",
+   "balls": 4,
+   "runs": 9,
+   "wickets": 0,
+   "econ": 13.5
+  },
+  {
+   "opp_id": 8,
+   "opp_name": "Mahendra Singh Dhoni",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 2,
+   "wickets": 0,
+   "econ": 4.0
+  },
+  {
+   "opp_id": 2876,
+   "opp_name": "Axar Patel",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 6,
+   "wickets": 0,
+   "econ": 12.0
+  },
+  {
+   "opp_id": 4755,
+   "opp_name": "Shivam Dube",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 8,
+   "wickets": 1,
+   "econ": 16.0
+  },
+  {
+   "opp_id": 7260,
+   "opp_name": "Dhruv Jurel",
+   "opp_type": "Batter Bowled To",
+   "balls": 3,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 8.0
+  },
+  {
+   "opp_id": 1941,
+   "opp_name": "Devon Conway",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 5928,
+   "opp_name": "Prithvi Shaw",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 5,
+   "wickets": 0,
+   "econ": 15.0
+  },
+  {
+   "opp_id": 6423,
+   "opp_name": "Riyan Parag",
+   "opp_type": "Batter Bowled To",
+   "balls": 2,
+   "runs": 1,
+   "wickets": 1,
+   "econ": 3.0
+  },
+  {
+   "opp_id": 167,
+   "opp_name": "Ajinkya Rahane",
+   "opp_type": "Batter Bowled To",
+   "balls": 1,
+   "runs": 4,
+   "wickets": 0,
+   "econ": 24.0
+  }
+ ]
+}

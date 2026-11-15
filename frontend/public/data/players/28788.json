@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "player_id": 28788,
+  "player_name": "Tanish Suri",
+  "role": "Batter",
+  "is_batter": true,
+  "is_bowler": false,
+  "is_all_rounder": false,
+  "tier": "Tier 3: Active Sub-Threshold",
+  "primary_team_id": 272,
+  "primary_team_name": "United Arab Emirates",
+  "teams_list": [
+   "United Arab Emirates"
+  ],
+  "competitions_count": 1,
+  "appearances": 2,
+  "captain_matches": 0,
+  "wk_matches": 0,
+  "impact_in": 0,
+  "modal_bat_order": 2,
+  "batting_type": "RHB",
+  "balls_faced": 41,
+  "runs_scored": 48,
+  "strike_rate": 117.07,
+  "boundary_pct": 17.07,
+  "dot_pct_bat": 48.78,
+  "batting_eb": {
+   "rank": null,
+   "h_low": -0.0804,
+   "h_p": 0.001,
+   "ci_lower": -0.08,
+   "ci_upper": 0.082,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 8,
+   "hp_matches": 0,
+   "shrinkage_B": 0.02,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "bowling_type": "Right-arm medium",
+  "pace_or_spin": "Pace",
+  "avg_speed": null,
+  "balls_bowled": 0,
+  "runs_conceded": 0,
+  "wickets": 0,
+  "economy": 0.0,
+  "dot_pct_bowl": 0.0,
+  "bowling_eb": {
+   "rank": null,
+   "h_low": 0.0846,
+   "h_p": 0.118,
+   "ci_lower": 0.102,
+   "ci_upper": 0.134,
+   "mean_rank": null,
+   "inc_prob": 0.0,
+   "inn2_hp_share": 50.0,
+   "hp_balls": 0,
+   "hp_matches": 0,
+   "shrinkage_B": 0.0001,
+   "is_eligible": false,
+   "is_top10": false
+  },
+  "cutout_url": "./public/assets/players/cutouts/28788.webp",
+  "avatar_url": "./public/assets/players/avatars/28788.webp"
+ },
+ "match_log": [
+  {
+   "match_id": 37095,
+   "date": "2024-10-23",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Pakistan A",
+   "opponent_id": 341,
+   "runs_bat": 15,
+   "balls_bat": 15,
+   "fours": 3,
+   "sixes": 0,
+   "is_dismissed": true,
+   "result": "Loss",
+   "role_in_match": "Bat"
+  },
+  {
+   "match_id": 37087,
+   "date": "2024-10-19",
+   "stage": "League",
+   "comp_name": "Mens T20 Emerging Teams Asia Cup 2024",
+   "opponent_name": "Oman",
+   "opponent_id": 313,
+   "runs_bat": 33,
+   "balls_bat": 26,
+   "fours": 2,
+   "sixes": 2,
+   "is_dismissed": true,
+   "result": "Win",
+   "role_in_match": "Bat"
+  }
+ ],
+ "head_to_head": [
+  {
+   "opp_id": 3613,
+   "opp_name": "Shakeel Ahmed",
+   "opp_type": "Bowler Faced",
+   "balls": 10,
+   "runs": 15,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 20310,
+   "opp_name": "Ahmed Daniyal",
+   "opp_type": "Bowler Faced",
+   "balls": 7,
+   "runs": 5,
+   "wickets": 0,
+   "sr": 71.4
+  },
+  {
+   "opp_id": 7699,
+   "opp_name": "Abbas Afridi",
+   "opp_type": "Bowler Faced",
+   "balls": 6,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 133.3
+  },
+  {
+   "opp_id": 24372,
+   "opp_name": "Muzahir Raza",
+   "opp_type": "Bowler Faced",
+   "balls": 5,
+   "runs": 8,
+   "wickets": 0,
+   "sr": 160.0
+  },
+  {
+   "opp_id": 4450,
+   "opp_name": "Mehran Khan",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 6,
+   "wickets": 0,
+   "sr": 150.0
+  },
+  {
+   "opp_id": 4974,
+   "opp_name": "Mohammad Nadeem",
+   "opp_type": "Bowler Faced",
+   "balls": 4,
+   "runs": 3,
+   "wickets": 0,
+   "sr": 75.0
+  },
+  {
+   "opp_id": 3871,
+   "opp_name": "Aamir Kaleem",
+   "opp_type": "Bowler Faced",
+   "balls": 3,
+   "runs": 1,
+   "wickets": 1,
+   "sr": 33.3
+  },
+  {
+   "opp_id": 19530,
+   "opp_name": "Shahnawaz Dhani",
+   "opp_type": "Bowler Faced",
+   "balls": 2,
+   "runs": 2,
+   "wickets": 1,
+   "sr": 100.0
+  }
+ ]
+}
