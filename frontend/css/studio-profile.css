@@ -1,100 +1,86 @@
 /*
   frontend/css/studio-profile.css
-  Mode 1: Nixtio NBA-Style Glassmorphic Player Profile Studio (design.webp)
+  SupeRR Selector Season 2 — Athlete Studio Profile (3-Column Layout)
+  Guided by heydamir/unslop: Editorial serif headlines, unclipped polar spline,
+  auto-expanding KPI cards, and no-overflow tabular metrics.
 */
 
-.studio-container {
-  max-width: 1440px;
-  margin: 32px auto 60px auto;
-  padding: 0 24px;
-}
-
-/* Glass Main Deck */
-.studio-glass-deck {
-  background: var(--glass-bg);
-  backdrop-filter: var(--card-blur);
-  -webkit-backdrop-filter: var(--card-blur);
-  border: 1px solid var(--glass-border);
-  box-shadow: var(--glass-shadow), var(--glass-inner-glow);
-  border-radius: var(--radius-xl);
-  padding: 36px 40px;
-  position: relative;
-  overflow: visible; /* Allows head cutout to pop out above */
-}
-
-/* --- UPPER 3-COLUMN HERO STAGE --- */
-.hero-stage-grid {
-  display: grid;
-  grid-template-columns: 310px 1fr 420px;
-  gap: 32px;
-  align-items: center;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-/* Column 1: Left Athlete Hero Pop-Out Cutout */
-.hero-cutout-col {
-  position: relative;
+.studio-main-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 24px 28px 48px 28px;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 480px;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.hero-cutout-col .jersey-backlight-glow {
-  position: absolute;
-  top: 15%;
-  left: 5%;
-  width: 90%;
-  height: 80%;
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--team-glow, rgba(234, 26, 133, 0.45)) 0%, transparent 70%);
-  filter: blur(40px);
-  z-index: 1;
-  pointer-events: none;
-  transition: background var(--trans-smooth);
-}
-
-.hero-cutout-col .player-popout-img {
+/* ========================================================= */
+/* 1. TOP HERO STUDIO SHELL (3 COLUMNS)                      */
+/* ========================================================= */
+.hero-studio-shell {
+  background: var(--bg-studio-shell);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--glass-shadow);
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 360px 440px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
   position: relative;
-  z-index: 2;
-  width: 320px;
-  height: 520px;
+  overflow: hidden;
+}
+
+/* Column 1: Left Athlete Cutout Frame */
+.cutout-frame-col {
+  position: relative;
+  height: 480px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  background: radial-gradient(circle at 50% 85%, rgba(255, 87, 51, 0.16) 0%, rgba(15, 18, 28, 0.4) 70%, transparent 100%);
+  overflow: hidden;
+}
+
+.player-hero-cutout {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   object-position: bottom center;
-  margin-top: -64px; /* Pops out over top boundary like design.webp */
-  filter: drop-shadow(0 20px 32px rgba(8, 4, 24, 0.75));
-  transition: transform var(--trans-smooth), filter var(--trans-smooth);
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.65));
+  z-index: 2;
+  transition: transform var(--trans-smooth);
 }
 
-.hero-cutout-col:hover .player-popout-img {
-  transform: translateY(-6px) scale(1.02);
-  filter: drop-shadow(0 28px 44px rgba(8, 4, 24, 0.9));
+.player-hero-cutout:hover {
+  transform: scale(1.02);
 }
 
 .player-rank-badge-overlay {
   position: absolute;
-  bottom: 12px;
+  top: 16px;
   left: 16px;
   z-index: 3;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(14, 8, 32, 0.85);
-  border: 1px solid var(--glass-border-highlight);
+  gap: 6px;
+  background: rgba(15, 18, 28, 0.85);
   backdrop-filter: blur(12px);
+  border: 1px solid var(--border-hairline);
   padding: 6px 14px;
   border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
   font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .player-rank-badge-overlay.gold-crown {
-  border-color: rgba(255, 215, 0, 0.6);
-  color: #ffd700;
-  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.25);
+  border-color: rgba(245, 158, 11, 0.5);
+  color: #f59e0b;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.2);
 }
 
 /* Column 2: Center Organic Polar Spline Radar */
@@ -110,24 +96,24 @@
 .radar-stage-wrapper {
   position: relative;
   width: 100%;
-  max-width: 440px;
+  max-width: 480px;
   height: 440px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Giant Translucent Watermark (matching the large '23' watermark in design.webp) */
+/* Translucent Watermark */
 .radar-watermark {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 8.5rem;
+  font-size: 8rem;
   font-weight: 900;
-  font-family: var(--font-display);
-  color: rgba(255, 255, 255, 0.08);
-  letter-spacing: -3px;
+  font-family: var(--font-mono);
+  color: rgba(238, 240, 245, 0.05);
+  letter-spacing: -2px;
   user-select: none;
   pointer-events: none;
   z-index: 1;
@@ -139,6 +125,7 @@
   z-index: 2;
   width: 100%;
   height: 100%;
+  overflow: visible;
 }
 
 /* Column 3: Right Identity, Role Switcher, 3 KPI Cards, 2x2 Grid */
@@ -146,36 +133,37 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  min-width: 0; /* Prevents grid blowout */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .identity-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .identity-title-group h1 {
-  font-size: 2.2rem;
-  font-weight: 800;
-  line-height: 1.15;
-  color: #ffffff;
-  letter-spacing: -0.5px;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 3.2vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin: 0;
 }
 
 .identity-meta-row {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   margin-top: 6px;
 }
 
-.identity-team-crest {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-}
-
 .identity-team-name {
+  font-family: var(--font-sans);
   font-size: 0.95rem;
   color: var(--text-secondary);
   font-weight: 500;
@@ -183,9 +171,9 @@
 
 .player-id-pill {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
-  background: rgba(255, 255, 255, 0.08);
-  padding: 2px 8px;
+  font-size: 0.76rem;
+  background: rgba(238, 240, 245, 0.08);
+  padding: 3px 8px;
   border-radius: var(--radius-sm);
   color: var(--text-muted);
 }
@@ -194,11 +182,11 @@
 .role-switcher-container {
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: rgba(0, 0, 0, 0.35);
+  gap: 4px;
+  background: rgba(11, 13, 20, 0.6);
   padding: 4px;
   border-radius: var(--radius-pill);
-  border: 1px solid var(--glass-border);
+  border: 1px solid var(--border-hairline);
   width: fit-content;
 }
 
@@ -206,6 +194,7 @@
   background: transparent;
   border: none;
   color: var(--text-muted);
+  font-family: var(--font-sans);
   font-size: 0.82rem;
   font-weight: 600;
   padding: 6px 14px;
@@ -218,8 +207,8 @@
 }
 
 .role-switcher-btn:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  background: rgba(238, 240, 245, 0.08);
 }
 
 .role-switcher-btn.active {
@@ -228,104 +217,113 @@
   box-shadow: 0 4px 12px var(--coral-glow);
 }
 
-/* 3 Signature Hero KPI Cards (Matching design.webp) */
+/* 3 Signature Hero KPI Cards Row: Auto-Expanding Height & min-width: 0 */
 .hero-kpi-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
-  margin-top: 4px;
+  width: 100%;
+  align-items: stretch;
 }
 
 .kpi-card {
-  padding: 18px 16px;
+  padding: 16px;
   border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 110px;
+  min-height: 128px;
+  height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid var(--border-hairline);
+  background: var(--surface-card);
   transition: transform var(--trans-fast), box-shadow var(--trans-fast);
 }
 
 .kpi-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 /* Card 1: Vibrant Coral-Orange Card */
 .kpi-card.kpi-coral {
   background: var(--coral-gradient);
+  border-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
-  box-shadow: 0 10px 24px var(--coral-glow);
+  box-shadow: 0 8px 24px var(--coral-glow);
 }
 .kpi-card.kpi-coral .kpi-label {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.9);
 }
 .kpi-card.kpi-coral .kpi-value {
-  font-size: 1.85rem;
-  font-weight: 800;
-  font-family: var(--font-display);
-  letter-spacing: -0.5px;
+  color: #ffffff;
 }
 .kpi-card.kpi-coral .kpi-sub {
-  font-size: 0.76rem;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* Card 2: Translucent Frosted Glass Card */
 .kpi-card.kpi-glass {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border-highlight);
-  backdrop-filter: blur(16px);
-  color: #ffffff;
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  color: var(--text-primary);
 }
 .kpi-card.kpi-glass .kpi-label {
   color: var(--text-muted);
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 .kpi-card.kpi-glass .kpi-value {
-  font-size: 1.85rem;
-  font-weight: 800;
-  font-family: var(--font-display);
-  letter-spacing: -0.5px;
-  color: #ffffff;
+  color: var(--text-primary);
 }
 .kpi-card.kpi-glass .kpi-sub {
-  font-size: 0.74rem;
   color: var(--text-secondary);
-  font-family: var(--font-mono);
 }
 
-/* Card 3: Solid Crisp White Card */
+/* Card 3: Solid Crisp Ivory Card (Dark Text Stays Strictly Inside!) */
 .kpi-card.kpi-white {
-  background: #ffffff;
+  background: #f5f7fa;
+  border: 1px solid #ffffff;
   color: var(--text-dark);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .kpi-card.kpi-white .kpi-label {
-  color: rgba(18, 11, 36, 0.65);
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: #4b5565;
+  font-weight: 600;
 }
 .kpi-card.kpi-white .kpi-value {
-  font-size: 1.85rem;
-  font-weight: 900;
-  font-family: var(--font-display);
-  letter-spacing: -0.5px;
-  color: var(--text-dark);
+  color: #111827;
 }
 .kpi-card.kpi-white .kpi-sub {
-  font-size: 0.74rem;
-  color: rgba(18, 11, 36, 0.75);
+  color: #4b5565;
   font-weight: 600;
+}
+
+/* KPI Typography */
+.kpi-label {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(1.4rem, 1.9vw, 1.8rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 2px 0 8px 0;
+  white-space: nowrap;
+}
+
+.kpi-sub {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.74rem;
+  line-height: 1.35;
+  margin-top: auto;
+  word-break: break-word;
 }
 
 /* 2x2 Technical Attribute Pills Grid */
@@ -337,262 +335,228 @@
 }
 
 .attribute-pill-card {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--glass-border);
+  background: rgba(25, 29, 43, 0.70);
+  border: 1px solid var(--border-hairline);
   border-radius: var(--radius-md);
-  padding: 12px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  padding: 14px 16px;
 }
 
-.attribute-pill-card .attr-title {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.attribute-title {
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
   color: var(--text-muted);
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: 6px;
 }
 
-.attribute-pill-card .attr-val {
-  font-size: 0.92rem;
-  font-weight: 700;
+.attribute-content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.attribute-main {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--text-primary);
 }
 
-/* --- LOWER 2-PANEL SPLIT TRAY --- */
-.lower-split-tray {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 28px;
-  margin-top: 10px;
-  border-top: 1px solid var(--glass-border);
-  padding-top: 32px;
+.attribute-secondary {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
 }
 
-/* Tray Panel General */
-.tray-panel {
+/* ========================================================= */
+/* 2. BOTTOM MATCH LOG & FIXTURE EXPLORER                    */
+/* ========================================================= */
+.studio-lower-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 24px;
+}
+
+.lower-panel-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--glass-shadow);
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.tray-panel-header {
+.panel-header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-hairline);
 }
 
-.tray-panel-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.tray-panel-badge {
-  font-size: 0.74rem;
-  padding: 3px 8px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-pill);
-  color: var(--text-secondary);
-}
-
-/* Bottom-Left: Match-by-Match Pill Log */
-.match-log-scroll {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-height: 380px;
-  overflow-y: auto;
-  padding-right: 6px;
-}
-
-.match-log-pill-row {
-  display: grid;
-  grid-template-columns: 85px 140px 80px 1fr 65px;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.035);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-md);
-  padding: 10px 16px;
-  transition: all var(--trans-fast);
-}
-
-.match-log-pill-row:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--glass-border-highlight);
-  transform: translateX(3px);
-}
-
-.match-log-date {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  font-family: var(--font-mono);
-}
-
-.match-log-opp {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.86rem;
-  font-weight: 600;
+.panel-title-group h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1;
   color: var(--text-primary);
 }
 
-.match-log-opp img {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-}
-
-.match-log-result-tag {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: var(--radius-pill);
-  font-size: 0.72rem;
-  font-weight: 800;
-  text-align: center;
-}
-.match-log-result-tag.win {
-  background: rgba(34, 197, 94, 0.2);
-  color: #4ade80;
-  border: 1px solid rgba(34, 197, 94, 0.4);
-}
-.match-log-result-tag.loss {
-  background: rgba(239, 68, 68, 0.2);
-  color: #f87171;
-  border: 1px solid rgba(239, 68, 68, 0.4);
-}
-.match-log-result-tag.other {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text-secondary);
-}
-
-.match-log-stats {
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: #ffffff;
-  font-family: var(--font-mono);
-}
-
-.match-log-role {
-  font-size: 0.72rem;
+.panel-sub-label {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
   color: var(--text-muted);
-  text-align: right;
-  text-transform: uppercase;
 }
 
-/* Bottom-Right: Fixture Scorecards & Ball Worm Feed */
-.fixture-filter-tabs {
-  display: flex;
-  gap: 6px;
+.table-scroll-container {
   overflow-x: auto;
+  max-height: 480px;
+  overflow-y: auto;
 }
 
-.fixture-tab-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--glass-border);
-  color: var(--text-secondary);
-  font-size: 0.76rem;
+.match-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+}
+
+.match-log-table th {
+  position: sticky;
+  top: 0;
+  background: #141826;
+  color: var(--text-muted);
   font-weight: 600;
-  padding: 4px 12px;
+  font-size: 0.76rem;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-hairline);
+  z-index: 2;
+}
+
+.match-log-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(238, 240, 245, 0.05);
+  color: var(--text-secondary);
+}
+
+.match-log-table tr:hover td {
+  background: rgba(238, 240, 245, 0.04);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.match-hp-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--accent-coral-soft);
+  color: var(--accent-coral);
+  border: 1px solid rgba(255, 87, 51, 0.3);
+}
+
+/* Fixture Explorer Filter Pills */
+.fixture-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-pill-btn {
+  background: rgba(238, 240, 245, 0.06);
+  border: 1px solid var(--border-hairline);
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 6px 12px;
   border-radius: var(--radius-pill);
   cursor: pointer;
-  white-space: nowrap;
   transition: all var(--trans-fast);
 }
 
-.fixture-tab-btn:hover, .fixture-tab-btn.active {
+.filter-pill-btn:hover {
+  background: rgba(238, 240, 245, 0.12);
+  color: var(--text-primary);
+}
+
+.filter-pill-btn.active {
   background: var(--coral-gradient);
-  color: #ffffff;
   border-color: transparent;
+  color: #ffffff;
 }
 
 .fixture-cards-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-height: 380px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  max-height: 480px;
   overflow-y: auto;
-  padding-right: 6px;
+  padding-right: 4px;
 }
 
-.fixture-card {
-  background: rgba(255, 255, 255, 0.035);
-  border: 1px solid var(--glass-border);
+.fixture-mini-card {
+  background: rgba(20, 24, 38, 0.6);
+  border: 1px solid var(--border-hairline);
   border-radius: var(--radius-md);
-  padding: 14px 16px;
+  padding: 14px;
   cursor: pointer;
   transition: all var(--trans-fast);
-  position: relative;
 }
 
-.fixture-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--coral-glow);
+.fixture-mini-card:hover {
+  border-color: rgba(255, 87, 51, 0.4);
+  background: rgba(25, 29, 43, 0.85);
   transform: translateY(-2px);
 }
 
-.fixture-card-top {
+.fixture-mini-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
-  font-size: 0.76rem;
+}
+
+.fixture-season-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
-.fixture-teams-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.fixture-team-block {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.92rem;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.fixture-team-block img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-/* W/L Result Badges (exact match to orange 'W' and white 'L' pills in design.webp) */
-.wl-badge-pill {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 0.76rem;
-}
-.wl-badge-pill.win {
-  background: var(--coral-gradient);
-  color: #ffffff;
-  box-shadow: 0 2px 8px var(--coral-glow);
-}
-.wl-badge-pill.loss {
-  background: #ffffff;
-  color: var(--text-dark);
-}
-
-.fixture-card-action {
-  font-size: 0.72rem;
-  color: var(--coral-primary);
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
+.fixture-teams-line {
+  font-family: var(--font-sans);
   font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.fixture-summary-line {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1280px) {
+  .hero-studio-shell {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .cutout-frame-col {
+    height: 380px;
+  }
+  .radar-center-col {
+    height: 380px;
+  }
+  .studio-lower-grid {
+    grid-template-columns: 1fr;
+  }
 }

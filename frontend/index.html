@@ -5,16 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SupeRR Selector Season 2 — All-Player Interactive Analytics Dashboard</title>
   
-  <!-- Web Fonts -->
+  <!-- Web Fonts: heydamir/unslop 3-Font System -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&family=Oswald:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- MathJax for KaTeX/LaTeX Mathematical Typesetting -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/variables.css" />
   <link rel="stylesheet" href="./css/components.css" />
   <link rel="stylesheet" href="./css/studio-profile.css" />
-  <link rel="stylesheet" href="./css/constellation-graph.css" />
+  <link rel="stylesheet" href="./css/audit-lab.css" />
 </head>
 <body>
 
@@ -24,7 +31,7 @@
   <header class="top-navbar">
     <div class="top-navbar-inner">
       <!-- Left: Brand Logo & Title -->
-      <div class="brand-group" id="brandLogoLink">
+      <div class="brand-group" id="brandLogoLink" style="cursor:pointer;">
         <div class="rr-monogram">RR</div>
         <div class="brand-text">
           <span class="brand-title">SupeRR Selector</span>
@@ -32,19 +39,19 @@
         </div>
       </div>
 
-      <!-- Center: 5-View Switcher Pills -->
+      <!-- Center: 3-View Switcher Pills (No Emojis per heydamir/unslop) -->
       <nav class="nav-view-switcher">
         <button class="nav-tab-btn active" data-view="studio">
-          <span>👤 Studio Profile</span>
+          <i data-lucide="user" style="width:16px; height:16px;"></i>
+          <span>Player Studio</span>
         </button>
         <button class="nav-tab-btn" data-view="directory">
-          <span>👥 959-Player Directory</span>
-        </button>
-        <button class="nav-tab-btn" data-view="constellation">
-          <span>✨ Constellation Ecosystem</span>
+          <i data-lucide="users" style="width:16px; height:16px;"></i>
+          <span>959-Player Directory</span>
         </button>
         <button class="nav-tab-btn" data-view="audit">
-          <span>🛡️ Validation & Audit Lab</span>
+          <i data-lucide="shield-check" style="width:16px; height:16px;"></i>
+          <span>Validation & Audit Lab</span>
         </button>
       </nav>
 
@@ -63,7 +70,7 @@
           <div id="searchResultsDropdown" class="search-results-dropdown"></div>
         </div>
 
-        <div class="nav-avatar-pill" id="navAvatarPill" title="Active Player Profile">
+        <div class="nav-avatar-pill" id="navAvatarPill" title="Active Player Profile" style="cursor:pointer;">
           <img
             id="navAvatarImg"
             class="nav-avatar-img"
@@ -79,32 +86,31 @@
 
 
   <!-- ========================================================= -->
-  <!-- VIEW 1: GLASSMORPHIC PLAYER PROFILE STUDIO (design.webp)  -->
+  <!-- VIEW 1: ATHLETE STUDIO PROFILE (design.webp)              -->
   <!-- ========================================================= -->
   <main id="view-studio" class="app-view-container studio-container">
-    <div class="studio-glass-deck">
+    <div class="studio-main-container">
       
       <!-- UPPER 3-COLUMN HERO STAGE -->
-      <div class="hero-stage-grid">
+      <div class="hero-studio-shell">
         
         <!-- Column 1: Left Athlete Hero Pop-Out Cutout -->
-        <div class="hero-cutout-col">
-          <div id="jerseyBacklightGlow" class="jersey-backlight-glow"></div>
+        <div class="cutout-frame-col">
           <img
             id="heroCutoutImg"
-            class="player-popout-img"
+            class="player-hero-cutout"
             src="./public/assets/players/cutouts/4260.webp"
             alt="Athlete Cutout"
           />
           <div id="heroRankBadge" class="player-rank-badge-overlay gold-crown">
-            👑 Top 10 Rank #1
+            Rank #1 · Top 10
           </div>
         </div>
 
         <!-- Column 2: Center Organic Polar Spline Radar -->
         <div class="radar-center-col">
           <div class="radar-stage-wrapper">
-            <!-- Giant Translucent Watermark (matching design.webp '23') -->
+            <!-- Translucent Watermark -->
             <div id="radarWatermark" class="radar-watermark">#1</div>
             <!-- Closed Catmull-Rom Polar Spline SVG -->
             <div id="radarSvgContainer" class="radar-svg-container"></div>
@@ -118,57 +124,65 @@
             <div class="identity-title-group">
               <h1 id="playerStudioName">Heinrich Klaasen</h1>
               <div class="identity-meta-row">
-                <img id="playerStudioTeamCrest" class="identity-team-crest" src="./public/assets/teams/0.svg" alt="Team Crest" />
                 <span id="playerStudioTeamName" class="identity-team-name">Sunrisers Hyderabad</span>
                 <span id="playerStudioId" class="player-id-pill">#4260</span>
               </div>
             </div>
           </div>
 
-          <!-- Role Switcher (for 576 All-Rounders) -->
+          <!-- Role Switcher (for All-Rounders) -->
           <div id="roleSwitcherContainer" class="role-switcher-container" style="display:none;"></div>
 
-          <!-- 3 Signature Hero KPI Cards -->
+          <!-- 3 Signature Hero KPI Cards (Auto-Expanding, Never Overflowing) -->
           <div class="hero-kpi-row">
             <!-- Card 1: Vibrant Coral-Orange Card (H_low) -->
             <div class="kpi-card kpi-coral">
-              <div class="kpi-label">H_low Bound</div>
+              <div class="kpi-label">Reliable HP bound (H_low)</div>
               <div id="kpiVal1" class="kpi-value">+0.1571</div>
               <div id="kpiSub1" class="kpi-sub">Official Rank #1</div>
             </div>
 
             <!-- Card 2: Frosted Glass Card (H_p & CI) -->
             <div class="kpi-card kpi-glass">
-              <div class="kpi-label">Reliable H_p</div>
+              <div class="kpi-label">Shrunk elevation (H_p)</div>
               <div id="kpiVal2" class="kpi-value">+0.239</div>
-              <div id="kpiSub2" class="kpi-sub">90% CI: [+0.157, +0.321]</div>
+              <div id="kpiSub2" class="kpi-sub">90% CI [+0.157, +0.321]</div>
             </div>
 
-            <!-- Card 3: Solid Crisp White Card (Win / Inclusion %) -->
+            <!-- Card 3: Solid Crisp Ivory Card (Dark Text Stays Strictly Inside!) -->
             <div class="kpi-card kpi-white">
-              <div id="kpiLbl3" class="kpi-label">Top-10 Inc. Prob</div>
+              <div id="kpiLbl3" class="kpi-label">Top-10 inclusion prob</div>
               <div id="kpiVal3" class="kpi-value">89.0%</div>
-              <div id="kpiSub3" class="kpi-sub">Mean Bootstrap Rank: 4.4</div>
+              <div id="kpiSub3" class="kpi-sub">Mean Bootstrap Rank 4.4</div>
             </div>
           </div>
 
           <!-- 2x2 Technical Attribute Pills Grid -->
           <div class="attribute-grid-2x2">
             <div class="attribute-pill-card">
-              <div class="attr-title">Handedness & Style</div>
-              <div id="attrVal1" class="attr-val">RHB Striker</div>
+              <div class="attribute-title">Handedness & style</div>
+              <div id="attrVal1" class="attribute-content">
+                <span class="attribute-main">RHB Striker</span>
+              </div>
             </div>
             <div class="attribute-pill-card">
-              <div class="attr-title">Tactical Roles</div>
-              <div id="attrVal2" class="attr-val">WK (52) • Middle-Overs Enforcer</div>
+              <div class="attribute-title">Tactical roles</div>
+              <div id="attrVal2" class="attribute-content">
+                <span class="attribute-main">Middle-Overs Enforcer</span>
+              </div>
             </div>
             <div class="attribute-pill-card">
-              <div class="attr-title">Sample & HP Exposure</div>
-              <div id="attrVal3" class="attr-val">1,401 Balls (285 HP) in 26 M</div>
+              <div class="attribute-title">Sample & HP exposure</div>
+              <div id="attrVal3" class="attribute-content">
+                <span class="attribute-main">1,401 Balls</span>
+                <span class="attribute-secondary">285 HP Balls</span>
+              </div>
             </div>
             <div class="attribute-pill-card">
-              <div class="attr-title">Situational Split</div>
-              <div id="attrVal4" class="attr-val">Inn 2 Chase: 53.3%</div>
+              <div class="attribute-title">Situational split</div>
+              <div id="attrVal4" class="attribute-content">
+                <span class="attribute-main">Inn 2 Chase: 53.3%</span>
+              </div>
             </div>
           </div>
         </div>
@@ -176,30 +190,31 @@
       </div>
 
       <!-- LOWER 2-PANEL SPLIT TRAY -->
-      <div class="lower-split-tray">
+      <div class="studio-lower-grid">
         
         <!-- Bottom-Left: Full Match-by-Match High-Pressure Log -->
-        <div class="tray-panel">
-          <div class="tray-panel-header">
-            <div class="tray-panel-title">
-              <span>High-Pressure Match Log</span>
-              <span class="tray-panel-badge">Games Stats</span>
+        <div class="lower-panel-card">
+          <div class="panel-header-row">
+            <div class="panel-title-group">
+              <h2>High-Pressure Match Log</h2>
+              <span class="panel-sub-label">Filtered delivery performance under high leverage</span>
             </div>
           </div>
-          <div id="matchLogScroll" class="match-log-scroll"></div>
+          <div id="matchLogScroll" class="table-scroll-container"></div>
         </div>
 
         <!-- Bottom-Right: Fixture Scorecard Feed & Ball Worm -->
-        <div class="tray-panel">
-          <div class="tray-panel-header">
-            <div class="tray-panel-title">
-              <span>Fixture Explorer</span>
+        <div class="lower-panel-card">
+          <div class="panel-header-row">
+            <div class="panel-title-group">
+              <h2>All-Fixture Explorer</h2>
+              <span class="panel-sub-label">883 raw fixtures • 777 scoped matches</span>
             </div>
-            <div class="fixture-filter-tabs">
-              <button class="fixture-tab-btn active" data-filter="all">All</button>
-              <button class="fixture-tab-btn" data-filter="ipl">IPL</button>
-              <button class="fixture-tab-btn" data-filter="t20i">T20I</button>
-              <button class="fixture-tab-btn" data-filter="knockout">Knockouts</button>
+            <div class="fixture-filter-pills">
+              <button class="filter-pill-btn active" data-filter="all">All</button>
+              <button class="filter-pill-btn" data-filter="ipl">IPL</button>
+              <button class="filter-pill-btn" data-filter="t20i">T20I</button>
+              <button class="filter-pill-btn" data-filter="knockout">Knockouts</button>
             </div>
           </div>
           <div id="fixtureCardsGrid" class="fixture-cards-grid"></div>
@@ -214,12 +229,14 @@
   <!-- ========================================================= -->
   <!-- VIEW 2: 959-PLAYER DIRECTORY & COHORT EXPLORER            -->
   <!-- ========================================================= -->
-  <section id="view-directory" class="app-view-container directory-container" style="display:none;">
+  <section id="view-directory" class="app-view-container directory-container" style="display:none; max-width:1540px; margin:0 auto; padding:24px 28px 48px 28px;">
     <div class="directory-glass-deck">
       <div class="directory-header-row">
         <div class="directory-title-group">
-          <h2>959-Player Complete Universe</h2>
-          <p>Explore and filter every single player across 200,999 deliveries in the dataset.</p>
+          <h2 style="font-family:var(--font-display); font-size:2rem; font-weight:400; color:var(--text-primary);">959-Player Universe Directory</h2>
+          <p style="font-family:var(--font-sans); color:var(--text-secondary); font-size:0.9rem; margin-top:4px;">
+            Complete cohort exploration across 888 Batters, 647 Bowlers, and 576 All-Rounders.
+          </p>
         </div>
         <div style="display:flex; align-items:center; gap:12px;">
           <input
@@ -227,21 +244,21 @@
             id="dirSearchInput"
             class="omni-search-input"
             placeholder="Filter cohort..."
-            style="width:240px;"
+            style="width:260px;"
           />
-          <span id="dirCountBadge" class="tray-panel-badge">Showing 959 Players</span>
+          <span id="dirCountBadge" class="filter-pill-btn">Showing 959 Players</span>
         </div>
       </div>
 
-      <!-- Filter Cohort Pills -->
-      <div class="cohort-filter-pills">
-        <button class="cohort-pill-btn active" data-cohort="all">All Active (959)</button>
-        <button class="cohort-pill-btn" data-cohort="top10">👑 Top 10 Submissions</button>
-        <button class="cohort-pill-btn" data-cohort="eligible">🛡️ Eligible Cohorts (78/82)</button>
-        <button class="cohort-pill-btn" data-cohort="all_rounders">⚡ All-Rounders (576)</button>
-        <button class="cohort-pill-btn" data-cohort="batters">🏏 Batters (888)</button>
-        <button class="cohort-pill-btn" data-cohort="bowlers">⚾ Bowlers (647)</button>
-        <button class="cohort-pill-btn" data-cohort="sub_threshold">Active Sub-Threshold</button>
+      <!-- Filter Cohort Pills (Clean Typographic Labels, No Emojis) -->
+      <div class="cohort-filter-pills" style="display:flex; gap:8px; flex-wrap:wrap; margin:16px 0;">
+        <button class="filter-pill-btn active" data-cohort="all">All Active (959)</button>
+        <button class="filter-pill-btn" data-cohort="top10">Top 10 Ranked</button>
+        <button class="filter-pill-btn" data-cohort="eligible">Eligible Cohort (78/82)</button>
+        <button class="filter-pill-btn" data-cohort="all_rounders">All-Rounders (576)</button>
+        <button class="filter-pill-btn" data-cohort="batters">Batters (888)</button>
+        <button class="filter-pill-btn" data-cohort="bowlers">Bowlers (647)</button>
+        <button class="filter-pill-btn" data-cohort="sub_threshold">Sub-Threshold</button>
       </div>
 
       <!-- Players Cards Grid -->
@@ -251,139 +268,23 @@
 
 
   <!-- ========================================================= -->
-  <!-- VIEW 3: CONSTELLATION ECOSYSTEM GRAPH (design.mp4)        -->
+  <!-- VIEW 3: VALIDATION & AUDIT LAB (All 6 Algorithms)         -->
   <!-- ========================================================= -->
-  <section id="view-constellation" class="app-view-container" style="display:none; max-width:1440px; margin:0 auto; padding:0 24px;">
-    <div class="constellation-wrapper">
-      <!-- Fullscreen Particle Physics Canvas -->
-      <canvas id="constellationCanvas"></canvas>
-
-      <!-- Left Vertical Timeline Scrubber (2021 - 2026) -->
-      <div class="timeline-scrubber-pane">
-        <div class="timeline-scrubber-title">Season</div>
-        <div class="timeline-years-list">
-          <button class="timeline-year-btn active" data-year="ALL">ALL</button>
-          <button class="timeline-year-btn" data-year="2026">2026</button>
-          <button class="timeline-year-btn" data-year="2025">2025</button>
-          <button class="timeline-year-btn" data-year="2024">2024</button>
-          <button class="timeline-year-btn" data-year="2023">2023</button>
-          <button class="timeline-year-btn" data-year="2022">2022</button>
-          <button class="timeline-year-btn" data-year="2021">2021</button>
-        </div>
-      </div>
-
-      <!-- Top Right Filter Toolbar -->
-      <div class="constellation-toolbar">
-        <button class="constellation-filter-btn active" data-filter="all">All Hubs</button>
-        <button class="constellation-filter-btn" data-filter="ipl">IPL Editions</button>
-        <button class="constellation-filter-btn" data-filter="icc">ICC T20 WC</button>
-      </div>
-
-      <!-- Radial Cubic Bézier Confrontation Tree Layer -->
-      <div id="radialDrilldownLayer" class="radial-drilldown-layer"></div>
-
-      <!-- Right Slide-Over Glass Inspector Drawer -->
-      <aside id="glassInspectorDrawer" class="glass-inspector-drawer">
-        <div class="drawer-header">
-          <div class="drawer-player-badge">
-            <img id="drawerPlayerAvatar" class="drawer-player-avatar" src="./public/assets/teams/0.svg" alt="Player Headshot" />
-            <div>
-              <h3 id="drawerPlayerName" style="color:#ffffff; font-size:1.15rem; font-weight:800;">Player Name</h3>
-              <p id="drawerPlayerTeam" style="color:var(--text-muted); font-size:0.78rem;">Team</p>
-            </div>
-          </div>
-          <button id="drawerCloseBtn" class="drawer-close-btn">×</button>
-        </div>
-
-        <div class="drawer-kpi-grid">
-          <div class="drawer-kpi-box">
-            <div id="drawerHlow" class="val">+0.1571</div>
-            <div class="lbl">H_low Bound</div>
-          </div>
-          <div class="drawer-kpi-box">
-            <div id="drawerVolume" class="val">1,401 Balls</div>
-            <div class="lbl">Delivery Sample</div>
-          </div>
-        </div>
-
-        <div>
-          <div style="font-size:0.8rem; font-weight:700; color:var(--cyan-accent); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">
-            Head-to-Head Confrontations Faced
-          </div>
-          <div id="drawerOpponentsList" style="max-height:220px; overflow-y:auto;"></div>
-        </div>
-
-        <button id="drawerSwitchStudioBtn" class="drawer-switch-studio-btn">
-          <span>Open Full Profile Studio</span> →
-        </button>
-      </aside>
-    </div>
+  <section id="view-audit" class="app-view-container" style="display:none;">
+    <!-- Rendered dynamically by audit-lab.js -->
   </section>
 
 
   <!-- ========================================================= -->
-  <!-- VIEW 4: VALIDATION GATES & AUDIT LAB                      -->
-  <!-- ========================================================= -->
-  <section id="view-audit" class="app-view-container audit-container" style="display:none;">
-    <div class="audit-glass-deck">
-      <div>
-        <h2 style="font-size:1.95rem; font-weight:800; color:#ffffff;">Validation & Audit Lab</h2>
-        <p style="color:var(--text-secondary); margin-top:4px;">Full verification proofs across pre-declared gates G1–G7, empirical Brier scores, and scoping funnel.</p>
-      </div>
-
-      <!-- Mandatory Exploratory Status Banner -->
-      <div class="audit-banner-box">
-        <span class="audit-banner-badge">EXPLORATORY STATUS</span>
-        <div class="audit-banner-text">
-          Neither ranking list is statistically validated by pre-declared gates G1–G7. Gates G3, G4, G6, and G7 fail; Gate G2 is NOT INFORMATIVE. All situational elevation numbers are published transparently under exploratory governance.
-        </div>
-      </div>
-
-      <!-- Gates Evaluation Grid -->
-      <div id="gatesEvalGrid" class="gates-eval-grid"></div>
-
-      <!-- Scoping Funnel Section -->
-      <div class="scoping-funnel-card">
-        <h3 style="color:#ffffff; font-size:1.15rem; font-weight:800;">Dataset & Match Scoping Funnel</h3>
-        <p style="color:var(--text-muted); font-size:0.82rem; margin-top:4px;">Elimination of unscoped fixtures, rain-shortened ties, and sub-tier fixtures.</p>
-        
-        <div class="scoping-funnel-steps">
-          <div class="funnel-step-box">
-            <div class="step-num">883</div>
-            <div class="step-lbl">Raw Matches Input</div>
-          </div>
-          <div class="funnel-step-box">
-            <div class="step-num">883</div>
-            <div class="step-lbl">T20 & T20I Formats</div>
-          </div>
-          <div class="funnel-step-box">
-            <div class="step-num">812</div>
-            <div class="step-lbl">2022–2026 Window</div>
-          </div>
-          <div class="funnel-step-box">
-            <div class="step-num">780</div>
-            <div class="step-lbl">Complete (No DLS)</div>
-          </div>
-          <div class="funnel-step-box" style="border-color:var(--coral-primary);">
-            <div class="step-num" style="color:var(--coral-primary);">777</div>
-            <div class="step-lbl" style="color:#ffffff; font-weight:700;">Final Scoped Matches</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ========================================================= -->
-  <!-- MODAL: BALL-BY-BALL PRESSURE WORM ($P_i$)                 -->
+  <!-- MODAL: BALL-BY-BALL PRESSURE WORM (P_i)                   -->
   <!-- ========================================================= -->
   <div id="wormModalOverlay" class="modal-overlay">
     <div class="modal-glass-container">
       <div class="modal-header">
         <div class="modal-title-group">
-          <h2 id="modalMatchTitle">Ball-by-Ball Match Pressure Worm</h2>
+          <h2 id="modalMatchTitle" style="font-family:var(--font-display); font-size:1.6rem; font-weight:400; color:var(--text-primary);">Ball-by-Ball Match Pressure Worm</h2>
           <p style="color:var(--text-muted); font-size:0.82rem; margin-top:4px;">
-            Composite Pressure Index $P_i$ trajectory across 120 balls with high-pressure $P \ge 0.601$ threshold.
+            Continuous Composite Pressure Index trajectory across 240 balls with the high-pressure P = 0.601 regime threshold.
           </p>
         </div>
         <button id="modalCloseBtn" class="modal-close-btn">×</button>
@@ -402,8 +303,13 @@
   <script src="./js/avatar-fallback.js"></script>
   <script src="./js/polar-spline-radar.js"></script>
   <script src="./js/studio-view.js"></script>
-  <script src="./js/constellation-view.js"></script>
-  <script src="./js/radial-bezier-tree.js"></script>
+  <script src="./js/audit-lab.js"></script>
   <script src="./js/app.js"></script>
+  <script>
+    // Initialize Lucide icons
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
 </body>
 </html>
